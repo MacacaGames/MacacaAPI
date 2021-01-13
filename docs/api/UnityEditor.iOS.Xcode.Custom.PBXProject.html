@@ -1,0 +1,3006 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PBXProject
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PBXProject
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject">
+  
+  
+  <h1 id="UnityEditor_iOS_Xcode_Custom_PBXProject" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject" class="text-break">Class PBXProject
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PBXProject</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.iOS.Xcode.Custom.html">UnityEditor.iOS.Xcode.Custom</a></h6>
+  <h6><strong>Assembly</strong>: MacacaXCode.Editor.dll</h6>
+  <h5 id="UnityEditor_iOS_Xcode_Custom_PBXProject_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PBXProject</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-331">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddAssetTagForFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddAssetTagForFile_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile(System.String,System.String,System.String)">AddAssetTagForFile(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds an asset tag for the given file.
+The asset tags identify resources that will be downloaded via On Demand Resources functionality.
+A request for specific tag will initiate download of all files, configured for that tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAssetTagForFile(string targetGuid, string fileGuid, string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>The name of the asset tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-373">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddAssetTagToDefaultInstall_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddAssetTagToDefaultInstall_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall(System.String,System.String)">AddAssetTagToDefaultInstall(String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds the asset tag to the list of tags to download during initial installation.
+The function does nothing if there are no files that use the given asset tag across the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAssetTagToDefaultInstall(string targetGuid, string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>The name of the asset tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-924">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildConfig_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig(System.String)">AddBuildConfig(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new set of build configurations for all targets in the project.
+The number and names of the build configurations is a project-wide setting. Each target has the
+same number of build configurations and the names of these build configurations is the same.
+The created configurations are initially empty. Care must be taken to fill them with reasonable
+defaults.
+The function throws an exception if a build configuration with the given name already exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBuildConfig(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1160">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildProperty_System_Collections_Generic_IEnumerable_System_String__System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">AddBuildProperty(IEnumerable&lt;String&gt;, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list in all build configurations for the specified targets.
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBuildProperty(IEnumerable&lt;string&gt; targetGuids, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">targetGuids</span></td>
+        <td><p>The GUIDs of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1146">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildProperty_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.String,System.String,System.String)">AddBuildProperty(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list in all build configurations for the specified target.
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBuildProperty(string targetGuid, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1187">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildPropertyForConfig_System_Collections_Generic_IEnumerable_System_String__System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">AddBuildPropertyForConfig(IEnumerable&lt;String&gt;, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list of the given build configurations
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBuildPropertyForConfig(IEnumerable&lt;string&gt; configGuids, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">configGuids</span></td>
+        <td><p>The GUIDs of the build configurations as returned by [[BuildConfigByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1174">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddBuildPropertyForConfig_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.String,System.String,System.String)">AddBuildPropertyForConfig(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list of the given build configuration
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBuildPropertyForConfig(string configGuid, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configGuid</span></td>
+        <td><p>The GUID of the build configuration as returned by [[BuildConfigByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-491">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddCapability_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddCapability_System_String_UnityEditor_iOS_Xcode_Custom_PBXCapabilityType_System_String_System_Boolean_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType,System.String,System.Boolean)">AddCapability(String, PBXCapabilityType, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddCapability(string targetGuid, PBXCapabilityType capability, string entitlementsFilePath = null, bool addOptionalFramework = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.html">PBXCapabilityType</a></td>
+        <td><span class="parametername">capability</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">entitlementsFilePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">addOptionalFramework</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1100">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddCopyFilesBuildPhase_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddCopyFilesBuildPhase_System_String_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase(System.String,System.String,System.String,System.String)">AddCopyFilesBuildPhase(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new copy files build phase for given target.
+If the target already has copy files build phase with the same name, dstPath and subfolderSpec
+configured for it, the function returns the existing phase.
+The new phase is placed at the end of the list of build phases configured for the target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddCopyFilesBuildPhase(string targetGuid, string name, string dstPath, string subfolderSpec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the phase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dstPath</span></td>
+        <td><p>The destination path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subfolderSpec</span></td>
+        <td><p>The &quot;subfolder spec&quot;. The following usages are known:
+&quot;10&quot; for embedding frameworks;
+&quot;13&quot; for embedding app extension content;
+&quot;16&quot; for embedding watch content</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the new phase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-203">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFile_System_String_System_String_UnityEditor_iOS_Xcode_Custom_PBXSourceTree_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)">AddFile(String, String, PBXSourceTree)</h4>
+  <div class="markdown level1 summary"><p>Adds a new file reference to the list of known files.
+The group structure is automatically created to correspond to the project path.
+To add the file to the list of files to build, pass the returned value to [[AddFileToBuild]].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddFile(string path, string projectPath, PBXSourceTree sourceTree = PBXSourceTree.Source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path to the file on the filesystem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectPath</span></td>
+        <td><p>The project path to the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXSourceTree.html">PBXSourceTree</a></td>
+        <td><span class="parametername">sourceTree</span></td>
+        <td><p>The source tree the path is relative to. By default it's [[PBXSourceTree.Source]].
+The [[PBXSourceTree.Group]] tree is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the added file. It can later be used to add the file for building to targets, etc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-251">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuild_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuild_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild(System.String,System.String)">AddFileToBuild(String, String)</h4>
+  <div class="markdown level1 summary"><p>Configures file for building for the given native target.
+A projects containing multiple native targets, a single file or folder reference can be
+configured to be built in all, some or none of the targets. The file or folder reference is
+added to appropriate build section depending on the file extension.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFileToBuild(string targetGuid, string fileGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The file guid returned by [[AddFile]] or [[AddFolderReference]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-281">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuildSection_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuildSection_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection(System.String,System.String,System.String)">AddFileToBuildSection(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Configures file for building for the given native target on specific build section.
+The function is equivalent to [[AddFileToBuild()]] except that specific build section is specified.
+A projects containing multiple native targets, a single file or folder reference can be
+configured to be built in all, some or none of the targets. The file or folder reference is
+added to appropriate build section depending on the file extension.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFileToBuildSection(string targetGuid, string sectionGuid, string fileGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sectionGuid</span></td>
+        <td><p>The GUID of the section to add the file to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The file guid returned by [[AddFile]] or [[AddFolderReference]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-266">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuildWithFlags_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFileToBuildWithFlags_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags(System.String,System.String,System.String)">AddFileToBuildWithFlags(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Configures file for building for the given native target with specific compiler flags.
+The function is equivalent to [[AddFileToBuild()]] except that compile flags are specified.
+A projects containing multiple native targets, a single file or folder reference can be
+configured to be built in all, some or none of the targets. The file or folder reference is
+added to appropriate build section depending on the file extension.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFileToBuildWithFlags(string targetGuid, string fileGuid, string compileFlags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The file guid returned by [[AddFile]] or [[AddFolderReference]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compileFlags</span></td>
+        <td><p>Compile flags to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-220">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFolderReference_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFolderReference_System_String_System_String_UnityEditor_iOS_Xcode_Custom_PBXSourceTree_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)">AddFolderReference(String, String, PBXSourceTree)</h4>
+  <div class="markdown level1 summary"><p>Adds a new folder reference to the list of known files.
+The group structure is automatically created to correspond to the project path.
+To add the folder reference to the list of files to build, pass the returned value to [[AddFileToBuild]].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddFolderReference(string path, string projectPath, PBXSourceTree sourceTree = PBXSourceTree.Source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path to the folder on the filesystem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">projectPath</span></td>
+        <td><p>The project path to the folder.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXSourceTree.html">PBXSourceTree</a></td>
+        <td><span class="parametername">sourceTree</span></td>
+        <td><p>The source tree the path is relative to. By default it's [[PBXSourceTree.Source]].
+The [[PBXSourceTree.Group]] tree is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the added folder reference. It can later be used to add the file for building to targets, etc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1042">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFrameworksBuildPhase_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFrameworksBuildPhase_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase(System.String)">AddFrameworksBuildPhase(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new frameworks build phase for given target.
+If the target already has frameworks build phase configured for it, the function returns the
+existing phase. The new phase is placed at the end of the list of build phases configured
+for the target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddFrameworksBuildPhase(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the new phase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-469">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFrameworkToProject_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddFrameworkToProject_System_String_System_String_System_Boolean_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject(System.String,System.String,System.Boolean)">AddFrameworkToProject(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Adds a system framework dependency for the specified target.
+The function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree.
+The framework is added to Frameworks logical folder in the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFrameworkToProject(string targetGuid, string framework, bool weak)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">framework</span></td>
+        <td><p>The name of the framework. The extension of the filename must be &quot;.framework&quot;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">weak</span></td>
+        <td><p><code>true</code> if the framework is optional (i.e. weakly linked) required,
+<code>false</code> if the framework is required.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1005">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddResourcesBuildPhase_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddResourcesBuildPhase_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase(System.String)">AddResourcesBuildPhase(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new resources build phase for given target.
+If the target already has resources build phase configured for it, the function returns the
+existing phase. The new phase is placed at the end of the list of build phases configured
+for the target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddResourcesBuildPhase(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the new phase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-968">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddSourcesBuildPhase_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddSourcesBuildPhase_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase(System.String)">AddSourcesBuildPhase(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new sources build phase for given target.
+If the target already has sources build phase configured for it, the function returns the
+existing phase. The new phase is placed at the end of the list of build phases configured
+for the target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddSourcesBuildPhase(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the new phase.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-799">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddTarget_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_AddTarget_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget(System.String,System.String,System.String)">AddTarget(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new native target.
+Target-specific build configurations are automatically created for each known build configuration name.
+Note, that this is a requirement that follows from the structure of Xcode projects, not an implementation
+detail of this function. The function creates a product file reference in the &quot;Products&quot; project folder
+which refers to the target artifact that is built via this target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AddTarget(string name, string ext, string type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the new target.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ext</span></td>
+        <td><p>The file extension of the target artifact (leading dot is not necessary, but accepted).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the target. For example:
+&quot;com.apple.product-type.app-extension&quot; - App extension,
+&quot;com.apple.product-type.application.watchapp2&quot; - WatchKit 2 application</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the new target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-886">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_BuildConfigByName_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_BuildConfigByName_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName(System.String,System.String)">BuildConfigByName(String, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of build configuration with the given name for the specific target.
+Null is returned if such configuration does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BuildConfigByName(string targetGuid, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the build configuration or null if it does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-905">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_BuildConfigNames_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_BuildConfigNames" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames">BuildConfigNames()</h4>
+  <div class="markdown level1 summary"><p>Returns the names of the build configurations available in the project.
+The number and names of the build configurations is a project-wide setting. Each target has the
+same number of build configurations and the names of these build configurations is the same.
+In other words, [[BuildConfigByName()]] will succeed for all targets in the project and all
+build configuration names returned by this function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; BuildConfigNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>An array of build config names.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-437">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByProjectPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByProjectPath_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath(System.String)">ContainsFileByProjectPath(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if the project contains a file with the given project path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsFileByProjectPath(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The project path of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-414">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByRealPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByRealPath_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String)">ContainsFileByRealPath(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if the project contains a file with the given physical path.
+The search is performed across all absolute source trees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsFileByRealPath(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-425">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByRealPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFileByRealPath_System_String_UnityEditor_iOS_Xcode_Custom_PBXSourceTree_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)">ContainsFileByRealPath(String, PBXSourceTree)</h4>
+  <div class="markdown level1 summary"><p>Checks if the project contains a file with the given physical path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsFileByRealPath(string path, PBXSourceTree sourceTree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXSourceTree.html">PBXSourceTree</a></td>
+        <td><span class="parametername">sourceTree</span></td>
+        <td><p>The source tree path is relative to. The [[PBXSourceTree.Group]] tree is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-450">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFramework_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ContainsFramework_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework(System.String,System.String)">ContainsFramework(String, String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the given system framework is a dependency of a target.
+The function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsFramework(string targetGuid, string framework)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">framework</span></td>
+        <td><p>The name of the framework. The extension of the filename must be &quot;.framework&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if the given framework is a dependency of the given target,
+<code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-582">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByProjectPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByProjectPath_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath(System.String)">FindFileGuidByProjectPath(String)</h4>
+  <div class="markdown level1 summary"><p>Finds a file with the given project path in the project, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FindFileGuidByProjectPath(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The project path of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the file if the search succeeded, null otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-564">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByRealPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByRealPath_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String)">FindFileGuidByRealPath(String)</h4>
+  <div class="markdown level1 summary"><p>Finds a file with the given physical path in the project, if any.
+The search is performed across all absolute source trees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FindFileGuidByRealPath(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the file if the search succeeded, null otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-547">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByRealPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_FindFileGuidByRealPath_System_String_UnityEditor_iOS_Xcode_Custom_PBXSourceTree_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)">FindFileGuidByRealPath(String, PBXSourceTree)</h4>
+  <div class="markdown level1 summary"><p>Finds a file with the given physical path in the project, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FindFileGuidByRealPath(string path, PBXSourceTree sourceTree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The physical path of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXSourceTree.html">PBXSourceTree</a></td>
+        <td><span class="parametername">sourceTree</span></td>
+        <td><p>The source tree path is relative to. The [[PBXSourceTree.Group]] tree is not supported.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the file if the search succeeded, null otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-296">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetCompileFlagsForFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetCompileFlagsForFile_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile(System.String,System.String)">GetCompileFlagsForFile(String, String)</h4>
+  <div class="markdown level1 summary"><p>Returns compile flags set for the specific file.
+Null is returned if the file has no configured compile flags or the file is not configured for
+building on the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetCompileFlagsForFile(string targetGuid, string fileGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>The compile flags for the specified file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1067">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetCopyFilesBuildPhaseByTarget_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetCopyFilesBuildPhaseByTarget_System_String_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget(System.String,System.String,System.String,System.String)">GetCopyFilesBuildPhaseByTarget(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of matching copy files build phase for the given target.
+The parameters of existing copy files build phase are matched to the arguments of this
+function and the GUID of the phase is returned only if a matching build phase is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetCopyFilesBuildPhaseByTarget(string targetGuid, string name, string dstPath, string subfolderSpec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the phase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dstPath</span></td>
+        <td><p>The destination path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subfolderSpec</span></td>
+        <td><p>The &quot;subfolder spec&quot;. The following usages are known:
+&quot;10&quot; for embedding frameworks;
+&quot;13&quot; for embedding app extension content;
+&quot;16&quot; for embedding watch content</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the matching phase or null if it does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1022">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetFrameworksBuildPhaseByTarget_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetFrameworksBuildPhaseByTarget_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget(System.String)">GetFrameworksBuildPhaseByTarget(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of frameworks build phase for the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetFrameworksBuildPhaseByTarget(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the existing phase or null if it does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-92">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetPBXProjectPath_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetPBXProjectPath_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath(System.String)">GetPBXProjectPath(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the path to PBX project in the given Unity build path. This function can only
+be used in Unity-generated projects</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetPBXProjectPath(string buildPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">buildPath</span></td>
+        <td><p>The project build path</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The path to the PBX project file that can later be opened via ReadFromFile function</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-985">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetResourcesBuildPhaseByTarget_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetResourcesBuildPhaseByTarget_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget(System.String)">GetResourcesBuildPhaseByTarget(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of resources build phase for the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetResourcesBuildPhaseByTarget(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the existing phase or null if it does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-948">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetSourcesBuildPhaseByTarget_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetSourcesBuildPhaseByTarget_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget(System.String)">GetSourcesBuildPhaseByTarget(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of sources build phase for the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetSourcesBuildPhaseByTarget(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the GUID of the existing phase or null if it does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-832">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetTargetProductFileRef_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetTargetProductFileRef_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef(System.String)">GetTargetProductFileRef(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the file reference of the artifact created by building target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTargetProductFileRef(string targetGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The file reference of the artifact created by building target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-103">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetUnityTargetName_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetUnityTargetName" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName">GetUnityTargetName()</h4>
+  <div class="markdown level1 summary"><p>Returns the default main target name in Unity project.
+The returned target name can then be used to retrieve the GUID of the target via TargetGuidByName
+function. This function can only be used in Unity-generated projects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetUnityTargetName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The default main target name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-114">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetUnityTestTargetName_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_GetUnityTestTargetName" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName">GetUnityTestTargetName()</h4>
+  <div class="markdown level1 summary"><p>Returns the default test target name in Unity project.
+The returned target name can then be used to retrieve the GUID of the target via TargetGuidByName
+function. This function can only be used in Unity-generated projects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetUnityTestTargetName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The default test target name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-161">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_IsBuildable_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_IsBuildable_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable(System.String)">IsBuildable(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if files with the given extension are known to PBXProject.
+Returns <code>true</code> if the extension is not known by PBXProject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBuildable(string ext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ext</span></td>
+        <td><p>The file extension (leading dot is not necessary, but accepted).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if is the extension is known, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-150">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_IsKnownExtension_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_IsKnownExtension_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension(System.String)">IsKnownExtension(String)</h4>
+  <div class="markdown level1 summary"><p>Checks if files with the given extension are known to PBXProject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsKnownExtension(string ext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ext</span></td>
+        <td><p>The file extension (leading dot is not necessary, but accepted).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if is the extension is known, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-125">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ProjectGuid_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ProjectGuid" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid">ProjectGuid()</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of the project. The project GUID identifies a project-wide native target which
+is used to set project-wide properties. This GUID can be passed to any functions that accepts
+target GUIDs as parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ProjectGuid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The GUID of the project.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1335">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromFile_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile(System.String)">ReadFromFile(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadFromFile(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1346">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromStream_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromStream_System_IO_TextReader_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream(System.IO.TextReader)">ReadFromStream(TextReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadFromStream(TextReader sr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.TextReader</span></td>
+        <td><span class="parametername">sr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1340">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromString_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_ReadFromString_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString(System.String)">ReadFromString(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadFromString(string src)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-399">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTag_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTag_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag(System.String)">RemoveAssetTag(String)</h4>
+  <div class="markdown level1 summary"><p>Removes an asset tag.
+Removes the given asset tag from the list of configured asset tags for all files on all targets,
+the list of asset tags configured for initial installation and the list of known asset tags in
+the Xcode project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAssetTag(string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>The name of the asset tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-352">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTagForFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTagForFile_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile(System.String,System.String,System.String)">RemoveAssetTagForFile(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Removes an asset tag for the given file.
+The function does nothing if the file is not configured for building in the given target or if
+the asset tag is not present in the list of asset tags configured for file. If the file was the
+last file referring to the given tag across the Xcode project, then the tag is removed from the
+list of known tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAssetTagForFile(string targetGuid, string fileGuid, string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>The name of the asset tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-387">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTagFromDefaultInstall_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveAssetTagFromDefaultInstall_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall(System.String,System.String)">RemoveAssetTagFromDefaultInstall(String, String)</h4>
+  <div class="markdown level1 summary"><p>Removes the asset tag from the list of tags to download during initial installation.
+The function does nothing if the tag is not already configured for downloading during
+initial installation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAssetTagFromDefaultInstall(string targetGuid, string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>The name of the asset tag.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-937">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveBuildConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveBuildConfig_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig(System.String)">RemoveBuildConfig(String)</h4>
+  <div class="markdown level1 summary"><p>Removes all build configurations with the given name from all targets in the project.
+The number and names of the build configurations is a project-wide setting. Each target has the
+same number of build configurations and the names of these build configurations is the same.
+The function does nothing if the build configuration with the specified name does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveBuildConfig(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-623">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFile_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile(System.String)">RemoveFile(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the given file from project.
+The file is removed from the list of files to build for each native target and also removed
+from the list of known files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFile(string fileGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file or folder reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-596">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFileFromBuild_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFileFromBuild_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild(System.String,System.String)">RemoveFileFromBuild(String, String)</h4>
+  <div class="markdown level1 summary"><p>Removes given file from the list of files to build for the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFileFromBuild(string targetGuid, string fileGuid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file or folder reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-481">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFrameworkFromProject_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_RemoveFrameworkFromProject_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject(System.String,System.String)">RemoveFrameworkFromProject(String, String)</h4>
+  <div class="markdown level1 summary"><p>Removes a system framework dependency for the specified target.
+The function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFrameworkFromProject(string targetGuid, string framework)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">framework</span></td>
+        <td><p>The name of the framework. The extension of the filename must be &quot;.framework&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1215">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildProperty_System_Collections_Generic_IEnumerable_System_String__System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">SetBuildProperty(IEnumerable&lt;String&gt;, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list in all build configurations for the specified targets.
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBuildProperty(IEnumerable&lt;string&gt; targetGuids, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">targetGuids</span></td>
+        <td><p>The GUIDs of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1201">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildProperty_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.String,System.String,System.String)">SetBuildProperty(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a value to build property list in all build configurations for the specified target.
+Duplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and
+&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBuildProperty(string targetGuid, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the build property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the build property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1224">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildPropertyForConfig_System_Collections_Generic_IEnumerable_System_String__System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">SetBuildPropertyForConfig(IEnumerable&lt;String&gt;, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBuildPropertyForConfig(IEnumerable&lt;string&gt; configGuids, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">configGuids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1220">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetBuildPropertyForConfig_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.String,System.String,System.String)">SetBuildPropertyForConfig(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBuildPropertyForConfig(string configGuid, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-312">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetCompileFlagsForFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetCompileFlagsForFile_System_String_System_String_System_Collections_Generic_List_System_String__" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String,System.String,System.Collections.Generic.List{System.String})">SetCompileFlagsForFile(String, String, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the compilation flags for the given file in the given target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCompileFlagsForFile(string targetGuid, string fileGuid, List&lt;string&gt; compileFlags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td><p>The GUID of the target as returned by [[TargetGuidByName()]].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileGuid</span></td>
+        <td><p>The GUID of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">compileFlags</span></td>
+        <td><p>The list of compile flags or null if the flags should be unset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-535">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetTeamId_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_SetTeamId_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId(System.String,System.String)">SetTeamId(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTeamId(string targetGuid, string teamId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">teamId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-137">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_TargetGuidByName_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_TargetGuidByName_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName(System.String)">TargetGuidByName(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the GUID of the native target with the given name.
+In projects produced by Unity the main target can be retrieved via GetUnityTargetName function,
+whereas the test target name can be retrieved by GetUnityTestTargetName function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TargetGuidByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The GUID identifying the native target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the native target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1278">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildProperty_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">UpdateBuildProperty(IEnumerable&lt;String&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBuildProperty(IEnumerable&lt;string&gt; targetGuids, string name, IEnumerable&lt;string&gt; addValues, IEnumerable&lt;string&gt; removeValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">targetGuids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">addValues</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">removeValues</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1272">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildProperty_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildProperty_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">UpdateBuildProperty(String, String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBuildProperty(string targetGuid, string name, IEnumerable&lt;string&gt; addValues, IEnumerable&lt;string&gt; removeValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">addValues</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">removeValues</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1298">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildPropertyForConfig_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">UpdateBuildPropertyForConfig(IEnumerable&lt;String&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBuildPropertyForConfig(IEnumerable&lt;string&gt; configGuids, string name, IEnumerable&lt;string&gt; addValues, IEnumerable&lt;string&gt; removeValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">configGuids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">addValues</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">removeValues</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1284">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildPropertyForConfig_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_UpdateBuildPropertyForConfig_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">UpdateBuildPropertyForConfig(String, String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBuildPropertyForConfig(string configGuid, string name, IEnumerable&lt;string&gt; addValues, IEnumerable&lt;string&gt; removeValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">addValues</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">removeValues</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1351">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToFile_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToFile_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile(System.String)">WriteToFile(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteToFile(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1356">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToStream_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToStream_System_IO_TextWriter_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream(System.IO.TextWriter)">WriteToStream(TextWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteToStream(TextWriter sw)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.TextWriter</span></td>
+        <td><span class="parametername">sw</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-1361">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToString_" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_PBXProject_WriteToString" data-uid="UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString">WriteToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WriteToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.html#UnityEditor_iOS_Xcode_Custom_Extensions_PBXProjectExtensions_AddAppExtension_UnityEditor_iOS_Xcode_Custom_PBXProject_System_String_System_String_System_String_System_String_">PBXProjectExtensions.AddAppExtension(PBXProject, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.html#UnityEditor_iOS_Xcode_Custom_Extensions_PBXProjectExtensions_AddWatchApp_UnityEditor_iOS_Xcode_Custom_PBXProject_System_String_System_String_System_String_System_String_System_String_">PBXProjectExtensions.AddWatchApp(PBXProject, String, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.html#UnityEditor_iOS_Xcode_Custom_Extensions_PBXProjectExtensions_AddWatchExtension_UnityEditor_iOS_Xcode_Custom_PBXProject_System_String_System_String_System_String_System_String_">PBXProjectExtensions.AddWatchExtension(PBXProject, String, String, String, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.html#UnityEditor_iOS_Xcode_Custom_Extensions_PBXProjectExtensions_AddFileToEmbedFrameworks_UnityEditor_iOS_Xcode_Custom_PBXProject_System_String_System_String_">PBXProjectExtensions.AddFileToEmbedFrameworks(PBXProject, String, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/cloudmacaca/cloudmacacaapi-unityplugin/src/master/Editor/XcodeEditor/PBXProject.cs#lines-46" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
