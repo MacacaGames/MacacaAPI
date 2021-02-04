@@ -1,0 +1,469 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/miki/Documents/SquidBeat/SB_Unity/Packages/MacacaAPIs/.docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.html",
+          "hash": "qCDkc2oAm+EoXektyHsydg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.AndroidPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_APIController.AndroidPermission.html",
+          "hash": "o1sQ9AOoUSmzTbMFy4xXbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.AndroidPermissionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_APIController.AndroidPermissionState.html",
+          "hash": "JrgdYxoFKMTEe7NcdUQXew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.ShareType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_APIController.ShareType.html",
+          "hash": "UwhfabQ73PgZqNGV1oAWYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_APIController.html",
+          "hash": "X+2hlOjGlyEjGWjXutnYsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_LocalNotificationController.Action.html",
+          "hash": "O8RlX6So+MaTtbSJGDpvWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.Importance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_LocalNotificationController.Importance.html",
+          "hash": "YEtS9uk+6PqSfiv85sKwdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CM_LocalNotificationController.html",
+          "hash": "aVDdp9hsobN+7UpxQmDY7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.html",
+          "hash": "R1biYCF2I6L68O9SFGNH9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.html",
+          "hash": "QJChC5LAXPo7EsCqqlGOJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.html",
+          "hash": "YVVJI/9rhjUJP3u5hbJZtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.Extensions.html",
+          "hash": "k3qt/nceYZsCW9ourr2fmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.MapsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.MapsOptions.html",
+          "hash": "ObJLAMcQQiZARip6he3AzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.html",
+          "hash": "+yV2LodKrd+4p0JjWnXUQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.html",
+          "hash": "FTtiVevho68gYcSiTbM9uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PBXProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PBXProject.html",
+          "hash": "P4Ee/Z7Vez0jwg6y9A3Reg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PBXSourceTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PBXSourceTree.html",
+          "hash": "rthxpcZfQTUxiQoLmj4UmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistDocument.html",
+          "hash": "GSTkjAh9qJzHSi1GyDPPvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElement.html",
+          "hash": "QGIVr3x1BJibbeyzrI/gRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementArray.html",
+          "hash": "Ra9N+oseTJZFbCR7XneWxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementBoolean.html",
+          "hash": "Q8Ew3Ndck8vfuQiM72VDzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementDate.html",
+          "hash": "vNz61+eFwmnQAO/UMycfJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementDict.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementDict.html",
+          "hash": "hpqGZU6Ls7NFgK6KGxxMMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementInteger.html",
+          "hash": "3fhVAl9lg7YBJ/MuiiIueQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementReal.html",
+          "hash": "4y8+R/M5Fd115lXOcNkIOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.PlistElementString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.PlistElementString.html",
+          "hash": "XPQQjU8l+jHBn70eMOQzsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.html",
+          "hash": "d5OMoMpeYRYoAjKcvoK8KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/UnityEditor.iOS.Xcode.Custom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEditor.iOS.Xcode.Custom.html",
+          "hash": "XBCwj+YbGt3Ug0gO+Oh9wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../Documentation~/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "60ATq7pACrcokL9m3g0lWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "kIDO+TWX9tK5Ym7OHfLOOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "N+dojEptJyL/r7HK9MyBSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "am/S9vBmE9qrVa4lJLnXaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 28,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

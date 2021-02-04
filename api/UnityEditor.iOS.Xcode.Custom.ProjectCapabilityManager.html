@@ -1,0 +1,817 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ProjectCapabilityManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ProjectCapabilityManager
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager">
+  
+  
+  <h1 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager" class="text-break">Class ProjectCapabilityManager
+  </h1>
+  <div class="markdown level0 summary"><p>The ProjectCapabilityManager class helps to add capabilities to the Xcode
+project. This operation potentially involves modification of any of the
+pbxproj file, the entitlements file(s) and Info.plist file(s). The
+manager assumes ownership of all of these files until the last
+WriteToFile() invocation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ProjectCapabilityManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEditor.iOS.Xcode.Custom.html">UnityEditor.iOS.Xcode.Custom</a></h6>
+  <h6><strong>Assembly</strong>: MacacaXCode.Editor.dll</h6>
+  <h5 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ProjectCapabilityManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L37">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager__ctor_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager__ctor_System_String_System_String_System_String_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor(System.String,System.String,System.String)">ProjectCapabilityManager(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of ProjectCapabilityManager. The returned
+instance assumes ownership of the referenced pbxproj project file,
+the entitlements file and project Info.plist files until the last
+WriteToFile() call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProjectCapabilityManager(string pbxProjectPath, string entitlementFilePath, string targetName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pbxProjectPath</span></td>
+        <td><p>Path to the pbxproj file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">entitlementFilePath</span></td>
+        <td><p>Path to the entitlements file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">targetName</span></td>
+        <td><p>The name of the target to add entitlements for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_project.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L26">View Source</a>
+  </span>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_project" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project">project</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PBXProject project</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.PBXProject.html">PBXProject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAppGroups_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L403">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAppGroups_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAppGroups_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String[])">AddAppGroups(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds App Groups capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAppGroups(string[] groups)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">groups</span></td>
+        <td><p>The list of app groups to configure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddApplePay_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L212">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddApplePay_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddApplePay_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String[])">AddApplePay(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds Apple Pay capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddApplePay(string[] merchants)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">merchants</span></td>
+        <td><p>The list of merchant IDs to configure</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAssociatedDomains_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L388">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAssociatedDomains_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddAssociatedDomains_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String[])">AddAssociatedDomains(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds Associated Domains capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAssociatedDomains(string[] domains)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">domains</span></td>
+        <td><p>The list of domains to configure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddBackgroundModes_UnityEditor_iOS_Xcode_Custom_BackgroundModesOptions_.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L313">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddBackgroundModes_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddBackgroundModes_UnityEditor_iOS_Xcode_Custom_BackgroundModesOptions_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)">AddBackgroundModes(BackgroundModesOptions)</h4>
+  <div class="markdown level1 summary"><p>Adds Background capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBackgroundModes(BackgroundModesOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.html">BackgroundModesOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The list of background modes to configure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddDataProtection.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L426">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddDataProtection_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddDataProtection" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection">AddDataProtection()</h4>
+  <div class="markdown level1 summary"><p>Adds Data Protection capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDataProtection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddGameCenter.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L166">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddGameCenter_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddGameCenter" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter">AddGameCenter()</h4>
+  <div class="markdown level1 summary"><p>Adds Game Center capability to the project</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGameCenter()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHealthKit.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L435">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHealthKit_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHealthKit" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit">AddHealthKit()</h4>
+  <div class="markdown level1 summary"><p>Adds HealthKit capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddHealthKit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHomeKit.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L417">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHomeKit_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddHomeKit" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit">AddHomeKit()</h4>
+  <div class="markdown level1 summary"><p>Adds HomeKit capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddHomeKit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L105">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[])">AddiCloud(Boolean, Boolean, Boolean, Boolean, String[])</h4>
+  <div class="markdown level1 summary"><p>Adds iCloud capability to project</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddiCloud(bool enableKeyValueStorage, bool enableiCloudDocument, bool enablecloudKit, bool addDefaultContainers, string[] customContainers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enableKeyValueStorage</span></td>
+        <td><p>Enables key-value storage option if set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enableiCloudDocument</span></td>
+        <td><p>Enables iCloud document option if set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enablecloudKit</span></td>
+        <td><p>Enables cloudKit option if set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">addDefaultContainers</span></td>
+        <td><p>Default containers are added if this option is set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">customContainers</span></td>
+        <td><p>A list of custom containers to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_System_Boolean_System_Boolean_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean%2CSystem.Boolean%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L90">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddiCloud_System_Boolean_System_Boolean_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.String[])">AddiCloud(Boolean, Boolean, String[])</h4>
+  <div class="markdown level1 summary"><p>Adds iCloud capability to project</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddiCloud(bool enableKeyValueStorage, bool enableiCloudDocument, string[] customContainers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enableKeyValueStorage</span></td>
+        <td><p>Enables key-value storage option if set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enableiCloudDocument</span></td>
+        <td><p>Enables iCloud document option if set to true</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">customContainers</span></td>
+        <td><p>A list of custom containers to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInAppPurchase.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L226">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInAppPurchase_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInAppPurchase" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase">AddInAppPurchase()</h4>
+  <div class="markdown level1 summary"><p>Adds In App Purchase capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddInAppPurchase()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInterAppAudio.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L378">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInterAppAudio_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddInterAppAudio" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio">AddInterAppAudio()</h4>
+  <div class="markdown level1 summary"><p>Adds Inter App Audio capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddInterAppAudio()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddKeychainSharing_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L357">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddKeychainSharing_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddKeychainSharing_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String[])">AddKeychainSharing(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds Keychain Sharing capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddKeychainSharing(string[] accessGroups)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">accessGroups</span></td>
+        <td><p>The list of keychain access groups to configure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddMaps_UnityEditor_iOS_Xcode_Custom_MapsOptions_.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L235">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddMaps_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddMaps_UnityEditor_iOS_Xcode_Custom_MapsOptions_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)">AddMaps(MapsOptions)</h4>
+  <div class="markdown level1 summary"><p>Adds Maps capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMaps(MapsOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEditor.iOS.Xcode.Custom.MapsOptions.html">MapsOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The routing options to configure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPersonalVPN.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L301">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPersonalVPN_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPersonalVPN" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN">AddPersonalVPN()</h4>
+  <div class="markdown level1 summary"><p>Adds Personal VPN capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddPersonalVPN()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPushNotifications_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L157">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPushNotifications_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddPushNotifications_System_Boolean_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)">AddPushNotifications(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Add Push (or remote) Notifications capability to the project</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddPushNotifications(bool development)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">development</span></td>
+        <td><p>Sets the development option if set to true</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSignInWithApple_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L66">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSignInWithApple_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSignInWithApple_System_Boolean_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)">AddSignInWithApple(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSignInWithApple(bool AddSignInRequire = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AddSignInRequire</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSiri.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L201">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSiri_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddSiri" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri">AddSiri()</h4>
+  <div class="markdown level1 summary"><p>Adds Siri capability to project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSiri()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWallet_System_String___.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L179">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWallet_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWallet_System_String___" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String[])">AddWallet(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds wallet capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddWallet(string[] passSubset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">passSubset</span></td>
+        <td><p>Controls the allowed pass types. If null or
+empty, then all team pass types are allowed. Otherwise, only the
+specified subset of pass types is allowed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWirelessAccessoryConfiguration.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L447">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWirelessAccessoryConfiguration_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_AddWirelessAccessoryConfiguration" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration">AddWirelessAccessoryConfiguration()</h4>
+  <div class="markdown level1 summary"><p>Adds Wireless Accessory Configuration capability to the project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddWirelessAccessoryConfiguration()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_WriteToFile.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L54">View Source</a>
+  </span>
+  <a id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_WriteToFile_" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile*"></a>
+  <h4 id="UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager_WriteToFile" data-uid="UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile">WriteToFile()</h4>
+  <div class="markdown level1 summary"><p>Writes the modifications to the project file, entitlements file and
+the Info.plist file. Any external changes to these files after
+the ProjectCapabilityManager instance has been created and before
+the call to WriteToFile() will be overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteToFile()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MacacaGames/MacacaAPI/new/master/apiSpec/new?filename=UnityEditor_iOS_Xcode_Custom_ProjectCapabilityManager.md&amp;value=---%0Auid%3A%20UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Editor/XcodeEditor/ProjectCapabilityManager.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
