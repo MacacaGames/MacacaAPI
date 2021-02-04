@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  id: MacacaGames
+  children:
+  - MacacaGames.CM_APIController
+  - MacacaGames.CM_APIController.AndroidPermission
+  - MacacaGames.CM_APIController.AndroidPermissionState
+  - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  - MacacaGames.CM_APIController.ShareType
+  - MacacaGames.CM_LocalNotificationController
+  - MacacaGames.CM_LocalNotificationController.Action
+  - MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+  type: Namespace
+  assemblies:
+  - MacacaAPIs
+references:
+- uid: MacacaGames.CM_APIController
+  commentId: T:MacacaGames.CM_APIController
+  name: CM_APIController
+  nameWithType: CM_APIController
+  fullName: MacacaGames.CM_APIController
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  commentId: T:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  parent: MacacaGames
+  name: CM_APIController.ATTrackingManagerAuthorizationStatus
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+- uid: MacacaGames.CM_APIController.AndroidPermission
+  commentId: T:MacacaGames.CM_APIController.AndroidPermission
+  parent: MacacaGames
+  name: CM_APIController.AndroidPermission
+  nameWithType: CM_APIController.AndroidPermission
+  fullName: MacacaGames.CM_APIController.AndroidPermission
+- uid: MacacaGames.CM_APIController.AndroidPermissionState
+  commentId: T:MacacaGames.CM_APIController.AndroidPermissionState
+  parent: MacacaGames
+  name: CM_APIController.AndroidPermissionState
+  nameWithType: CM_APIController.AndroidPermissionState
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState
+- uid: MacacaGames.CM_APIController.ShareType
+  commentId: T:MacacaGames.CM_APIController.ShareType
+  parent: MacacaGames
+  name: CM_APIController.ShareType
+  nameWithType: CM_APIController.ShareType
+  fullName: MacacaGames.CM_APIController.ShareType
+- uid: MacacaGames.CM_LocalNotificationController
+  commentId: T:MacacaGames.CM_LocalNotificationController
+  name: CM_LocalNotificationController
+  nameWithType: CM_LocalNotificationController
+  fullName: MacacaGames.CM_LocalNotificationController
+- uid: MacacaGames.CM_LocalNotificationController.Importance
+  commentId: T:MacacaGames.CM_LocalNotificationController.Importance
+  parent: MacacaGames
+  name: CM_LocalNotificationController.Importance
+  nameWithType: CM_LocalNotificationController.Importance
+  fullName: MacacaGames.CM_LocalNotificationController.Importance
+- uid: MacacaGames.CM_LocalNotificationController.Action
+  commentId: T:MacacaGames.CM_LocalNotificationController.Action
+  name: CM_LocalNotificationController.Action
+  nameWithType: CM_LocalNotificationController.Action
+  fullName: MacacaGames.CM_LocalNotificationController.Action
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames

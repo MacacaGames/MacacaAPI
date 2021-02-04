@@ -1,0 +1,1257 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  id: PBXCapabilityType
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppGroups
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.ApplePay
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppleSignIn
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AssociatedDomains
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.BackgroundModes
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.DataProtection
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.GameCenter
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HealthKit
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HomeKit
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.iCloud
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InAppPurchase
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InterAppAudio
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.KeychainSharing
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Maps
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PersonalVPN
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PushNotifications
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Siri
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Wallet
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.WirelessAccessoryConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PBXCapabilityType
+  nameWithType: PBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PBXCapabilityType
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 9
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nList of all the capabilities available.\n"
+  example: []
+  syntax:
+    content: public sealed class PBXCapabilityType
+    content.vb: Public NotInheritable Class PBXCapabilityType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppleSignIn
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppleSignIn
+  id: AppleSignIn
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: AppleSignIn
+  nameWithType: PBXCapabilityType.AppleSignIn
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppleSignIn
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AppleSignIn
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 11
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType AppleSignIn
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly AppleSignIn As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.ApplePay
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.ApplePay
+  id: ApplePay
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: ApplePay
+  nameWithType: PBXCapabilityType.ApplePay
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.ApplePay
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ApplePay
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 12
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType ApplePay
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly ApplePay As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppGroups
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppGroups
+  id: AppGroups
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: AppGroups
+  nameWithType: PBXCapabilityType.AppGroups
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AppGroups
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AppGroups
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 13
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType AppGroups
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly AppGroups As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AssociatedDomains
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AssociatedDomains
+  id: AssociatedDomains
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: AssociatedDomains
+  nameWithType: PBXCapabilityType.AssociatedDomains
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.AssociatedDomains
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AssociatedDomains
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 14
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType AssociatedDomains
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly AssociatedDomains As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.BackgroundModes
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.BackgroundModes
+  id: BackgroundModes
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: BackgroundModes
+  nameWithType: PBXCapabilityType.BackgroundModes
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.BackgroundModes
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BackgroundModes
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 15
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType BackgroundModes
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly BackgroundModes As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.DataProtection
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.DataProtection
+  id: DataProtection
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: DataProtection
+  nameWithType: PBXCapabilityType.DataProtection
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.DataProtection
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: DataProtection
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 16
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType DataProtection
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly DataProtection As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.GameCenter
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.GameCenter
+  id: GameCenter
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: GameCenter
+  nameWithType: PBXCapabilityType.GameCenter
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.GameCenter
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GameCenter
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 17
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType GameCenter
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly GameCenter As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HealthKit
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HealthKit
+  id: HealthKit
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: HealthKit
+  nameWithType: PBXCapabilityType.HealthKit
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HealthKit
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: HealthKit
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 18
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType HealthKit
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly HealthKit As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HomeKit
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HomeKit
+  id: HomeKit
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: HomeKit
+  nameWithType: PBXCapabilityType.HomeKit
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.HomeKit
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: HomeKit
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 19
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType HomeKit
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly HomeKit As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.iCloud
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.iCloud
+  id: iCloud
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: iCloud
+  nameWithType: PBXCapabilityType.iCloud
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.iCloud
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: iCloud
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 20
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType iCloud
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly iCloud As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InAppPurchase
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InAppPurchase
+  id: InAppPurchase
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: InAppPurchase
+  nameWithType: PBXCapabilityType.InAppPurchase
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InAppPurchase
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: InAppPurchase
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 21
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType InAppPurchase
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly InAppPurchase As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InterAppAudio
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InterAppAudio
+  id: InterAppAudio
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: InterAppAudio
+  nameWithType: PBXCapabilityType.InterAppAudio
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.InterAppAudio
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: InterAppAudio
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 22
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType InterAppAudio
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly InterAppAudio As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.KeychainSharing
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.KeychainSharing
+  id: KeychainSharing
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: KeychainSharing
+  nameWithType: PBXCapabilityType.KeychainSharing
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.KeychainSharing
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: KeychainSharing
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 23
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType KeychainSharing
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly KeychainSharing As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Maps
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Maps
+  id: Maps
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: Maps
+  nameWithType: PBXCapabilityType.Maps
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Maps
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Maps
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 24
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType Maps
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly Maps As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PersonalVPN
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PersonalVPN
+  id: PersonalVPN
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: PersonalVPN
+  nameWithType: PBXCapabilityType.PersonalVPN
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PersonalVPN
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PersonalVPN
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 25
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType PersonalVPN
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly PersonalVPN As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PushNotifications
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PushNotifications
+  id: PushNotifications
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: PushNotifications
+  nameWithType: PBXCapabilityType.PushNotifications
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.PushNotifications
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PushNotifications
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 26
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType PushNotifications
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly PushNotifications As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Siri
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Siri
+  id: Siri
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: Siri
+  nameWithType: PBXCapabilityType.Siri
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Siri
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Siri
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 27
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType Siri
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly Siri As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Wallet
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Wallet
+  id: Wallet
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: Wallet
+  nameWithType: PBXCapabilityType.Wallet
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.Wallet
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Wallet
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 28
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType Wallet
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly Wallet As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.WirelessAccessoryConfiguration
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.WirelessAccessoryConfiguration
+  id: WirelessAccessoryConfiguration
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: WirelessAccessoryConfiguration
+  nameWithType: PBXCapabilityType.WirelessAccessoryConfiguration
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.WirelessAccessoryConfiguration
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WirelessAccessoryConfiguration
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 29
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static readonly PBXCapabilityType WirelessAccessoryConfiguration
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared ReadOnly WirelessAccessoryConfiguration As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+  id: optionalFramework
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: optionalFramework
+  nameWithType: PBXCapabilityType.optionalFramework
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: optionalFramework
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 36
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public bool optionalFramework { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property optionalFramework As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+  id: framework
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: framework
+  nameWithType: PBXCapabilityType.framework
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: framework
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 41
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string framework { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property framework As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+  id: id
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: PBXCapabilityType.id
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: id
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 46
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property id As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+  id: requiresEntitlements
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: requiresEntitlements
+  nameWithType: PBXCapabilityType.requiresEntitlements
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: requiresEntitlements
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 51
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public bool requiresEntitlements { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property requiresEntitlements As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType(System.String)
+  id: StringToPBXCapabilityType(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  langs:
+  - csharp
+  - vb
+  name: StringToPBXCapabilityType(String)
+  nameWithType: PBXCapabilityType.StringToPBXCapabilityType(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: StringToPBXCapabilityType
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 84
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public static PBXCapabilityType StringToPBXCapabilityType(string cap)
+    parameters:
+    - id: cap
+      type: System.String
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Shared Function StringToPBXCapabilityType(cap As String) As PBXCapabilityType
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXCapabilityType
+  nameWithType: PBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+  name: optionalFramework
+  nameWithType: PBXCapabilityType.optionalFramework
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.optionalFramework
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+  name: framework
+  nameWithType: PBXCapabilityType.framework
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.framework
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+  name: id
+  nameWithType: PBXCapabilityType.id
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.id
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+  name: requiresEntitlements
+  nameWithType: PBXCapabilityType.requiresEntitlements
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.requiresEntitlements
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType
+  name: StringToPBXCapabilityType
+  nameWithType: PBXCapabilityType.StringToPBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.StringToPBXCapabilityType

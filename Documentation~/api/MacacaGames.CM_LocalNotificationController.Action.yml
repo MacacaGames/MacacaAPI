@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_LocalNotificationController.Action
+  commentId: T:MacacaGames.CM_LocalNotificationController.Action
+  id: CM_LocalNotificationController.Action
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_LocalNotificationController.Action.#ctor(System.String,System.String,UnityEngine.MonoBehaviour)
+  - MacacaGames.CM_LocalNotificationController.Action.Foreground
+  - MacacaGames.CM_LocalNotificationController.Action.GameObject
+  - MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
+  - MacacaGames.CM_LocalNotificationController.Action.Icon
+  - MacacaGames.CM_LocalNotificationController.Action.Identifier
+  - MacacaGames.CM_LocalNotificationController.Action.Title
+  langs:
+  - csharp
+  - vb
+  name: CM_LocalNotificationController.Action
+  nameWithType: CM_LocalNotificationController.Action
+  fullName: MacacaGames.CM_LocalNotificationController.Action
+  type: Class
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Action
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 157
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public class Action
+    content.vb: Public Class Action
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: MacacaGames.CM_LocalNotificationController.Action.#ctor(System.String,System.String,UnityEngine.MonoBehaviour)
+  commentId: M:MacacaGames.CM_LocalNotificationController.Action.#ctor(System.String,System.String,UnityEngine.MonoBehaviour)
+  id: '#ctor(System.String,System.String,UnityEngine.MonoBehaviour)'
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: Action(String, String, MonoBehaviour)
+  nameWithType: CM_LocalNotificationController.Action.Action(String, String, MonoBehaviour)
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Action(System.String, System.String, UnityEngine.MonoBehaviour)
+  type: Constructor
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: .ctor
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 159
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public Action(string identifier, string title, MonoBehaviour handler)
+    parameters:
+    - id: identifier
+      type: System.String
+    - id: title
+      type: System.String
+    - id: handler
+      type: UnityEngine.MonoBehaviour
+    content.vb: Public Sub New(identifier As String, title As String, handler As MonoBehaviour)
+  overload: MacacaGames.CM_LocalNotificationController.Action.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.Identifier
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Identifier
+  id: Identifier
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: CM_LocalNotificationController.Action.Identifier
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Identifier
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Identifier
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 170
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public string Identifier
+    return:
+      type: System.String
+    content.vb: Public Identifier As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.Title
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Title
+  id: Title
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CM_LocalNotificationController.Action.Title
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Title
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Title
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 171
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.Icon
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Icon
+  id: Icon
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: CM_LocalNotificationController.Action.Icon
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Icon
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Icon
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 172
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public string Icon
+    return:
+      type: System.String
+    content.vb: Public Icon As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.Foreground
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Foreground
+  id: Foreground
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: Foreground
+  nameWithType: CM_LocalNotificationController.Action.Foreground
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Foreground
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Foreground
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 173
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public bool Foreground
+    return:
+      type: System.Boolean
+    content.vb: Public Foreground As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.GameObject
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.GameObject
+  id: GameObject
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: CM_LocalNotificationController.Action.GameObject
+  fullName: MacacaGames.CM_LocalNotificationController.Action.GameObject
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GameObject
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 174
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public string GameObject
+    return:
+      type: System.String
+    content.vb: Public GameObject As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
+  commentId: F:MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
+  id: HandlerMethod
+  parent: MacacaGames.CM_LocalNotificationController.Action
+  langs:
+  - csharp
+  - vb
+  name: HandlerMethod
+  nameWithType: CM_LocalNotificationController.Action.HandlerMethod
+  fullName: MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: HandlerMethod
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 175
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public string HandlerMethod
+    return:
+      type: System.String
+    content.vb: Public HandlerMethod As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MacacaGames.CM_LocalNotificationController.Action.#ctor*
+  commentId: Overload:MacacaGames.CM_LocalNotificationController.Action.#ctor
+  name: Action
+  nameWithType: CM_LocalNotificationController.Action.Action
+  fullName: MacacaGames.CM_LocalNotificationController.Action.Action
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

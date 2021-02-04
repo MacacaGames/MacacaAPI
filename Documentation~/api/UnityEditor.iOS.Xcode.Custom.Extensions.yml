@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions
+  commentId: N:UnityEditor.iOS.Xcode.Custom.Extensions
+  id: UnityEditor.iOS.Xcode.Custom.Extensions
+  children:
+  - UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: UnityEditor.iOS.Xcode.Custom.Extensions
+  nameWithType: UnityEditor.iOS.Xcode.Custom.Extensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions
+  type: Namespace
+  assemblies:
+  - MacacaXCode.Editor
+references:
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions
+  name: PBXProjectExtensions
+  nameWithType: PBXProjectExtensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions
+  commentId: N:UnityEditor.iOS.Xcode.Custom.Extensions
+  name: UnityEditor.iOS.Xcode.Custom.Extensions
+  nameWithType: UnityEditor.iOS.Xcode.Custom.Extensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions

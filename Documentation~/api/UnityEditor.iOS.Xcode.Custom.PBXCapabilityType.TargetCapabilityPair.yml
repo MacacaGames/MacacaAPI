@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  id: PBXCapabilityType.TargetCapabilityPair
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType)
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.capability
+  - UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.targetGuid
+  langs:
+  - csharp
+  - vb
+  name: PBXCapabilityType.TargetCapabilityPair
+  nameWithType: PBXCapabilityType.TargetCapabilityPair
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  type: Struct
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: TargetCapabilityPair
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 56
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public struct TargetCapabilityPair
+    content.vb: Public Structure TargetCapabilityPair
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.targetGuid
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.targetGuid
+  id: targetGuid
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  langs:
+  - csharp
+  - vb
+  name: targetGuid
+  nameWithType: PBXCapabilityType.TargetCapabilityPair.targetGuid
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.targetGuid
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: targetGuid
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 58
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string targetGuid
+    return:
+      type: System.String
+    content.vb: Public targetGuid As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.capability
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.capability
+  id: capability
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  langs:
+  - csharp
+  - vb
+  name: capability
+  nameWithType: PBXCapabilityType.TargetCapabilityPair.capability
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.capability
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: capability
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 59
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PBXCapabilityType capability
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public capability As PBXCapabilityType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType)
+  id: '#ctor(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType)'
+  parent: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  langs:
+  - csharp
+  - vb
+  name: TargetCapabilityPair(String, PBXCapabilityType)
+  nameWithType: PBXCapabilityType.TargetCapabilityPair.TargetCapabilityPair(String, PBXCapabilityType)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.TargetCapabilityPair(System.String, UnityEditor.iOS.Xcode.Custom.PBXCapabilityType)
+  type: Constructor
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXCapabilityType.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: .ctor
+    path: ../Editor/XcodeEditor/PBXCapabilityType.cs
+    startLine: 61
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public TargetCapabilityPair(string guid, PBXCapabilityType type)
+    parameters:
+    - id: guid
+      type: System.String
+    - id: type
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    content.vb: Public Sub New(guid As String, type As PBXCapabilityType)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXCapabilityType
+  nameWithType: PBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.#ctor
+  name: TargetCapabilityPair
+  nameWithType: PBXCapabilityType.TargetCapabilityPair.TargetCapabilityPair
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair.TargetCapabilityPair

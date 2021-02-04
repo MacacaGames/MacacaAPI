@@ -1,0 +1,1355 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  commentId: T:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  id: ProjectCapabilityManager
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String[])
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project
+  - UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile
+  langs:
+  - csharp
+  - vb
+  name: ProjectCapabilityManager
+  nameWithType: ProjectCapabilityManager
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ProjectCapabilityManager
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 17
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nThe ProjectCapabilityManager class helps to add capabilities to the Xcode \nproject. This operation potentially involves modification of any of the \npbxproj file, the entitlements file(s) and Info.plist file(s). The \nmanager assumes ownership of all of these files until the last \nWriteToFile() invocation.\n"
+  example: []
+  syntax:
+    content: public class ProjectCapabilityManager
+    content.vb: Public Class ProjectCapabilityManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project
+  commentId: F:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project
+  id: project
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: project
+  nameWithType: ProjectCapabilityManager.project
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.project
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: project
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 25
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: protected PBXProject project
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXProject
+    content.vb: Protected project As PBXProject
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: ProjectCapabilityManager(String, String, String)
+  nameWithType: ProjectCapabilityManager.ProjectCapabilityManager(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.ProjectCapabilityManager(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: .ctor
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 36
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new instance of ProjectCapabilityManager. The returned \ninstance assumes ownership of the referenced pbxproj project file, \nthe entitlements file and project Info.plist files until the last \nWriteToFile() call.\n"
+  example: []
+  syntax:
+    content: public ProjectCapabilityManager(string pbxProjectPath, string entitlementFilePath, string targetName)
+    parameters:
+    - id: pbxProjectPath
+      type: System.String
+      description: Path to the pbxproj file.
+    - id: entitlementFilePath
+      type: System.String
+      description: Path to the entitlements file.
+    - id: targetName
+      type: System.String
+      description: The name of the target to add entitlements for.
+    content.vb: Public Sub New(pbxProjectPath As String, entitlementFilePath As String, targetName As String)
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile
+  id: WriteToFile
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: WriteToFile()
+  nameWithType: ProjectCapabilityManager.WriteToFile()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToFile
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 53
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nWrites the modifications to the project file, entitlements file and \nthe Info.plist file. Any external changes to these files after\nthe ProjectCapabilityManager instance has been created and before\nthe call to WriteToFile() will be overwritten.\n"
+  example: []
+  syntax:
+    content: public void WriteToFile()
+    content.vb: Public Sub WriteToFile
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)
+  id: AddSignInWithApple(System.Boolean)
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddSignInWithApple(Boolean)
+  nameWithType: ProjectCapabilityManager.AddSignInWithApple(Boolean)
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddSignInWithApple
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 65
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void AddSignInWithApple(bool AddSignInRequire = false)
+    parameters:
+    - id: AddSignInRequire
+      type: System.Boolean
+    content.vb: Public Sub AddSignInWithApple(AddSignInRequire As Boolean = False)
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.String[])
+  id: AddiCloud(System.Boolean,System.Boolean,System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddiCloud(Boolean, Boolean, String[])
+  nameWithType: ProjectCapabilityManager.AddiCloud(Boolean, Boolean, String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean, System.Boolean, System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddiCloud
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 89
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds iCloud capability to project\n"
+  example: []
+  syntax:
+    content: public void AddiCloud(bool enableKeyValueStorage, bool enableiCloudDocument, string[] customContainers)
+    parameters:
+    - id: enableKeyValueStorage
+      type: System.Boolean
+      description: Enables key-value storage option if set to true
+    - id: enableiCloudDocument
+      type: System.Boolean
+      description: Enables iCloud document option if set to true
+    - id: customContainers
+      type: System.String[]
+      description: A list of custom containers to add
+    content.vb: Public Sub AddiCloud(enableKeyValueStorage As Boolean, enableiCloudDocument As Boolean, customContainers As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud*
+  nameWithType.vb: ProjectCapabilityManager.AddiCloud(Boolean, Boolean, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean, System.Boolean, System.String())
+  name.vb: AddiCloud(Boolean, Boolean, String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[])
+  id: AddiCloud(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddiCloud(Boolean, Boolean, Boolean, Boolean, String[])
+  nameWithType: ProjectCapabilityManager.AddiCloud(Boolean, Boolean, Boolean, Boolean, String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddiCloud
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 104
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds iCloud capability to project\n"
+  example: []
+  syntax:
+    content: public void AddiCloud(bool enableKeyValueStorage, bool enableiCloudDocument, bool enablecloudKit, bool addDefaultContainers, string[] customContainers)
+    parameters:
+    - id: enableKeyValueStorage
+      type: System.Boolean
+      description: Enables key-value storage option if set to true
+    - id: enableiCloudDocument
+      type: System.Boolean
+      description: Enables iCloud document option if set to true
+    - id: enablecloudKit
+      type: System.Boolean
+      description: Enables cloudKit option if set to true
+    - id: addDefaultContainers
+      type: System.Boolean
+      description: Default containers are added if this option is set to true
+    - id: customContainers
+      type: System.String[]
+      description: A list of custom containers to add
+    content.vb: Public Sub AddiCloud(enableKeyValueStorage As Boolean, enableiCloudDocument As Boolean, enablecloudKit As Boolean, addDefaultContainers As Boolean, customContainers As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud*
+  nameWithType.vb: ProjectCapabilityManager.AddiCloud(Boolean, Boolean, Boolean, Boolean, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String())
+  name.vb: AddiCloud(Boolean, Boolean, Boolean, Boolean, String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)
+  id: AddPushNotifications(System.Boolean)
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddPushNotifications(Boolean)
+  nameWithType: ProjectCapabilityManager.AddPushNotifications(Boolean)
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddPushNotifications
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 156
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdd Push (or remote) Notifications capability to the project\n"
+  example: []
+  syntax:
+    content: public void AddPushNotifications(bool development)
+    parameters:
+    - id: development
+      type: System.Boolean
+      description: Sets the development option if set to true
+    content.vb: Public Sub AddPushNotifications(development As Boolean)
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter
+  id: AddGameCenter
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddGameCenter()
+  nameWithType: ProjectCapabilityManager.AddGameCenter()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddGameCenter
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 165
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Game Center capability to the project\n"
+  example: []
+  syntax:
+    content: public void AddGameCenter()
+    content.vb: Public Sub AddGameCenter
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String[])
+  id: AddWallet(System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddWallet(String[])
+  nameWithType: ProjectCapabilityManager.AddWallet(String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddWallet
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 178
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds wallet capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddWallet(string[] passSubset)
+    parameters:
+    - id: passSubset
+      type: System.String[]
+      description: "Controls the allowed pass types. If null or\nempty, then all team pass types are allowed. Otherwise, only the \nspecified subset of pass types is allowed"
+    content.vb: Public Sub AddWallet(passSubset As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet*
+  nameWithType.vb: ProjectCapabilityManager.AddWallet(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet(System.String())
+  name.vb: AddWallet(String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri
+  id: AddSiri
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddSiri()
+  nameWithType: ProjectCapabilityManager.AddSiri()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddSiri
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 200
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Siri capability to project.\n"
+  example: []
+  syntax:
+    content: public void AddSiri()
+    content.vb: Public Sub AddSiri
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String[])
+  id: AddApplePay(System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddApplePay(String[])
+  nameWithType: ProjectCapabilityManager.AddApplePay(String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddApplePay
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 211
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Apple Pay capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddApplePay(string[] merchants)
+    parameters:
+    - id: merchants
+      type: System.String[]
+      description: The list of merchant IDs to configure
+    content.vb: Public Sub AddApplePay(merchants As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay*
+  nameWithType.vb: ProjectCapabilityManager.AddApplePay(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay(System.String())
+  name.vb: AddApplePay(String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase
+  id: AddInAppPurchase
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddInAppPurchase()
+  nameWithType: ProjectCapabilityManager.AddInAppPurchase()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddInAppPurchase
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 225
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds In App Purchase capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddInAppPurchase()
+    content.vb: Public Sub AddInAppPurchase
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)
+  id: AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddMaps(MapsOptions)
+  nameWithType: ProjectCapabilityManager.AddMaps(MapsOptions)
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps(UnityEditor.iOS.Xcode.Custom.MapsOptions)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddMaps
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 234
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Maps capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddMaps(MapsOptions options)
+    parameters:
+    - id: options
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+      description: The routing options to configure.
+    content.vb: Public Sub AddMaps(options As MapsOptions)
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN
+  id: AddPersonalVPN
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddPersonalVPN()
+  nameWithType: ProjectCapabilityManager.AddPersonalVPN()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddPersonalVPN
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 300
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Personal VPN capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddPersonalVPN()
+    content.vb: Public Sub AddPersonalVPN
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)
+  id: AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddBackgroundModes(BackgroundModesOptions)
+  nameWithType: ProjectCapabilityManager.AddBackgroundModes(BackgroundModesOptions)
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes(UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBackgroundModes
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 312
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Background capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddBackgroundModes(BackgroundModesOptions options)
+    parameters:
+    - id: options
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+      description: The list of background modes to configure.
+    content.vb: Public Sub AddBackgroundModes(options As BackgroundModesOptions)
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String[])
+  id: AddKeychainSharing(System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddKeychainSharing(String[])
+  nameWithType: ProjectCapabilityManager.AddKeychainSharing(String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddKeychainSharing
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 356
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Keychain Sharing capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddKeychainSharing(string[] accessGroups)
+    parameters:
+    - id: accessGroups
+      type: System.String[]
+      description: The list of keychain access groups to configure.
+    content.vb: Public Sub AddKeychainSharing(accessGroups As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing*
+  nameWithType.vb: ProjectCapabilityManager.AddKeychainSharing(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing(System.String())
+  name.vb: AddKeychainSharing(String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio
+  id: AddInterAppAudio
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddInterAppAudio()
+  nameWithType: ProjectCapabilityManager.AddInterAppAudio()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddInterAppAudio
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 377
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Inter App Audio capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddInterAppAudio()
+    content.vb: Public Sub AddInterAppAudio
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String[])
+  id: AddAssociatedDomains(System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddAssociatedDomains(String[])
+  nameWithType: ProjectCapabilityManager.AddAssociatedDomains(String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddAssociatedDomains
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 387
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Associated Domains capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddAssociatedDomains(string[] domains)
+    parameters:
+    - id: domains
+      type: System.String[]
+      description: The list of domains to configure.
+    content.vb: Public Sub AddAssociatedDomains(domains As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains*
+  nameWithType.vb: ProjectCapabilityManager.AddAssociatedDomains(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains(System.String())
+  name.vb: AddAssociatedDomains(String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String[])
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String[])
+  id: AddAppGroups(System.String[])
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddAppGroups(String[])
+  nameWithType: ProjectCapabilityManager.AddAppGroups(String[])
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddAppGroups
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 402
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds App Groups capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddAppGroups(string[] groups)
+    parameters:
+    - id: groups
+      type: System.String[]
+      description: The list of app groups to configure.
+    content.vb: Public Sub AddAppGroups(groups As String())
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups*
+  nameWithType.vb: ProjectCapabilityManager.AddAppGroups(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups(System.String())
+  name.vb: AddAppGroups(String())
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit
+  id: AddHomeKit
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddHomeKit()
+  nameWithType: ProjectCapabilityManager.AddHomeKit()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddHomeKit
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 416
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds HomeKit capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddHomeKit()
+    content.vb: Public Sub AddHomeKit
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection
+  id: AddDataProtection
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddDataProtection()
+  nameWithType: ProjectCapabilityManager.AddDataProtection()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddDataProtection
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 425
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Data Protection capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddDataProtection()
+    content.vb: Public Sub AddDataProtection
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit
+  id: AddHealthKit
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddHealthKit()
+  nameWithType: ProjectCapabilityManager.AddHealthKit()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddHealthKit
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 434
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds HealthKit capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddHealthKit()
+    content.vb: Public Sub AddHealthKit
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration
+  commentId: M:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration
+  id: AddWirelessAccessoryConfiguration
+  parent: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+  langs:
+  - csharp
+  - vb
+  name: AddWirelessAccessoryConfiguration()
+  nameWithType: ProjectCapabilityManager.AddWirelessAccessoryConfiguration()
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddWirelessAccessoryConfiguration
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 446
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds Wireless Accessory Configuration capability to the project.\n"
+  example: []
+  syntax:
+    content: public void AddWirelessAccessoryConfiguration()
+    content.vb: Public Sub AddWirelessAccessoryConfiguration
+  overload: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXProject
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXProject
+  nameWithType: PBXProject
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.#ctor
+  name: ProjectCapabilityManager
+  nameWithType: ProjectCapabilityManager.ProjectCapabilityManager
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.ProjectCapabilityManager
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile
+  name: WriteToFile
+  nameWithType: ProjectCapabilityManager.WriteToFile
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.WriteToFile
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple
+  name: AddSignInWithApple
+  nameWithType: ProjectCapabilityManager.AddSignInWithApple
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSignInWithApple
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud
+  name: AddiCloud
+  nameWithType: ProjectCapabilityManager.AddiCloud
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddiCloud
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications
+  name: AddPushNotifications
+  nameWithType: ProjectCapabilityManager.AddPushNotifications
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPushNotifications
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter
+  name: AddGameCenter
+  nameWithType: ProjectCapabilityManager.AddGameCenter
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddGameCenter
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet
+  name: AddWallet
+  nameWithType: ProjectCapabilityManager.AddWallet
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWallet
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri
+  name: AddSiri
+  nameWithType: ProjectCapabilityManager.AddSiri
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddSiri
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay
+  name: AddApplePay
+  nameWithType: ProjectCapabilityManager.AddApplePay
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddApplePay
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase
+  name: AddInAppPurchase
+  nameWithType: ProjectCapabilityManager.AddInAppPurchase
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInAppPurchase
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps
+  name: AddMaps
+  nameWithType: ProjectCapabilityManager.AddMaps
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddMaps
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.MapsOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: MapsOptions
+  nameWithType: MapsOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN
+  name: AddPersonalVPN
+  nameWithType: ProjectCapabilityManager.AddPersonalVPN
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddPersonalVPN
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes
+  name: AddBackgroundModes
+  nameWithType: ProjectCapabilityManager.AddBackgroundModes
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddBackgroundModes
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: BackgroundModesOptions
+  nameWithType: BackgroundModesOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing
+  name: AddKeychainSharing
+  nameWithType: ProjectCapabilityManager.AddKeychainSharing
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddKeychainSharing
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio
+  name: AddInterAppAudio
+  nameWithType: ProjectCapabilityManager.AddInterAppAudio
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddInterAppAudio
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains
+  name: AddAssociatedDomains
+  nameWithType: ProjectCapabilityManager.AddAssociatedDomains
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAssociatedDomains
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups
+  name: AddAppGroups
+  nameWithType: ProjectCapabilityManager.AddAppGroups
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddAppGroups
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit
+  name: AddHomeKit
+  nameWithType: ProjectCapabilityManager.AddHomeKit
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHomeKit
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection
+  name: AddDataProtection
+  nameWithType: ProjectCapabilityManager.AddDataProtection
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddDataProtection
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit
+  name: AddHealthKit
+  nameWithType: ProjectCapabilityManager.AddHealthKit
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddHealthKit
+- uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration
+  name: AddWirelessAccessoryConfiguration
+  nameWithType: ProjectCapabilityManager.AddWirelessAccessoryConfiguration
+  fullName: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager.AddWirelessAccessoryConfiguration

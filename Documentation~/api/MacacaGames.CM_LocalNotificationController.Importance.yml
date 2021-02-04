@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_LocalNotificationController.Importance
+  commentId: T:MacacaGames.CM_LocalNotificationController.Importance
+  id: CM_LocalNotificationController.Importance
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_LocalNotificationController.Importance.Default
+  - MacacaGames.CM_LocalNotificationController.Importance.High
+  - MacacaGames.CM_LocalNotificationController.Importance.Low
+  - MacacaGames.CM_LocalNotificationController.Importance.Max
+  - MacacaGames.CM_LocalNotificationController.Importance.Min
+  - MacacaGames.CM_LocalNotificationController.Importance.None
+  langs:
+  - csharp
+  - vb
+  name: CM_LocalNotificationController.Importance
+  nameWithType: CM_LocalNotificationController.Importance
+  fullName: MacacaGames.CM_LocalNotificationController.Importance
+  type: Enum
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Importance
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 136
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public enum Importance
+    content.vb: Public Enum Importance
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MacacaGames.CM_LocalNotificationController.Importance.Default
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Default
+  id: Default
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: CM_LocalNotificationController.Importance.Default
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.Default
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Default
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 139
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: Default = 3
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_LocalNotificationController.Importance.High
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.High
+  id: High
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: CM_LocalNotificationController.Importance.High
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.High
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: High
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 142
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: High = 4
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_LocalNotificationController.Importance.Low
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Low
+  id: Low
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: CM_LocalNotificationController.Importance.Low
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.Low
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Low
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 145
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: Low = 2
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_LocalNotificationController.Importance.Max
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Max
+  id: Max
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: CM_LocalNotificationController.Importance.Max
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.Max
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Max
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 148
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: Max = 5
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_LocalNotificationController.Importance.Min
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Min
+  id: Min
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: Min
+  nameWithType: CM_LocalNotificationController.Importance.Min
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.Min
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Min
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 151
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: Min = 1
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_LocalNotificationController.Importance.None
+  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.None
+  id: None
+  parent: MacacaGames.CM_LocalNotificationController.Importance
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CM_LocalNotificationController.Importance.None
+  fullName: MacacaGames.CM_LocalNotificationController.Importance.None
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_LocalNotificationController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: None
+    path: ../Plugins/CM_LocalNotificationController.cs
+    startLine: 154
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: MacacaGames.CM_LocalNotificationController.Importance
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: MacacaGames.CM_LocalNotificationController.Importance
+  commentId: T:MacacaGames.CM_LocalNotificationController.Importance
+  parent: MacacaGames
+  name: CM_LocalNotificationController.Importance
+  nameWithType: CM_LocalNotificationController.Importance
+  fullName: MacacaGames.CM_LocalNotificationController.Importance

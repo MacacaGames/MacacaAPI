@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_APIController.AndroidPermissionState
+  commentId: T:MacacaGames.CM_APIController.AndroidPermissionState
+  id: CM_APIController.AndroidPermissionState
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED
+  - MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED_NEVER_ASK
+  - MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_GRANTED
+  langs:
+  - csharp
+  - vb
+  name: CM_APIController.AndroidPermissionState
+  nameWithType: CM_APIController.AndroidPermissionState
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState
+  type: Enum
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AndroidPermissionState
+    path: ../Plugins/CM_APIController.cs
+    startLine: 137
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public enum AndroidPermissionState
+    content.vb: Public Enum AndroidPermissionState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_GRANTED
+  commentId: F:MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_GRANTED
+  id: PERMISSION_GRANTED
+  parent: MacacaGames.CM_APIController.AndroidPermissionState
+  langs:
+  - csharp
+  - vb
+  name: PERMISSION_GRANTED
+  nameWithType: CM_APIController.AndroidPermissionState.PERMISSION_GRANTED
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_GRANTED
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PERMISSION_GRANTED
+    path: ../Plugins/CM_APIController.cs
+    startLine: 139
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: PERMISSION_GRANTED = 0
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermissionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED
+  commentId: F:MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED
+  id: PERMISSION_DENIED
+  parent: MacacaGames.CM_APIController.AndroidPermissionState
+  langs:
+  - csharp
+  - vb
+  name: PERMISSION_DENIED
+  nameWithType: CM_APIController.AndroidPermissionState.PERMISSION_DENIED
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PERMISSION_DENIED
+    path: ../Plugins/CM_APIController.cs
+    startLine: 140
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: PERMISSION_DENIED = 1
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermissionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED_NEVER_ASK
+  commentId: F:MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED_NEVER_ASK
+  id: PERMISSION_DENIED_NEVER_ASK
+  parent: MacacaGames.CM_APIController.AndroidPermissionState
+  langs:
+  - csharp
+  - vb
+  name: PERMISSION_DENIED_NEVER_ASK
+  nameWithType: CM_APIController.AndroidPermissionState.PERMISSION_DENIED_NEVER_ASK
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState.PERMISSION_DENIED_NEVER_ASK
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PERMISSION_DENIED_NEVER_ASK
+    path: ../Plugins/CM_APIController.cs
+    startLine: 141
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: PERMISSION_DENIED_NEVER_ASK = 2
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermissionState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: MacacaGames.CM_APIController.AndroidPermissionState
+  commentId: T:MacacaGames.CM_APIController.AndroidPermissionState
+  parent: MacacaGames
+  name: CM_APIController.AndroidPermissionState
+  nameWithType: CM_APIController.AndroidPermissionState
+  fullName: MacacaGames.CM_APIController.AndroidPermissionState

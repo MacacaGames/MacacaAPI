@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  commentId: T:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  id: CM_APIController.ATTrackingManagerAuthorizationStatus
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusAuthorized
+  - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusDenied
+  - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusNotDetermined
+  - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusRestricted
+  langs:
+  - csharp
+  - vb
+  name: CM_APIController.ATTrackingManagerAuthorizationStatus
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  type: Enum
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ATTrackingManagerAuthorizationStatus
+    path: ../Plugins/CM_APIController.cs
+    startLine: 75
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public enum ATTrackingManagerAuthorizationStatus
+    content.vb: Public Enum ATTrackingManagerAuthorizationStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusNotDetermined
+  commentId: F:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusNotDetermined
+  id: ATTrackingManagerAuthorizationStatusNotDetermined
+  parent: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  langs:
+  - csharp
+  - vb
+  name: ATTrackingManagerAuthorizationStatusNotDetermined
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusNotDetermined
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusNotDetermined
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ATTrackingManagerAuthorizationStatusNotDetermined
+    path: ../Plugins/CM_APIController.cs
+    startLine: 77
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ATTrackingManagerAuthorizationStatusNotDetermined = 0
+    return:
+      type: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusRestricted
+  commentId: F:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusRestricted
+  id: ATTrackingManagerAuthorizationStatusRestricted
+  parent: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  langs:
+  - csharp
+  - vb
+  name: ATTrackingManagerAuthorizationStatusRestricted
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusRestricted
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusRestricted
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ATTrackingManagerAuthorizationStatusRestricted
+    path: ../Plugins/CM_APIController.cs
+    startLine: 78
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ATTrackingManagerAuthorizationStatusRestricted = 1
+    return:
+      type: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusDenied
+  commentId: F:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusDenied
+  id: ATTrackingManagerAuthorizationStatusDenied
+  parent: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  langs:
+  - csharp
+  - vb
+  name: ATTrackingManagerAuthorizationStatusDenied
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusDenied
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusDenied
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ATTrackingManagerAuthorizationStatusDenied
+    path: ../Plugins/CM_APIController.cs
+    startLine: 79
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ATTrackingManagerAuthorizationStatusDenied = 2
+    return:
+      type: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusAuthorized
+  commentId: F:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusAuthorized
+  id: ATTrackingManagerAuthorizationStatusAuthorized
+  parent: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  langs:
+  - csharp
+  - vb
+  name: ATTrackingManagerAuthorizationStatusAuthorized
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusAuthorized
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.ATTrackingManagerAuthorizationStatusAuthorized
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ATTrackingManagerAuthorizationStatusAuthorized
+    path: ../Plugins/CM_APIController.cs
+    startLine: 80
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ATTrackingManagerAuthorizationStatusAuthorized = 3
+    return:
+      type: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  commentId: T:MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+  parent: MacacaGames
+  name: CM_APIController.ATTrackingManagerAuthorizationStatus
+  nameWithType: CM_APIController.ATTrackingManagerAuthorizationStatus
+  fullName: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus

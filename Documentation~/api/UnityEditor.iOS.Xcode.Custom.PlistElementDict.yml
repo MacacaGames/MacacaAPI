@@ -1,0 +1,1126 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  id: PlistElementDict
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean(System.String,System.Boolean)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate(System.String,System.DateTime)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger(System.String,System.Int32)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal(System.String,System.Single)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+  langs:
+  - csharp
+  - vb
+  name: PlistElementDict
+  nameWithType: PlistElementDict
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PlistElementDict
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 70
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: 'public class PlistElementDict : PlistElement'
+    content.vb: >-
+      Public Class PlistElementDict
+          Inherits PlistElement
+  inheritance:
+  - System.Object
+  - UnityEditor.iOS.Xcode.Custom.PlistElement
+  inheritedMembers:
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+  - UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor
+  id: '#ctor'
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: PlistElementDict()
+  nameWithType: PlistElementDict.PlistElementDict()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.PlistElementDict()
+  type: Constructor
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: .ctor
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 72
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistElementDict()
+    content.vb: Public Sub New
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+  id: values
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: values
+  nameWithType: PlistElementDict.values
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: values
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 75
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public IDictionary<string, PlistElement> values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,UnityEditor.iOS.Xcode.Custom.PlistElement}
+    content.vb: Public ReadOnly Property values As IDictionary(Of String, PlistElement)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.values*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item(System.String)
+  commentId: P:UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item(System.String)
+  id: Item(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: PlistElementDict.Item[String]
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: this[]
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 77
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistElement this[string key] { get; set; }
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PlistElement
+    content.vb: Public Property Item(key As String) As PlistElement
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item*
+  nameWithType.vb: PlistElementDict.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item(System.String)
+  name.vb: Item(String)
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger(System.String,System.Int32)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger(System.String,System.Int32)
+  id: SetInteger(System.String,System.Int32)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: SetInteger(String, Int32)
+  nameWithType: PlistElementDict.SetInteger(String, Int32)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetInteger
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 89
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetInteger(string key, int val)
+    parameters:
+    - id: key
+      type: System.String
+    - id: val
+      type: System.Int32
+    content.vb: Public Sub SetInteger(key As String, val As Integer)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString(System.String,System.String)
+  id: SetString(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: SetString(String, String)
+  nameWithType: PlistElementDict.SetString(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetString
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 94
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetString(string key, string val)
+    parameters:
+    - id: key
+      type: System.String
+    - id: val
+      type: System.String
+    content.vb: Public Sub SetString(key As String, val As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean(System.String,System.Boolean)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean(System.String,System.Boolean)
+  id: SetBoolean(System.String,System.Boolean)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: SetBoolean(String, Boolean)
+  nameWithType: PlistElementDict.SetBoolean(String, Boolean)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean(System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetBoolean
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 99
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetBoolean(string key, bool val)
+    parameters:
+    - id: key
+      type: System.String
+    - id: val
+      type: System.Boolean
+    content.vb: Public Sub SetBoolean(key As String, val As Boolean)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate(System.String,System.DateTime)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate(System.String,System.DateTime)
+  id: SetDate(System.String,System.DateTime)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: SetDate(String, DateTime)
+  nameWithType: PlistElementDict.SetDate(String, DateTime)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate(System.String, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetDate
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 104
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetDate(string key, DateTime val)
+    parameters:
+    - id: key
+      type: System.String
+    - id: val
+      type: System.DateTime
+    content.vb: Public Sub SetDate(key As String, val As Date)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal(System.String,System.Single)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal(System.String,System.Single)
+  id: SetReal(System.String,System.Single)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: SetReal(String, Single)
+  nameWithType: PlistElementDict.SetReal(String, Single)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal(System.String, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetReal
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 109
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetReal(string key, float val)
+    parameters:
+    - id: key
+      type: System.String
+    - id: val
+      type: System.Single
+    content.vb: Public Sub SetReal(key As String, val As Single)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray(System.String)
+  id: CreateArray(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: CreateArray(String)
+  nameWithType: PlistElementDict.CreateArray(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: CreateArray
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 114
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistElementArray CreateArray(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PlistElementArray
+    content.vb: Public Function CreateArray(key As String) As PlistElementArray
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict(System.String)
+  id: CreateDict(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  langs:
+  - csharp
+  - vb
+  name: CreateDict(String)
+  nameWithType: PlistElementDict.CreateDict(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: CreateDict
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 121
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistElementDict CreateDict(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+    content.vb: Public Function CreateDict(key As String) As PlistElementDict
+  overload: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistElement
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PlistElement
+  nameWithType: PlistElement
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsString()
+  nameWithType: PlistElement.AsString()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+    name: AsString
+    nameWithType: PlistElement.AsString
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+    name: AsString
+    nameWithType: PlistElement.AsString
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsInteger()
+  nameWithType: PlistElement.AsInteger()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+    name: AsInteger
+    nameWithType: PlistElement.AsInteger
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+    name: AsInteger
+    nameWithType: PlistElement.AsInteger
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsInteger
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsBoolean()
+  nameWithType: PlistElement.AsBoolean()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+    name: AsBoolean
+    nameWithType: PlistElement.AsBoolean
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+    name: AsBoolean
+    nameWithType: PlistElement.AsBoolean
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsBoolean
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsArray()
+  nameWithType: PlistElement.AsArray()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+    name: AsArray
+    nameWithType: PlistElement.AsArray
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+    name: AsArray
+    nameWithType: PlistElement.AsArray
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsArray
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsDict()
+  nameWithType: PlistElement.AsDict()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+    name: AsDict
+    nameWithType: PlistElement.AsDict
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+    name: AsDict
+    nameWithType: PlistElement.AsDict
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDict
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsReal()
+  nameWithType: PlistElement.AsReal()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+    name: AsReal
+    nameWithType: PlistElement.AsReal
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+    name: AsReal
+    nameWithType: PlistElement.AsReal
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsReal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+  parent: UnityEditor.iOS.Xcode.Custom.PlistElement
+  name: AsDate()
+  nameWithType: PlistElement.AsDate()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate()
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+    name: AsDate
+    nameWithType: PlistElement.AsDate
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+    name: AsDate
+    nameWithType: PlistElement.AsDate
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement.AsDate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.#ctor
+  name: PlistElementDict
+  nameWithType: PlistElementDict.PlistElementDict
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.PlistElementDict
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.values*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+  name: values
+  nameWithType: PlistElementDict.values
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.values
+- uid: System.Collections.Generic.IDictionary{System.String,UnityEditor.iOS.Xcode.Custom.PlistElement}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,UnityEditor.iOS.Xcode.Custom.PlistElement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, PlistElement>
+  nameWithType: IDictionary<String, PlistElement>
+  fullName: System.Collections.Generic.IDictionary<System.String, UnityEditor.iOS.Xcode.Custom.PlistElement>
+  nameWithType.vb: IDictionary(Of String, PlistElement)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, UnityEditor.iOS.Xcode.Custom.PlistElement)
+  name.vb: IDictionary(Of String, PlistElement)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement
+    name: PlistElement
+    nameWithType: PlistElement
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement
+    name: PlistElement
+    nameWithType: PlistElement
+    fullName: UnityEditor.iOS.Xcode.Custom.PlistElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item
+  name: Item
+  nameWithType: PlistElementDict.Item
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.Item
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger
+  name: SetInteger
+  nameWithType: PlistElementDict.SetInteger
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetInteger
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString
+  name: SetString
+  nameWithType: PlistElementDict.SetString
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetString
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean
+  name: SetBoolean
+  nameWithType: PlistElementDict.SetBoolean
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetBoolean
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate
+  name: SetDate
+  nameWithType: PlistElementDict.SetDate
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal
+  name: SetReal
+  nameWithType: PlistElementDict.SetReal
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.SetReal
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray
+  name: CreateArray
+  nameWithType: PlistElementDict.CreateArray
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateArray
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementArray
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistElementArray
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PlistElementArray
+  nameWithType: PlistElementArray
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementArray
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict
+  name: CreateDict
+  nameWithType: PlistElementDict.CreateDict
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict.CreateDict
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PlistElementDict
+  nameWithType: PlistElementDict
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict

@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  id: PBXSourceTree
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Absolute
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Build
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Developer
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Group
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Sdk
+  - UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Source
+  langs:
+  - csharp
+  - vb
+  name: PBXSourceTree
+  nameWithType: PBXSourceTree
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  type: Enum
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PBXSourceTree
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 34
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public enum PBXSourceTree
+    content.vb: Public Enum PBXSourceTree
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Absolute
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Absolute
+  id: Absolute
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Absolute
+  nameWithType: PBXSourceTree.Absolute
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Absolute
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Absolute
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 36
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Absolute = 0
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Source
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Source
+  id: Source
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: PBXSourceTree.Source
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Source
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Source
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 37
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Source = 1
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Group
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Group
+  id: Group
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: PBXSourceTree.Group
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Group
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Group
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 38
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Group = 2
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Build
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Build
+  id: Build
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Build
+  nameWithType: PBXSourceTree.Build
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Build
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Build
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 40
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Build = 3
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Developer
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Developer
+  id: Developer
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Developer
+  nameWithType: PBXSourceTree.Developer
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Developer
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Developer
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 41
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Developer = 4
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Sdk
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Sdk
+  id: Sdk
+  parent: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  langs:
+  - csharp
+  - vb
+  name: Sdk
+  nameWithType: PBXSourceTree.Sdk
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree.Sdk
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Sdk
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 42
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Sdk = 5
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXSourceTree
+  nameWithType: PBXSourceTree
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree

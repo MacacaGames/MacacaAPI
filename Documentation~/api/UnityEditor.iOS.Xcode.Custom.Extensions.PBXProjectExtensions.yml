@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  id: PBXProjectExtensions
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions
+  children:
+  - UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PBXProjectExtensions
+  nameWithType: PBXProjectExtensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProjectExtensions.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PBXProjectExtensions
+    path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
+    startLine: 22
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom.Extensions
+  syntax:
+    content: public static class PBXProjectExtensions
+    content.vb: Public Module PBXProjectExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  id: AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddAppExtension(PBXProject, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddAppExtension(PBXProject, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProjectExtensions.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddAppExtension
+    path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
+    startLine: 200
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom.Extensions
+  summary: "\nCreates an app extension.\n"
+  example: []
+  syntax:
+    content: public static string AddAppExtension(this PBXProject proj, string mainTargetGuid, string name, string bundleId, string infoPlistPath)
+    parameters:
+    - id: proj
+      type: UnityEditor.iOS.Xcode.Custom.PBXProject
+      description: A project passed as this argument.
+    - id: mainTargetGuid
+      type: System.String
+      description: The GUID of the main target to link the app to.
+    - id: name
+      type: System.String
+      description: The name of the app extension.
+    - id: bundleId
+      type: System.String
+      description: >-
+        The bundle ID of the app extension. The bundle ID must be
+
+        prefixed with the parent app bundle ID.
+    - id: infoPlistPath
+      type: System.String
+      description: Path to the app extension Info.plist document.
+    return:
+      type: System.String
+      description: The GUID of the new target.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddAppExtension(proj As PBXProject, mainTargetGuid As String, name As String, bundleId As String, infoPlistPath As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  id: AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddWatchApp(PBXProject, String, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchApp(PBXProject, String, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProjectExtensions.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddWatchApp
+    path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
+    startLine: 238
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom.Extensions
+  summary: "\nCreates a watch application.\n"
+  example: []
+  syntax:
+    content: public static string AddWatchApp(this PBXProject proj, string mainTargetGuid, string watchExtensionTargetGuid, string name, string bundleId, string infoPlistPath)
+    parameters:
+    - id: proj
+      type: UnityEditor.iOS.Xcode.Custom.PBXProject
+      description: A project passed as this argument.
+    - id: mainTargetGuid
+      type: System.String
+      description: The GUID of the main target to link the watch app to.
+    - id: watchExtensionTargetGuid
+      type: System.String
+      description: The GUID of watch extension as returned by [[AddWatchExtension()]].
+    - id: name
+      type: System.String
+      description: The name of the watch app. It must the same as the name of the watch extension.
+    - id: bundleId
+      type: System.String
+      description: The bundle ID of the watch app.
+    - id: infoPlistPath
+      type: System.String
+      description: Path to the watch app Info.plist document.
+    return:
+      type: System.String
+      description: The GUID of the new target.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddWatchApp(proj As PBXProject, mainTargetGuid As String, watchExtensionTargetGuid As String, name As String, bundleId As String, infoPlistPath As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  id: AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddWatchExtension(PBXProject, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchExtension(PBXProject, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProjectExtensions.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddWatchExtension
+    path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
+    startLine: 280
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom.Extensions
+  summary: "\nCreates a watch extension.\n"
+  example: []
+  syntax:
+    content: public static string AddWatchExtension(this PBXProject proj, string mainTarget, string name, string bundleId, string infoPlistPath)
+    parameters:
+    - id: proj
+      type: UnityEditor.iOS.Xcode.Custom.PBXProject
+      description: A project passed as this argument.
+    - id: mainTarget
+      type: System.String
+      description: The GUID of the main target to link the watch extension to.
+    - id: name
+      type: System.String
+      description: The name of the watch extension.
+    - id: bundleId
+      type: System.String
+      description: >-
+        The bundle ID of the watch extension. The bundle ID must be
+
+        prefixed with the parent watch app bundle ID.
+    - id: infoPlistPath
+      type: System.String
+      description: Path to the watch extension Info.plist document.
+    return:
+      type: System.String
+      description: The GUID of the new target.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddWatchExtension(proj As PBXProject, mainTarget As String, name As String, bundleId As String, infoPlistPath As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  id: AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  isExtensionMethod: true
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddFileToEmbedFrameworks(PBXProject, String, String)
+  nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks(PBXProject, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProjectExtensions.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFileToEmbedFrameworks
+    path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
+    startLine: 402
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom.Extensions
+  summary: "\nConfigures file for embed framework section for the given native target.\n\nThis function also internally calls <pre><code>proj.AddFileToBuild(targetGuid, fileGuid)</code></pre>\nto ensure that the framework is added to the list of linked frameworks.\n\nIf the target has already configured the given file as embedded framework, this function has\nno effect.\n\nA projects containing multiple native targets, a single file or folder reference can be\nconfigured to be built in all, some or none of the targets. The file or folder reference is\nadded to appropriate build section depending on the file extension.\n"
+  example: []
+  syntax:
+    content: public static void AddFileToEmbedFrameworks(this PBXProject proj, string targetGuid, string fileGuid)
+    parameters:
+    - id: proj
+      type: UnityEditor.iOS.Xcode.Custom.PBXProject
+      description: A project passed as this argument.
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The file GUID returned by [[AddFile]] or [[AddFolderReference]].
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddFileToEmbedFrameworks(proj As PBXProject, targetGuid As String, fileGuid As String)
+  overload: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions
+  commentId: N:UnityEditor.iOS.Xcode.Custom.Extensions
+  name: UnityEditor.iOS.Xcode.Custom.Extensions
+  nameWithType: UnityEditor.iOS.Xcode.Custom.Extensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+  name: AddAppExtension
+  nameWithType: PBXProjectExtensions.AddAppExtension
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXProject
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXProject
+  nameWithType: PBXProject
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+  name: AddWatchApp
+  nameWithType: PBXProjectExtensions.AddWatchApp
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+  name: AddWatchExtension
+  nameWithType: PBXProjectExtensions.AddWatchExtension
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks
+  name: AddFileToEmbedFrameworks
+  nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks

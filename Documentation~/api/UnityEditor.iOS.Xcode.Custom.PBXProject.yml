@@ -1,0 +1,4214 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXProject
+  id: PBXProject
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType,System.String,System.Boolean)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase(System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject(System.String,System.String,System.Boolean)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget(System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream(System.IO.TextReader)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String,System.String,System.Collections.Generic.List{System.String})
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId(System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream(System.IO.TextWriter)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString
+  langs:
+  - csharp
+  - vb
+  name: PBXProject
+  nameWithType: PBXProject
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PBXProject
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 45
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public class PBXProject
+    content.vb: Public Class PBXProject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(System.String,System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(System.String,System.String,System.String,System.String)
+  - UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(System.String,System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath(System.String)
+  id: GetPBXProjectPath(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetPBXProjectPath(String)
+  nameWithType: PBXProject.GetPBXProjectPath(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetPBXProjectPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 91
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the path to PBX project in the given Unity build path. This function can only \nbe used in Unity-generated projects\n"
+  example: []
+  syntax:
+    content: public static string GetPBXProjectPath(string buildPath)
+    parameters:
+    - id: buildPath
+      type: System.String
+      description: The project build path
+    return:
+      type: System.String
+      description: The path to the PBX project file that can later be opened via ReadFromFile function
+    content.vb: Public Shared Function GetPBXProjectPath(buildPath As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName
+  id: GetUnityTargetName
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetUnityTargetName()
+  nameWithType: PBXProject.GetUnityTargetName()
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetUnityTargetName
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 102
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the default main target name in Unity project.\nThe returned target name can then be used to retrieve the GUID of the target via TargetGuidByName \nfunction. This function can only be used in Unity-generated projects.\n"
+  example: []
+  syntax:
+    content: public static string GetUnityTargetName()
+    return:
+      type: System.String
+      description: The default main target name.
+    content.vb: Public Shared Function GetUnityTargetName As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName
+  id: GetUnityTestTargetName
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetUnityTestTargetName()
+  nameWithType: PBXProject.GetUnityTestTargetName()
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetUnityTestTargetName
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 113
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the default test target name in Unity project.\nThe returned target name can then be used to retrieve the GUID of the target via TargetGuidByName \nfunction. This function can only be used in Unity-generated projects.\n"
+  example: []
+  syntax:
+    content: public static string GetUnityTestTargetName()
+    return:
+      type: System.String
+      description: The default test target name.
+    content.vb: Public Shared Function GetUnityTestTargetName As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid
+  id: ProjectGuid
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ProjectGuid()
+  nameWithType: PBXProject.ProjectGuid()
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ProjectGuid
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 124
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of the project. The project GUID identifies a project-wide native target which\nis used to set project-wide properties. This GUID can be passed to any functions that accepts \ntarget GUIDs as parameters.\n"
+  example: []
+  syntax:
+    content: public string ProjectGuid()
+    return:
+      type: System.String
+      description: The GUID of the project.
+    content.vb: Public Function ProjectGuid As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName(System.String)
+  id: TargetGuidByName(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: TargetGuidByName(String)
+  nameWithType: PBXProject.TargetGuidByName(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: TargetGuidByName
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 136
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of the native target with the given name.\nIn projects produced by Unity the main target can be retrieved via GetUnityTargetName function, \nwhereas the test target name can be retrieved by GetUnityTestTargetName function.\n"
+  example: []
+  syntax:
+    content: public string TargetGuidByName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The GUID identifying the native target.
+    return:
+      type: System.String
+      description: The name of the native target.
+    content.vb: Public Function TargetGuidByName(name As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension(System.String)
+  id: IsKnownExtension(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: IsKnownExtension(String)
+  nameWithType: PBXProject.IsKnownExtension(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: IsKnownExtension
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 149
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks if files with the given extension are known to PBXProject.\n"
+  example: []
+  syntax:
+    content: public static bool IsKnownExtension(string ext)
+    parameters:
+    - id: ext
+      type: System.String
+      description: The file extension (leading dot is not necessary, but accepted).
+    return:
+      type: System.Boolean
+      description: Returns <code>true</code> if is the extension is known, <code>false</code> otherwise.
+    content.vb: Public Shared Function IsKnownExtension(ext As String) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable(System.String)
+  id: IsBuildable(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: IsBuildable(String)
+  nameWithType: PBXProject.IsBuildable(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: IsBuildable
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 160
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks if files with the given extension are known to PBXProject.\nReturns <code>true</code> if the extension is not known by PBXProject.\n"
+  example: []
+  syntax:
+    content: public static bool IsBuildable(string ext)
+    parameters:
+    - id: ext
+      type: System.String
+      description: The file extension (leading dot is not necessary, but accepted).
+    return:
+      type: System.Boolean
+      description: Returns <code>true</code> if is the extension is known, <code>false</code> otherwise.
+    content.vb: Public Shared Function IsBuildable(ext As String) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  id: AddFile(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFile(String, String, PBXSourceTree)
+  nameWithType: PBXProject.AddFile(String, String, PBXSourceTree)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile(System.String, System.String, UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 202
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a new file reference to the list of known files.\nThe group structure is automatically created to correspond to the project path.\nTo add the file to the list of files to build, pass the returned value to [[AddFileToBuild]].\n"
+  example: []
+  syntax:
+    content: public string AddFile(string path, string projectPath, PBXSourceTree sourceTree = PBXSourceTree.Source)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path to the file on the filesystem.
+    - id: projectPath
+      type: System.String
+      description: The project path to the file.
+    - id: sourceTree
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+      description: >-
+        The source tree the path is relative to. By default it&apos;s [[PBXSourceTree.Source]].
+
+        The [[PBXSourceTree.Group]] tree is not supported.
+    return:
+      type: System.String
+      description: The GUID of the added file. It can later be used to add the file for building to targets, etc.
+    content.vb: Public Function AddFile(path As String, projectPath As String, sourceTree As PBXSourceTree = PBXSourceTree.Source) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  id: AddFolderReference(System.String,System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFolderReference(String, String, PBXSourceTree)
+  nameWithType: PBXProject.AddFolderReference(String, String, PBXSourceTree)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference(System.String, System.String, UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFolderReference
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 219
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a new folder reference to the list of known files.\nThe group structure is automatically created to correspond to the project path.\nTo add the folder reference to the list of files to build, pass the returned value to [[AddFileToBuild]].\n"
+  example: []
+  syntax:
+    content: public string AddFolderReference(string path, string projectPath, PBXSourceTree sourceTree = PBXSourceTree.Source)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path to the folder on the filesystem.
+    - id: projectPath
+      type: System.String
+      description: The project path to the folder.
+    - id: sourceTree
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+      description: >-
+        The source tree the path is relative to. By default it&apos;s [[PBXSourceTree.Source]].
+
+        The [[PBXSourceTree.Group]] tree is not supported.
+    return:
+      type: System.String
+      description: The GUID of the added folder reference. It can later be used to add the file for building to targets, etc.
+    content.vb: Public Function AddFolderReference(path As String, projectPath As String, sourceTree As PBXSourceTree = PBXSourceTree.Source) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild(System.String,System.String)
+  id: AddFileToBuild(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFileToBuild(String, String)
+  nameWithType: PBXProject.AddFileToBuild(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFileToBuild
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 250
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nConfigures file for building for the given native target.\nA projects containing multiple native targets, a single file or folder reference can be \nconfigured to be built in all, some or none of the targets. The file or folder reference is \nadded to appropriate build section depending on the file extension.\n"
+  example: []
+  syntax:
+    content: public void AddFileToBuild(string targetGuid, string fileGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The file guid returned by [[AddFile]] or [[AddFolderReference]].
+    content.vb: Public Sub AddFileToBuild(targetGuid As String, fileGuid As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags(System.String,System.String,System.String)
+  id: AddFileToBuildWithFlags(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFileToBuildWithFlags(String, String, String)
+  nameWithType: PBXProject.AddFileToBuildWithFlags(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFileToBuildWithFlags
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 265
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nConfigures file for building for the given native target with specific compiler flags.\nThe function is equivalent to [[AddFileToBuild()]] except that compile flags are specified.\nA projects containing multiple native targets, a single file or folder reference can be \nconfigured to be built in all, some or none of the targets. The file or folder reference is \nadded to appropriate build section depending on the file extension.\n"
+  example: []
+  syntax:
+    content: public void AddFileToBuildWithFlags(string targetGuid, string fileGuid, string compileFlags)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The file guid returned by [[AddFile]] or [[AddFolderReference]].
+    - id: compileFlags
+      type: System.String
+      description: Compile flags to use.
+    content.vb: Public Sub AddFileToBuildWithFlags(targetGuid As String, fileGuid As String, compileFlags As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection(System.String,System.String,System.String)
+  id: AddFileToBuildSection(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFileToBuildSection(String, String, String)
+  nameWithType: PBXProject.AddFileToBuildSection(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFileToBuildSection
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 280
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nConfigures file for building for the given native target on specific build section.\nThe function is equivalent to [[AddFileToBuild()]] except that specific build section is specified.\nA projects containing multiple native targets, a single file or folder reference can be \nconfigured to be built in all, some or none of the targets. The file or folder reference is \nadded to appropriate build section depending on the file extension.\n"
+  example: []
+  syntax:
+    content: public void AddFileToBuildSection(string targetGuid, string sectionGuid, string fileGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: sectionGuid
+      type: System.String
+      description: The GUID of the section to add the file to.
+    - id: fileGuid
+      type: System.String
+      description: The file guid returned by [[AddFile]] or [[AddFolderReference]].
+    content.vb: Public Sub AddFileToBuildSection(targetGuid As String, sectionGuid As String, fileGuid As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile(System.String,System.String)
+  id: GetCompileFlagsForFile(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetCompileFlagsForFile(String, String)
+  nameWithType: PBXProject.GetCompileFlagsForFile(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetCompileFlagsForFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 295
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns compile flags set for the specific file.\nNull is returned if the file has no configured compile flags or the file is not configured for\nbuilding on the given target.\n"
+  example: []
+  syntax:
+    content: public List<string> GetCompileFlagsForFile(string targetGuid, string fileGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file.
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: The compile flags for the specified file.
+    content.vb: Public Function GetCompileFlagsForFile(targetGuid As String, fileGuid As String) As List(Of String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String,System.String,System.Collections.Generic.List{System.String})
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String,System.String,System.Collections.Generic.List{System.String})
+  id: SetCompileFlagsForFile(System.String,System.String,System.Collections.Generic.List{System.String})
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetCompileFlagsForFile(String, String, List<String>)
+  nameWithType: PBXProject.SetCompileFlagsForFile(String, String, List<String>)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String, System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetCompileFlagsForFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 311
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nSets the compilation flags for the given file in the given target.\n"
+  example: []
+  syntax:
+    content: public void SetCompileFlagsForFile(string targetGuid, string fileGuid, List<string> compileFlags)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file.
+    - id: compileFlags
+      type: System.Collections.Generic.List{System.String}
+      description: The list of compile flags or null if the flags should be unset.
+    content.vb: Public Sub SetCompileFlagsForFile(targetGuid As String, fileGuid As String, compileFlags As List(Of String))
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile*
+  nameWithType.vb: PBXProject.SetCompileFlagsForFile(String, String, List(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile(System.String, System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: SetCompileFlagsForFile(String, String, List(Of String))
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile(System.String,System.String,System.String)
+  id: AddAssetTagForFile(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddAssetTagForFile(String, String, String)
+  nameWithType: PBXProject.AddAssetTagForFile(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddAssetTagForFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 330
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds an asset tag for the given file.\nThe asset tags identify resources that will be downloaded via On Demand Resources functionality. \nA request for specific tag will initiate download of all files, configured for that tag.\n"
+  example: []
+  syntax:
+    content: public void AddAssetTagForFile(string targetGuid, string fileGuid, string tag)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file.
+    - id: tag
+      type: System.String
+      description: The name of the asset tag.
+    content.vb: Public Sub AddAssetTagForFile(targetGuid As String, fileGuid As String, tag As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile(System.String,System.String,System.String)
+  id: RemoveAssetTagForFile(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveAssetTagForFile(String, String, String)
+  nameWithType: PBXProject.RemoveAssetTagForFile(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveAssetTagForFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 351
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves an asset tag for the given file.\nThe function does nothing if the file is not configured for building in the given target or if\nthe asset tag is not present in the list of asset tags configured for file. If the file was the\nlast file referring to the given tag across the Xcode project, then the tag is removed from the\nlist of known tags.\n"
+  example: []
+  syntax:
+    content: public void RemoveAssetTagForFile(string targetGuid, string fileGuid, string tag)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file.
+    - id: tag
+      type: System.String
+      description: The name of the asset tag.
+    content.vb: Public Sub RemoveAssetTagForFile(targetGuid As String, fileGuid As String, tag As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall(System.String,System.String)
+  id: AddAssetTagToDefaultInstall(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddAssetTagToDefaultInstall(String, String)
+  nameWithType: PBXProject.AddAssetTagToDefaultInstall(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddAssetTagToDefaultInstall
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 372
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds the asset tag to the list of tags to download during initial installation.\nThe function does nothing if there are no files that use the given asset tag across the project.\n"
+  example: []
+  syntax:
+    content: public void AddAssetTagToDefaultInstall(string targetGuid, string tag)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: tag
+      type: System.String
+      description: The name of the asset tag.
+    content.vb: Public Sub AddAssetTagToDefaultInstall(targetGuid As String, tag As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall(System.String,System.String)
+  id: RemoveAssetTagFromDefaultInstall(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveAssetTagFromDefaultInstall(String, String)
+  nameWithType: PBXProject.RemoveAssetTagFromDefaultInstall(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveAssetTagFromDefaultInstall
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 386
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves the asset tag from the list of tags to download during initial installation.\nThe function does nothing if the tag is not already configured for downloading during \ninitial installation.\n"
+  example: []
+  syntax:
+    content: public void RemoveAssetTagFromDefaultInstall(string targetGuid, string tag)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: tag
+      type: System.String
+      description: The name of the asset tag.
+    content.vb: Public Sub RemoveAssetTagFromDefaultInstall(targetGuid As String, tag As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag(System.String)
+  id: RemoveAssetTag(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveAssetTag(String)
+  nameWithType: PBXProject.RemoveAssetTag(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveAssetTag
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 398
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves an asset tag.\nRemoves the given asset tag from the list of configured asset tags for all files on all targets,\nthe list of asset tags configured for initial installation and the list of known asset tags in \nthe Xcode project.\n"
+  example: []
+  syntax:
+    content: public void RemoveAssetTag(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The name of the asset tag.
+    content.vb: Public Sub RemoveAssetTag(tag As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String)
+  id: ContainsFileByRealPath(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ContainsFileByRealPath(String)
+  nameWithType: PBXProject.ContainsFileByRealPath(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ContainsFileByRealPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 413
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks if the project contains a file with the given physical path.\nThe search is performed across all absolute source trees.\n"
+  example: []
+  syntax:
+    content: public bool ContainsFileByRealPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path of the file.
+    return:
+      type: System.Boolean
+      description: Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.
+    content.vb: Public Function ContainsFileByRealPath(path As String) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  id: ContainsFileByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ContainsFileByRealPath(String, PBXSourceTree)
+  nameWithType: PBXProject.ContainsFileByRealPath(String, PBXSourceTree)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath(System.String, UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ContainsFileByRealPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 424
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks if the project contains a file with the given physical path.\n"
+  example: []
+  syntax:
+    content: public bool ContainsFileByRealPath(string path, PBXSourceTree sourceTree)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path of the file.
+    - id: sourceTree
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+      description: The source tree path is relative to. The [[PBXSourceTree.Group]] tree is not supported.
+    return:
+      type: System.Boolean
+      description: Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.
+    content.vb: Public Function ContainsFileByRealPath(path As String, sourceTree As PBXSourceTree) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath(System.String)
+  id: ContainsFileByProjectPath(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ContainsFileByProjectPath(String)
+  nameWithType: PBXProject.ContainsFileByProjectPath(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ContainsFileByProjectPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 436
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks if the project contains a file with the given project path.\n"
+  example: []
+  syntax:
+    content: public bool ContainsFileByProjectPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The project path of the file.
+    return:
+      type: System.Boolean
+      description: Returns <code>true</code> if the project contains the file, <code>false</code> otherwise.
+    content.vb: Public Function ContainsFileByProjectPath(path As String) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework(System.String,System.String)
+  id: ContainsFramework(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ContainsFramework(String, String)
+  nameWithType: PBXProject.ContainsFramework(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ContainsFramework
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 449
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nChecks whether the given system framework is a dependency of a target.\nThe function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree.\n"
+  example: []
+  syntax:
+    content: public bool ContainsFramework(string targetGuid, string framework)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: framework
+      type: System.String
+      description: The name of the framework. The extension of the filename must be &quot;.framework&quot;.
+    return:
+      type: System.Boolean
+      description: >-
+        Returns <code>true</code> if the given framework is a dependency of the given target,
+
+        <code>false</code> otherwise.
+    content.vb: Public Function ContainsFramework(targetGuid As String, framework As String) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject(System.String,System.String,System.Boolean)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject(System.String,System.String,System.Boolean)
+  id: AddFrameworkToProject(System.String,System.String,System.Boolean)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFrameworkToProject(String, String, Boolean)
+  nameWithType: PBXProject.AddFrameworkToProject(String, String, Boolean)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFrameworkToProject
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 468
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a system framework dependency for the specified target.\nThe function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree. \nThe framework is added to Frameworks logical folder in the project.\n"
+  example: []
+  syntax:
+    content: public void AddFrameworkToProject(string targetGuid, string framework, bool weak)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: framework
+      type: System.String
+      description: The name of the framework. The extension of the filename must be &quot;.framework&quot;.
+    - id: weak
+      type: System.Boolean
+      description: "<code>true</code> if the framework is optional (i.e. weakly linked) required, \n<code>false</code> if the framework is required."
+    content.vb: Public Sub AddFrameworkToProject(targetGuid As String, framework As String, weak As Boolean)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject(System.String,System.String)
+  id: RemoveFrameworkFromProject(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveFrameworkFromProject(String, String)
+  nameWithType: PBXProject.RemoveFrameworkFromProject(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveFrameworkFromProject
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 480
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves a system framework dependency for the specified target.\nThe function assumes system frameworks are located in System/Library/Frameworks folder in the SDK source tree.\n"
+  example: []
+  syntax:
+    content: public void RemoveFrameworkFromProject(string targetGuid, string framework)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: framework
+      type: System.String
+      description: The name of the framework. The extension of the filename must be &quot;.framework&quot;.
+    content.vb: Public Sub RemoveFrameworkFromProject(targetGuid As String, framework As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType,System.String,System.Boolean)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType,System.String,System.Boolean)
+  id: AddCapability(System.String,UnityEditor.iOS.Xcode.Custom.PBXCapabilityType,System.String,System.Boolean)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddCapability(String, PBXCapabilityType, String, Boolean)
+  nameWithType: PBXProject.AddCapability(String, PBXCapabilityType, String, Boolean)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability(System.String, UnityEditor.iOS.Xcode.Custom.PBXCapabilityType, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddCapability
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 490
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public bool AddCapability(string targetGuid, PBXCapabilityType capability, string entitlementsFilePath = null, bool addOptionalFramework = false)
+    parameters:
+    - id: targetGuid
+      type: System.String
+    - id: capability
+      type: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    - id: entitlementsFilePath
+      type: System.String
+    - id: addOptionalFramework
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Function AddCapability(targetGuid As String, capability As PBXCapabilityType, entitlementsFilePath As String = Nothing, addOptionalFramework As Boolean = False) As Boolean
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId(System.String,System.String)
+  id: SetTeamId(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetTeamId(String, String)
+  nameWithType: PBXProject.SetTeamId(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetTeamId
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 534
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetTeamId(string targetGuid, string teamId)
+    parameters:
+    - id: targetGuid
+      type: System.String
+    - id: teamId
+      type: System.String
+    content.vb: Public Sub SetTeamId(targetGuid As String, teamId As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  id: FindFileGuidByRealPath(System.String,UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: FindFileGuidByRealPath(String, PBXSourceTree)
+  nameWithType: PBXProject.FindFileGuidByRealPath(String, PBXSourceTree)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String, UnityEditor.iOS.Xcode.Custom.PBXSourceTree)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: FindFileGuidByRealPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 546
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nFinds a file with the given physical path in the project, if any.\n"
+  example: []
+  syntax:
+    content: public string FindFileGuidByRealPath(string path, PBXSourceTree sourceTree)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path of the file.
+    - id: sourceTree
+      type: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+      description: The source tree path is relative to. The [[PBXSourceTree.Group]] tree is not supported.
+    return:
+      type: System.String
+      description: The GUID of the file if the search succeeded, null otherwise.
+    content.vb: Public Function FindFileGuidByRealPath(path As String, sourceTree As PBXSourceTree) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String)
+  id: FindFileGuidByRealPath(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: FindFileGuidByRealPath(String)
+  nameWithType: PBXProject.FindFileGuidByRealPath(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: FindFileGuidByRealPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 563
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nFinds a file with the given physical path in the project, if any.\nThe search is performed across all absolute source trees.\n"
+  example: []
+  syntax:
+    content: public string FindFileGuidByRealPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The physical path of the file.
+    return:
+      type: System.String
+      description: The GUID of the file if the search succeeded, null otherwise.
+    content.vb: Public Function FindFileGuidByRealPath(path As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath(System.String)
+  id: FindFileGuidByProjectPath(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: FindFileGuidByProjectPath(String)
+  nameWithType: PBXProject.FindFileGuidByProjectPath(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: FindFileGuidByProjectPath
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 581
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nFinds a file with the given project path in the project, if any.\n"
+  example: []
+  syntax:
+    content: public string FindFileGuidByProjectPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The project path of the file.
+    return:
+      type: System.String
+      description: The GUID of the file if the search succeeded, null otherwise.
+    content.vb: Public Function FindFileGuidByProjectPath(path As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild(System.String,System.String)
+  id: RemoveFileFromBuild(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveFileFromBuild(String, String)
+  nameWithType: PBXProject.RemoveFileFromBuild(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveFileFromBuild
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 595
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves given file from the list of files to build for the given target.\n"
+  example: []
+  syntax:
+    content: public void RemoveFileFromBuild(string targetGuid, string fileGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file or folder reference.
+    content.vb: Public Sub RemoveFileFromBuild(targetGuid As String, fileGuid As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile(System.String)
+  id: RemoveFile(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveFile(String)
+  nameWithType: PBXProject.RemoveFile(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 622
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves the given file from project.\nThe file is removed from the list of files to build for each native target and also removed \nfrom the list of known files.\n"
+  example: []
+  syntax:
+    content: public void RemoveFile(string fileGuid)
+    parameters:
+    - id: fileGuid
+      type: System.String
+      description: The GUID of the file or folder reference.
+    content.vb: Public Sub RemoveFile(fileGuid As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget(System.String,System.String,System.String)
+  id: AddTarget(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddTarget(String, String, String)
+  nameWithType: PBXProject.AddTarget(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddTarget
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 798
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new native target.\nTarget-specific build configurations are automatically created for each known build configuration name.\nNote, that this is a requirement that follows from the structure of Xcode projects, not an implementation\ndetail of this function. The function creates a product file reference in the &quot;Products&quot; project folder \nwhich refers to the target artifact that is built via this target.\n"
+  example: []
+  syntax:
+    content: public string AddTarget(string name, string ext, string type)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the new target.
+    - id: ext
+      type: System.String
+      description: The file extension of the target artifact (leading dot is not necessary, but accepted).
+    - id: type
+      type: System.String
+      description: >-
+        The type of the target. For example:
+
+        &quot;com.apple.product-type.app-extension&quot; - App extension,
+
+        &quot;com.apple.product-type.application.watchapp2&quot; - WatchKit 2 application
+    return:
+      type: System.String
+      description: The GUID of the new target.
+    content.vb: Public Function AddTarget(name As String, ext As String, type As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef(System.String)
+  id: GetTargetProductFileRef(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetTargetProductFileRef(String)
+  nameWithType: PBXProject.GetTargetProductFileRef(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetTargetProductFileRef
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 831
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the file reference of the artifact created by building target.\n"
+  example: []
+  syntax:
+    content: public string GetTargetProductFileRef(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: The file reference of the artifact created by building target.
+    content.vb: Public Function GetTargetProductFileRef(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName(System.String,System.String)
+  id: BuildConfigByName(System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: BuildConfigByName(String, String)
+  nameWithType: PBXProject.BuildConfigByName(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BuildConfigByName
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 885
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of build configuration with the given name for the specific target.\nNull is returned if such configuration does not exist.\n"
+  example: []
+  syntax:
+    content: public string BuildConfigByName(string targetGuid, string name)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build configuration.
+    return:
+      type: System.String
+      description: The GUID of the build configuration or null if it does not exist.
+    content.vb: Public Function BuildConfigByName(targetGuid As String, name As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames
+  id: BuildConfigNames
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: BuildConfigNames()
+  nameWithType: PBXProject.BuildConfigNames()
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BuildConfigNames
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 904
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the names of the build configurations available in the project.\nThe number and names of the build configurations is a project-wide setting. Each target has the\nsame number of build configurations and the names of these build configurations is the same.\nIn other words, [[BuildConfigByName()]] will succeed for all targets in the project and all\nbuild configuration names returned by this function.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<string> BuildConfigNames()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: An array of build config names.
+    content.vb: Public Function BuildConfigNames As IEnumerable(Of String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig(System.String)
+  id: AddBuildConfig(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddBuildConfig(String)
+  nameWithType: PBXProject.AddBuildConfig(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBuildConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 923
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new set of build configurations for all targets in the project.\nThe number and names of the build configurations is a project-wide setting. Each target has the\nsame number of build configurations and the names of these build configurations is the same.\nThe created configurations are initially empty. Care must be taken to fill them with reasonable \ndefaults.\nThe function throws an exception if a build configuration with the given name already exists.\n"
+  example: []
+  syntax:
+    content: public void AddBuildConfig(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the build configuration.
+    content.vb: Public Sub AddBuildConfig(name As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig(System.String)
+  id: RemoveBuildConfig(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveBuildConfig(String)
+  nameWithType: PBXProject.RemoveBuildConfig(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoveBuildConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 936
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nRemoves all build configurations with the given name from all targets in the project.\nThe number and names of the build configurations is a project-wide setting. Each target has the\nsame number of build configurations and the names of these build configurations is the same.\nThe function does nothing if the build configuration with the specified name does not exist.\n"
+  example: []
+  syntax:
+    content: public void RemoveBuildConfig(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the build configuration.
+    content.vb: Public Sub RemoveBuildConfig(name As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget(System.String)
+  id: GetSourcesBuildPhaseByTarget(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetSourcesBuildPhaseByTarget(String)
+  nameWithType: PBXProject.GetSourcesBuildPhaseByTarget(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetSourcesBuildPhaseByTarget
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 947
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of sources build phase for the given target.\n"
+  example: []
+  syntax:
+    content: public string GetSourcesBuildPhaseByTarget(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the existing phase or null if it does not exist.
+    content.vb: Public Function GetSourcesBuildPhaseByTarget(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase(System.String)
+  id: AddSourcesBuildPhase(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddSourcesBuildPhase(String)
+  nameWithType: PBXProject.AddSourcesBuildPhase(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddSourcesBuildPhase
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 967
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new sources build phase for given target.\nIf the target already has sources build phase configured for it, the function returns the\nexisting phase. The new phase is placed at the end of the list of build phases configured \nfor the target.\n"
+  example: []
+  syntax:
+    content: public string AddSourcesBuildPhase(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the new phase.
+    content.vb: Public Function AddSourcesBuildPhase(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget(System.String)
+  id: GetResourcesBuildPhaseByTarget(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetResourcesBuildPhaseByTarget(String)
+  nameWithType: PBXProject.GetResourcesBuildPhaseByTarget(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetResourcesBuildPhaseByTarget
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 984
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of resources build phase for the given target.\n"
+  example: []
+  syntax:
+    content: public string GetResourcesBuildPhaseByTarget(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the existing phase or null if it does not exist.
+    content.vb: Public Function GetResourcesBuildPhaseByTarget(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase(System.String)
+  id: AddResourcesBuildPhase(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddResourcesBuildPhase(String)
+  nameWithType: PBXProject.AddResourcesBuildPhase(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddResourcesBuildPhase
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1004
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new resources build phase for given target.\nIf the target already has resources build phase configured for it, the function returns the\nexisting phase. The new phase is placed at the end of the list of build phases configured \nfor the target.\n"
+  example: []
+  syntax:
+    content: public string AddResourcesBuildPhase(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the new phase.
+    content.vb: Public Function AddResourcesBuildPhase(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget(System.String)
+  id: GetFrameworksBuildPhaseByTarget(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetFrameworksBuildPhaseByTarget(String)
+  nameWithType: PBXProject.GetFrameworksBuildPhaseByTarget(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetFrameworksBuildPhaseByTarget
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1021
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of frameworks build phase for the given target.\n"
+  example: []
+  syntax:
+    content: public string GetFrameworksBuildPhaseByTarget(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the existing phase or null if it does not exist.
+    content.vb: Public Function GetFrameworksBuildPhaseByTarget(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase(System.String)
+  id: AddFrameworksBuildPhase(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddFrameworksBuildPhase(String)
+  nameWithType: PBXProject.AddFrameworksBuildPhase(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddFrameworksBuildPhase
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1041
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new frameworks build phase for given target.\nIf the target already has frameworks build phase configured for it, the function returns the\nexisting phase. The new phase is placed at the end of the list of build phases configured \nfor the target.\n"
+  example: []
+  syntax:
+    content: public string AddFrameworksBuildPhase(string targetGuid)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    return:
+      type: System.String
+      description: Returns the GUID of the new phase.
+    content.vb: Public Function AddFrameworksBuildPhase(targetGuid As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget(System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget(System.String,System.String,System.String,System.String)
+  id: GetCopyFilesBuildPhaseByTarget(System.String,System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: GetCopyFilesBuildPhaseByTarget(String, String, String, String)
+  nameWithType: PBXProject.GetCopyFilesBuildPhaseByTarget(String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GetCopyFilesBuildPhaseByTarget
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1066
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nReturns the GUID of matching copy files build phase for the given target.\nThe parameters of existing copy files build phase are matched to the arguments of this\nfunction and the GUID of the phase is returned only if a matching build phase is found.\n"
+  example: []
+  syntax:
+    content: public string GetCopyFilesBuildPhaseByTarget(string targetGuid, string name, string dstPath, string subfolderSpec)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the phase.
+    - id: dstPath
+      type: System.String
+      description: The destination path.
+    - id: subfolderSpec
+      type: System.String
+      description: >-
+        The &quot;subfolder spec&quot;. The following usages are known:
+
+        &quot;10&quot; for embedding frameworks;
+
+        &quot;13&quot; for embedding app extension content;
+
+        &quot;16&quot; for embedding watch content
+    return:
+      type: System.String
+      description: Returns the GUID of the matching phase or null if it does not exist.
+    content.vb: Public Function GetCopyFilesBuildPhaseByTarget(targetGuid As String, name As String, dstPath As String, subfolderSpec As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase(System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase(System.String,System.String,System.String,System.String)
+  id: AddCopyFilesBuildPhase(System.String,System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddCopyFilesBuildPhase(String, String, String, String)
+  nameWithType: PBXProject.AddCopyFilesBuildPhase(String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddCopyFilesBuildPhase
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1099
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nCreates a new copy files build phase for given target.\nIf the target already has copy files build phase with the same name, dstPath and subfolderSpec \nconfigured for it, the function returns the existing phase. \nThe new phase is placed at the end of the list of build phases configured for the target.\n"
+  example: []
+  syntax:
+    content: public string AddCopyFilesBuildPhase(string targetGuid, string name, string dstPath, string subfolderSpec)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the phase.
+    - id: dstPath
+      type: System.String
+      description: The destination path.
+    - id: subfolderSpec
+      type: System.String
+      description: >-
+        The &quot;subfolder spec&quot;. The following usages are known:
+
+        &quot;10&quot; for embedding frameworks;
+
+        &quot;13&quot; for embedding app extension content;
+
+        &quot;16&quot; for embedding watch content
+    return:
+      type: System.String
+      description: Returns the GUID of the new phase.
+    content.vb: Public Function AddCopyFilesBuildPhase(targetGuid As String, name As String, dstPath As String, subfolderSpec As String) As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.String,System.String,System.String)
+  id: AddBuildProperty(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddBuildProperty(String, String, String)
+  nameWithType: PBXProject.AddBuildProperty(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1145
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list in all build configurations for the specified target.\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void AddBuildProperty(string targetGuid, string name, string value)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub AddBuildProperty(targetGuid As String, name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  id: AddBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddBuildProperty(IEnumerable<String>, String, String)
+  nameWithType: PBXProject.AddBuildProperty(IEnumerable<String>, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable<System.String>, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1159
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list in all build configurations for the specified targets.\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void AddBuildProperty(IEnumerable<string> targetGuids, string name, string value)
+    parameters:
+    - id: targetGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The GUIDs of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub AddBuildProperty(targetGuids As IEnumerable(Of String), name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty*
+  nameWithType.vb: PBXProject.AddBuildProperty(IEnumerable(Of String), String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String)
+  name.vb: AddBuildProperty(IEnumerable(Of String), String, String)
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.String,System.String,System.String)
+  id: AddBuildPropertyForConfig(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddBuildPropertyForConfig(String, String, String)
+  nameWithType: PBXProject.AddBuildPropertyForConfig(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1173
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list of the given build configuration\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void AddBuildPropertyForConfig(string configGuid, string name, string value)
+    parameters:
+    - id: configGuid
+      type: System.String
+      description: The GUID of the build configuration as returned by [[BuildConfigByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub AddBuildPropertyForConfig(configGuid As String, name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  id: AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: AddBuildPropertyForConfig(IEnumerable<String>, String, String)
+  nameWithType: PBXProject.AddBuildPropertyForConfig(IEnumerable<String>, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable<System.String>, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AddBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1186
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list of the given build configurations\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void AddBuildPropertyForConfig(IEnumerable<string> configGuids, string name, string value)
+    parameters:
+    - id: configGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The GUIDs of the build configurations as returned by [[BuildConfigByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub AddBuildPropertyForConfig(configGuids As IEnumerable(Of String), name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig*
+  nameWithType.vb: PBXProject.AddBuildPropertyForConfig(IEnumerable(Of String), String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String)
+  name.vb: AddBuildPropertyForConfig(IEnumerable(Of String), String, String)
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.String,System.String,System.String)
+  id: SetBuildProperty(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildProperty(String, String, String)
+  nameWithType: PBXProject.SetBuildProperty(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1200
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list in all build configurations for the specified target.\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void SetBuildProperty(string targetGuid, string name, string value)
+    parameters:
+    - id: targetGuid
+      type: System.String
+      description: The GUID of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub SetBuildProperty(targetGuid As String, name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  id: SetBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildProperty(IEnumerable<String>, String, String)
+  nameWithType: PBXProject.SetBuildProperty(IEnumerable<String>, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable<System.String>, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1214
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  summary: "\nAdds a value to build property list in all build configurations for the specified targets.\nDuplicate build properties are ignored. Values for names &quot;LIBRARY_SEARCH_PATHS&quot; and \n&quot;FRAMEWORK_SEARCH_PATHS&quot; are quoted if they contain spaces.\n"
+  example: []
+  syntax:
+    content: public void SetBuildProperty(IEnumerable<string> targetGuids, string name, string value)
+    parameters:
+    - id: targetGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The GUIDs of the target as returned by [[TargetGuidByName()]].
+    - id: name
+      type: System.String
+      description: The name of the build property.
+    - id: value
+      type: System.String
+      description: The value of the build property.
+    content.vb: Public Sub SetBuildProperty(targetGuids As IEnumerable(Of String), name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty*
+  nameWithType.vb: PBXProject.SetBuildProperty(IEnumerable(Of String), String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String)
+  name.vb: SetBuildProperty(IEnumerable(Of String), String, String)
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.String,System.String,System.String)
+  id: SetBuildPropertyForConfig(System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildPropertyForConfig(String, String, String)
+  nameWithType: PBXProject.SetBuildPropertyForConfig(String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1219
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetBuildPropertyForConfig(string configGuid, string name, string value)
+    parameters:
+    - id: configGuid
+      type: System.String
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetBuildPropertyForConfig(configGuid As String, name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  id: SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildPropertyForConfig(IEnumerable<String>, String, String)
+  nameWithType: PBXProject.SetBuildPropertyForConfig(IEnumerable<String>, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable<System.String>, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SetBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1223
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void SetBuildPropertyForConfig(IEnumerable<string> configGuids, string name, string value)
+    parameters:
+    - id: configGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetBuildPropertyForConfig(configGuids As IEnumerable(Of String), name As String, value As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig*
+  nameWithType.vb: PBXProject.SetBuildPropertyForConfig(IEnumerable(Of String), String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String)
+  name.vb: SetBuildPropertyForConfig(IEnumerable(Of String), String, String)
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: UpdateBuildProperty(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuildProperty(String, String, IEnumerable<String>, IEnumerable<String>)
+  nameWithType: PBXProject.UpdateBuildProperty(String, String, IEnumerable<String>, IEnumerable<String>)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: UpdateBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1271
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  example: []
+  syntax:
+    content: public void UpdateBuildProperty(string targetGuid, string name, IEnumerable<string> addValues, IEnumerable<string> removeValues)
+    parameters:
+    - id: targetGuid
+      type: System.String
+    - id: name
+      type: System.String
+    - id: addValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: removeValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub UpdateBuildProperty(targetGuid As String, name As String, addValues As IEnumerable(Of String), removeValues As IEnumerable(Of String))
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty*
+  nameWithType.vb: PBXProject.UpdateBuildProperty(String, String, IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: UpdateBuildProperty(String, String, IEnumerable(Of String), IEnumerable(Of String))
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: UpdateBuildProperty(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuildProperty(IEnumerable<String>, String, IEnumerable<String>, IEnumerable<String>)
+  nameWithType: PBXProject.UpdateBuildProperty(IEnumerable<String>, String, IEnumerable<String>, IEnumerable<String>)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: UpdateBuildProperty
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1277
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void UpdateBuildProperty(IEnumerable<string> targetGuids, string name, IEnumerable<string> addValues, IEnumerable<string> removeValues)
+    parameters:
+    - id: targetGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: name
+      type: System.String
+    - id: addValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: removeValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub UpdateBuildProperty(targetGuids As IEnumerable(Of String), name As String, addValues As IEnumerable(Of String), removeValues As IEnumerable(Of String))
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty*
+  nameWithType.vb: PBXProject.UpdateBuildProperty(IEnumerable(Of String), String, IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: UpdateBuildProperty(IEnumerable(Of String), String, IEnumerable(Of String), IEnumerable(Of String))
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: UpdateBuildPropertyForConfig(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuildPropertyForConfig(String, String, IEnumerable<String>, IEnumerable<String>)
+  nameWithType: PBXProject.UpdateBuildPropertyForConfig(String, String, IEnumerable<String>, IEnumerable<String>)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: UpdateBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1283
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void UpdateBuildPropertyForConfig(string configGuid, string name, IEnumerable<string> addValues, IEnumerable<string> removeValues)
+    parameters:
+    - id: configGuid
+      type: System.String
+    - id: name
+      type: System.String
+    - id: addValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: removeValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub UpdateBuildPropertyForConfig(configGuid As String, name As String, addValues As IEnumerable(Of String), removeValues As IEnumerable(Of String))
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig*
+  nameWithType.vb: PBXProject.UpdateBuildPropertyForConfig(String, String, IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: UpdateBuildPropertyForConfig(String, String, IEnumerable(Of String), IEnumerable(Of String))
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuildPropertyForConfig(IEnumerable<String>, String, IEnumerable<String>, IEnumerable<String>)
+  nameWithType: PBXProject.UpdateBuildPropertyForConfig(IEnumerable<String>, String, IEnumerable<String>, IEnumerable<String>)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable<System.String>, System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: UpdateBuildPropertyForConfig
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1297
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void UpdateBuildPropertyForConfig(IEnumerable<string> configGuids, string name, IEnumerable<string> addValues, IEnumerable<string> removeValues)
+    parameters:
+    - id: configGuids
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: name
+      type: System.String
+    - id: addValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: removeValues
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub UpdateBuildPropertyForConfig(configGuids As IEnumerable(Of String), name As String, addValues As IEnumerable(Of String), removeValues As IEnumerable(Of String))
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig*
+  nameWithType.vb: PBXProject.UpdateBuildPropertyForConfig(IEnumerable(Of String), String, IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig(System.Collections.Generic.IEnumerable(Of System.String), System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: UpdateBuildPropertyForConfig(IEnumerable(Of String), String, IEnumerable(Of String), IEnumerable(Of String))
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile(System.String)
+  id: ReadFromFile(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ReadFromFile(String)
+  nameWithType: PBXProject.ReadFromFile(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1334
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub ReadFromFile(path As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString(System.String)
+  id: ReadFromString(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ReadFromString(String)
+  nameWithType: PBXProject.ReadFromString(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromString
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1339
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromString(string src)
+    parameters:
+    - id: src
+      type: System.String
+    content.vb: Public Sub ReadFromString(src As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream(System.IO.TextReader)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream(System.IO.TextReader)
+  id: ReadFromStream(System.IO.TextReader)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: ReadFromStream(TextReader)
+  nameWithType: PBXProject.ReadFromStream(TextReader)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromStream
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1345
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromStream(TextReader sr)
+    parameters:
+    - id: sr
+      type: System.IO.TextReader
+    content.vb: Public Sub ReadFromStream(sr As TextReader)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile(System.String)
+  id: WriteToFile(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: WriteToFile(String)
+  nameWithType: PBXProject.WriteToFile(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToFile
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1350
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void WriteToFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub WriteToFile(path As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream(System.IO.TextWriter)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream(System.IO.TextWriter)
+  id: WriteToStream(System.IO.TextWriter)
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: WriteToStream(TextWriter)
+  nameWithType: PBXProject.WriteToStream(TextWriter)
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream(System.IO.TextWriter)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToStream
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1355
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void WriteToStream(TextWriter sw)
+    parameters:
+    - id: sw
+      type: System.IO.TextWriter
+    content.vb: Public Sub WriteToStream(sw As TextWriter)
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString
+  id: WriteToString
+  parent: UnityEditor.iOS.Xcode.Custom.PBXProject
+  langs:
+  - csharp
+  - vb
+  name: WriteToString()
+  nameWithType: PBXProject.WriteToString()
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PBXProject.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToString
+    path: ../Editor/XcodeEditor/PBXProject.cs
+    startLine: 1360
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string WriteToString()
+    return:
+      type: System.String
+    content.vb: Public Function WriteToString As String
+  overload: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  definition: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  name: AddAppExtension(String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddAppExtension(String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(System.String,System.String,System.String,System.String)
+    name: AddAppExtension
+    nameWithType: PBXProjectExtensions.AddAppExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(System.String,System.String,System.String,System.String)
+    name: AddAppExtension
+    nameWithType: PBXProjectExtensions.AddAppExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  definition: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  name: AddWatchApp(String, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchApp(String, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(System.String, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(System.String,System.String,System.String,System.String,System.String)
+    name: AddWatchApp
+    nameWithType: PBXProjectExtensions.AddWatchApp
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(System.String,System.String,System.String,System.String,System.String)
+    name: AddWatchApp
+    nameWithType: PBXProjectExtensions.AddWatchApp
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  definition: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  name: AddWatchExtension(String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchExtension(String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(System.String,System.String,System.String,System.String)
+    name: AddWatchExtension
+    nameWithType: PBXProjectExtensions.AddWatchExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(System.String,System.String,System.String,System.String)
+    name: AddWatchExtension
+    nameWithType: PBXProjectExtensions.AddWatchExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  definition: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  name: AddFileToEmbedFrameworks(String, String)
+  nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks(String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(System.String,System.String)
+    name: AddFileToEmbedFrameworks
+    nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(System.String,System.String)
+    name: AddFileToEmbedFrameworks
+    nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  isExternal: true
+  name: AddAppExtension(PBXProject, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddAppExtension(PBXProject, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+    name: AddAppExtension
+    nameWithType: PBXProjectExtensions.AddAppExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+    name: AddAppExtension
+    nameWithType: PBXProjectExtensions.AddAppExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddAppExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+  parent: UnityEditor.iOS.Xcode.Custom.Extensions
+  name: PBXProjectExtensions
+  nameWithType: PBXProjectExtensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+  isExternal: true
+  name: AddWatchApp(PBXProject, String, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchApp(PBXProject, String, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+    name: AddWatchApp
+    nameWithType: PBXProjectExtensions.AddWatchApp
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String,System.String)
+    name: AddWatchApp
+    nameWithType: PBXProjectExtensions.AddWatchApp
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchApp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+  isExternal: true
+  name: AddWatchExtension(PBXProject, String, String, String, String)
+  nameWithType: PBXProjectExtensions.AddWatchExtension(PBXProject, String, String, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+    name: AddWatchExtension
+    nameWithType: PBXProjectExtensions.AddWatchExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String,System.String,System.String)
+    name: AddWatchExtension
+    nameWithType: PBXProjectExtensions.AddWatchExtension
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddWatchExtension
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+  isExternal: true
+  name: AddFileToEmbedFrameworks(PBXProject, String, String)
+  nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks(PBXProject, String, String)
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject, System.String, System.String)
+  spec.csharp:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+    name: AddFileToEmbedFrameworks
+    nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks(UnityEditor.iOS.Xcode.Custom.PBXProject,System.String,System.String)
+    name: AddFileToEmbedFrameworks
+    nameWithType: PBXProjectExtensions.AddFileToEmbedFrameworks
+    fullName: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions.AddFileToEmbedFrameworks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+    nameWithType: PBXProject
+    fullName: UnityEditor.iOS.Xcode.Custom.PBXProject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions
+  commentId: N:UnityEditor.iOS.Xcode.Custom.Extensions
+  name: UnityEditor.iOS.Xcode.Custom.Extensions
+  nameWithType: UnityEditor.iOS.Xcode.Custom.Extensions
+  fullName: UnityEditor.iOS.Xcode.Custom.Extensions
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath
+  name: GetPBXProjectPath
+  nameWithType: PBXProject.GetPBXProjectPath
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetPBXProjectPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName
+  name: GetUnityTargetName
+  nameWithType: PBXProject.GetUnityTargetName
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTargetName
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName
+  name: GetUnityTestTargetName
+  nameWithType: PBXProject.GetUnityTestTargetName
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetUnityTestTargetName
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid
+  name: ProjectGuid
+  nameWithType: PBXProject.ProjectGuid
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ProjectGuid
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName
+  name: TargetGuidByName
+  nameWithType: PBXProject.TargetGuidByName
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.TargetGuidByName
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension
+  name: IsKnownExtension
+  nameWithType: PBXProject.IsKnownExtension
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.IsKnownExtension
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable
+  name: IsBuildable
+  nameWithType: PBXProject.IsBuildable
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.IsBuildable
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile
+  name: AddFile
+  nameWithType: PBXProject.AddFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXSourceTree
+  nameWithType: PBXSourceTree
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference
+  name: AddFolderReference
+  nameWithType: PBXProject.AddFolderReference
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFolderReference
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild
+  name: AddFileToBuild
+  nameWithType: PBXProject.AddFileToBuild
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuild
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags
+  name: AddFileToBuildWithFlags
+  nameWithType: PBXProject.AddFileToBuildWithFlags
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildWithFlags
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection
+  name: AddFileToBuildSection
+  nameWithType: PBXProject.AddFileToBuildSection
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFileToBuildSection
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile
+  name: GetCompileFlagsForFile
+  nameWithType: PBXProject.GetCompileFlagsForFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCompileFlagsForFile
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile
+  name: SetCompileFlagsForFile
+  nameWithType: PBXProject.SetCompileFlagsForFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetCompileFlagsForFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile
+  name: AddAssetTagForFile
+  nameWithType: PBXProject.AddAssetTagForFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagForFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile
+  name: RemoveAssetTagForFile
+  nameWithType: PBXProject.RemoveAssetTagForFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagForFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall
+  name: AddAssetTagToDefaultInstall
+  nameWithType: PBXProject.AddAssetTagToDefaultInstall
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddAssetTagToDefaultInstall
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall
+  name: RemoveAssetTagFromDefaultInstall
+  nameWithType: PBXProject.RemoveAssetTagFromDefaultInstall
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTagFromDefaultInstall
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag
+  name: RemoveAssetTag
+  nameWithType: PBXProject.RemoveAssetTag
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveAssetTag
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath
+  name: ContainsFileByRealPath
+  nameWithType: PBXProject.ContainsFileByRealPath
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByRealPath
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath
+  name: ContainsFileByProjectPath
+  nameWithType: PBXProject.ContainsFileByProjectPath
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFileByProjectPath
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework
+  name: ContainsFramework
+  nameWithType: PBXProject.ContainsFramework
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ContainsFramework
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject
+  name: AddFrameworkToProject
+  nameWithType: PBXProject.AddFrameworkToProject
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworkToProject
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject
+  name: RemoveFrameworkFromProject
+  nameWithType: PBXProject.RemoveFrameworkFromProject
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFrameworkFromProject
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability
+  name: AddCapability
+  nameWithType: PBXProject.AddCapability
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCapability
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXCapabilityType
+  nameWithType: PBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId
+  name: SetTeamId
+  nameWithType: PBXProject.SetTeamId
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetTeamId
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath
+  name: FindFileGuidByRealPath
+  nameWithType: PBXProject.FindFileGuidByRealPath
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByRealPath
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath
+  name: FindFileGuidByProjectPath
+  nameWithType: PBXProject.FindFileGuidByProjectPath
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.FindFileGuidByProjectPath
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild
+  name: RemoveFileFromBuild
+  nameWithType: PBXProject.RemoveFileFromBuild
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFileFromBuild
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile
+  name: RemoveFile
+  nameWithType: PBXProject.RemoveFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget
+  name: AddTarget
+  nameWithType: PBXProject.AddTarget
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddTarget
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef
+  name: GetTargetProductFileRef
+  nameWithType: PBXProject.GetTargetProductFileRef
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetTargetProductFileRef
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName
+  name: BuildConfigByName
+  nameWithType: PBXProject.BuildConfigByName
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigByName
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames
+  name: BuildConfigNames
+  nameWithType: PBXProject.BuildConfigNames
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.BuildConfigNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig
+  name: AddBuildConfig
+  nameWithType: PBXProject.AddBuildConfig
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildConfig
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig
+  name: RemoveBuildConfig
+  nameWithType: PBXProject.RemoveBuildConfig
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.RemoveBuildConfig
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget
+  name: GetSourcesBuildPhaseByTarget
+  nameWithType: PBXProject.GetSourcesBuildPhaseByTarget
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetSourcesBuildPhaseByTarget
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase
+  name: AddSourcesBuildPhase
+  nameWithType: PBXProject.AddSourcesBuildPhase
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddSourcesBuildPhase
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget
+  name: GetResourcesBuildPhaseByTarget
+  nameWithType: PBXProject.GetResourcesBuildPhaseByTarget
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetResourcesBuildPhaseByTarget
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase
+  name: AddResourcesBuildPhase
+  nameWithType: PBXProject.AddResourcesBuildPhase
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddResourcesBuildPhase
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget
+  name: GetFrameworksBuildPhaseByTarget
+  nameWithType: PBXProject.GetFrameworksBuildPhaseByTarget
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetFrameworksBuildPhaseByTarget
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase
+  name: AddFrameworksBuildPhase
+  nameWithType: PBXProject.AddFrameworksBuildPhase
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddFrameworksBuildPhase
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget
+  name: GetCopyFilesBuildPhaseByTarget
+  nameWithType: PBXProject.GetCopyFilesBuildPhaseByTarget
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.GetCopyFilesBuildPhaseByTarget
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase
+  name: AddCopyFilesBuildPhase
+  nameWithType: PBXProject.AddCopyFilesBuildPhase
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddCopyFilesBuildPhase
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty
+  name: AddBuildProperty
+  nameWithType: PBXProject.AddBuildProperty
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildProperty
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig
+  name: AddBuildPropertyForConfig
+  nameWithType: PBXProject.AddBuildPropertyForConfig
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.AddBuildPropertyForConfig
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty
+  name: SetBuildProperty
+  nameWithType: PBXProject.SetBuildProperty
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildProperty
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig
+  name: SetBuildPropertyForConfig
+  nameWithType: PBXProject.SetBuildPropertyForConfig
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.SetBuildPropertyForConfig
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty
+  name: UpdateBuildProperty
+  nameWithType: PBXProject.UpdateBuildProperty
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildProperty
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig
+  name: UpdateBuildPropertyForConfig
+  nameWithType: PBXProject.UpdateBuildPropertyForConfig
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.UpdateBuildPropertyForConfig
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile
+  name: ReadFromFile
+  nameWithType: PBXProject.ReadFromFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString
+  name: ReadFromString
+  nameWithType: PBXProject.ReadFromString
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromString
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream
+  name: ReadFromStream
+  nameWithType: PBXProject.ReadFromStream
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.ReadFromStream
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile
+  name: WriteToFile
+  nameWithType: PBXProject.WriteToFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToFile
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream
+  name: WriteToStream
+  nameWithType: PBXProject.WriteToStream
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToStream
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString
+  name: WriteToString
+  nameWithType: PBXProject.WriteToString
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXProject.WriteToString

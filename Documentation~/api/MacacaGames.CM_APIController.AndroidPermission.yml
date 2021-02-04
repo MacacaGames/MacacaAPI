@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_APIController.AndroidPermission
+  commentId: T:MacacaGames.CM_APIController.AndroidPermission
+  id: CM_APIController.AndroidPermission
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_APIController.AndroidPermission.ACCESS_COARSE_LOCATION
+  - MacacaGames.CM_APIController.AndroidPermission.ACCESS_FINE_LOCATION
+  - MacacaGames.CM_APIController.AndroidPermission.ADD_VOICEMAIL
+  - MacacaGames.CM_APIController.AndroidPermission.BODY_SENSORS
+  - MacacaGames.CM_APIController.AndroidPermission.CALL_PHONE
+  - MacacaGames.CM_APIController.AndroidPermission.CAMERA
+  - MacacaGames.CM_APIController.AndroidPermission.GET_ACCOUNTS
+  - MacacaGames.CM_APIController.AndroidPermission.PROCESS_OUTGOING_CALLS
+  - MacacaGames.CM_APIController.AndroidPermission.READ_CALENDAR
+  - MacacaGames.CM_APIController.AndroidPermission.READ_CALL_LOG
+  - MacacaGames.CM_APIController.AndroidPermission.READ_CONTACTS
+  - MacacaGames.CM_APIController.AndroidPermission.READ_EXTERNAL_STORAGE
+  - MacacaGames.CM_APIController.AndroidPermission.READ_PHONE_STATE
+  - MacacaGames.CM_APIController.AndroidPermission.READ_SMS
+  - MacacaGames.CM_APIController.AndroidPermission.RECEIVE_MMS
+  - MacacaGames.CM_APIController.AndroidPermission.RECEIVE_SMS
+  - MacacaGames.CM_APIController.AndroidPermission.RECEIVE_WAP_PUSH
+  - MacacaGames.CM_APIController.AndroidPermission.RECORD_AUDIO
+  - MacacaGames.CM_APIController.AndroidPermission.SEND_SMS
+  - MacacaGames.CM_APIController.AndroidPermission.USE_SIP
+  - MacacaGames.CM_APIController.AndroidPermission.WRITE_CALENDAR
+  - MacacaGames.CM_APIController.AndroidPermission.WRITE_CALL_LOG
+  - MacacaGames.CM_APIController.AndroidPermission.WRITE_CONTACTS
+  - MacacaGames.CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE
+  langs:
+  - csharp
+  - vb
+  name: CM_APIController.AndroidPermission
+  nameWithType: CM_APIController.AndroidPermission
+  fullName: MacacaGames.CM_APIController.AndroidPermission
+  type: Enum
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AndroidPermission
+    path: ../Plugins/CM_APIController.cs
+    startLine: 109
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public enum AndroidPermission
+    content.vb: Public Enum AndroidPermission
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MacacaGames.CM_APIController.AndroidPermission.ACCESS_COARSE_LOCATION
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.ACCESS_COARSE_LOCATION
+  id: ACCESS_COARSE_LOCATION
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: ACCESS_COARSE_LOCATION
+  nameWithType: CM_APIController.AndroidPermission.ACCESS_COARSE_LOCATION
+  fullName: MacacaGames.CM_APIController.AndroidPermission.ACCESS_COARSE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ACCESS_COARSE_LOCATION
+    path: ../Plugins/CM_APIController.cs
+    startLine: 111
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ACCESS_COARSE_LOCATION = 0
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.ACCESS_FINE_LOCATION
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.ACCESS_FINE_LOCATION
+  id: ACCESS_FINE_LOCATION
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: ACCESS_FINE_LOCATION
+  nameWithType: CM_APIController.AndroidPermission.ACCESS_FINE_LOCATION
+  fullName: MacacaGames.CM_APIController.AndroidPermission.ACCESS_FINE_LOCATION
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ACCESS_FINE_LOCATION
+    path: ../Plugins/CM_APIController.cs
+    startLine: 112
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ACCESS_FINE_LOCATION = 1
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.ADD_VOICEMAIL
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.ADD_VOICEMAIL
+  id: ADD_VOICEMAIL
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: ADD_VOICEMAIL
+  nameWithType: CM_APIController.AndroidPermission.ADD_VOICEMAIL
+  fullName: MacacaGames.CM_APIController.AndroidPermission.ADD_VOICEMAIL
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ADD_VOICEMAIL
+    path: ../Plugins/CM_APIController.cs
+    startLine: 113
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: ADD_VOICEMAIL = 2
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.BODY_SENSORS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.BODY_SENSORS
+  id: BODY_SENSORS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: BODY_SENSORS
+  nameWithType: CM_APIController.AndroidPermission.BODY_SENSORS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.BODY_SENSORS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BODY_SENSORS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 114
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: BODY_SENSORS = 3
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.CALL_PHONE
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.CALL_PHONE
+  id: CALL_PHONE
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: CALL_PHONE
+  nameWithType: CM_APIController.AndroidPermission.CALL_PHONE
+  fullName: MacacaGames.CM_APIController.AndroidPermission.CALL_PHONE
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: CALL_PHONE
+    path: ../Plugins/CM_APIController.cs
+    startLine: 115
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: CALL_PHONE = 4
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.CAMERA
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.CAMERA
+  id: CAMERA
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: CAMERA
+  nameWithType: CM_APIController.AndroidPermission.CAMERA
+  fullName: MacacaGames.CM_APIController.AndroidPermission.CAMERA
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: CAMERA
+    path: ../Plugins/CM_APIController.cs
+    startLine: 116
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: CAMERA = 5
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.GET_ACCOUNTS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.GET_ACCOUNTS
+  id: GET_ACCOUNTS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: GET_ACCOUNTS
+  nameWithType: CM_APIController.AndroidPermission.GET_ACCOUNTS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.GET_ACCOUNTS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GET_ACCOUNTS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 117
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: GET_ACCOUNTS = 6
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.PROCESS_OUTGOING_CALLS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.PROCESS_OUTGOING_CALLS
+  id: PROCESS_OUTGOING_CALLS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: PROCESS_OUTGOING_CALLS
+  nameWithType: CM_APIController.AndroidPermission.PROCESS_OUTGOING_CALLS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.PROCESS_OUTGOING_CALLS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PROCESS_OUTGOING_CALLS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 118
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: PROCESS_OUTGOING_CALLS = 7
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_CALENDAR
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_CALENDAR
+  id: READ_CALENDAR
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_CALENDAR
+  nameWithType: CM_APIController.AndroidPermission.READ_CALENDAR
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_CALENDAR
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_CALENDAR
+    path: ../Plugins/CM_APIController.cs
+    startLine: 119
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_CALENDAR = 8
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_CALL_LOG
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_CALL_LOG
+  id: READ_CALL_LOG
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_CALL_LOG
+  nameWithType: CM_APIController.AndroidPermission.READ_CALL_LOG
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_CALL_LOG
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_CALL_LOG
+    path: ../Plugins/CM_APIController.cs
+    startLine: 120
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_CALL_LOG = 9
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_CONTACTS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_CONTACTS
+  id: READ_CONTACTS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_CONTACTS
+  nameWithType: CM_APIController.AndroidPermission.READ_CONTACTS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_CONTACTS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_CONTACTS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 121
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_CONTACTS = 10
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_EXTERNAL_STORAGE
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_EXTERNAL_STORAGE
+  id: READ_EXTERNAL_STORAGE
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_EXTERNAL_STORAGE
+  nameWithType: CM_APIController.AndroidPermission.READ_EXTERNAL_STORAGE
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_EXTERNAL_STORAGE
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_EXTERNAL_STORAGE
+    path: ../Plugins/CM_APIController.cs
+    startLine: 122
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_EXTERNAL_STORAGE = 11
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_PHONE_STATE
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_PHONE_STATE
+  id: READ_PHONE_STATE
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_PHONE_STATE
+  nameWithType: CM_APIController.AndroidPermission.READ_PHONE_STATE
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_PHONE_STATE
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_PHONE_STATE
+    path: ../Plugins/CM_APIController.cs
+    startLine: 123
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_PHONE_STATE = 12
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.READ_SMS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.READ_SMS
+  id: READ_SMS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: READ_SMS
+  nameWithType: CM_APIController.AndroidPermission.READ_SMS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.READ_SMS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: READ_SMS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 124
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: READ_SMS = 13
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_MMS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.RECEIVE_MMS
+  id: RECEIVE_MMS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: RECEIVE_MMS
+  nameWithType: CM_APIController.AndroidPermission.RECEIVE_MMS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_MMS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RECEIVE_MMS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 125
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: RECEIVE_MMS = 14
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_SMS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.RECEIVE_SMS
+  id: RECEIVE_SMS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: RECEIVE_SMS
+  nameWithType: CM_APIController.AndroidPermission.RECEIVE_SMS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_SMS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RECEIVE_SMS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 126
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: RECEIVE_SMS = 15
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_WAP_PUSH
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.RECEIVE_WAP_PUSH
+  id: RECEIVE_WAP_PUSH
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: RECEIVE_WAP_PUSH
+  nameWithType: CM_APIController.AndroidPermission.RECEIVE_WAP_PUSH
+  fullName: MacacaGames.CM_APIController.AndroidPermission.RECEIVE_WAP_PUSH
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RECEIVE_WAP_PUSH
+    path: ../Plugins/CM_APIController.cs
+    startLine: 127
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: RECEIVE_WAP_PUSH = 16
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.RECORD_AUDIO
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.RECORD_AUDIO
+  id: RECORD_AUDIO
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: RECORD_AUDIO
+  nameWithType: CM_APIController.AndroidPermission.RECORD_AUDIO
+  fullName: MacacaGames.CM_APIController.AndroidPermission.RECORD_AUDIO
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RECORD_AUDIO
+    path: ../Plugins/CM_APIController.cs
+    startLine: 128
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: RECORD_AUDIO = 17
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.SEND_SMS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.SEND_SMS
+  id: SEND_SMS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: SEND_SMS
+  nameWithType: CM_APIController.AndroidPermission.SEND_SMS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.SEND_SMS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: SEND_SMS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 129
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: SEND_SMS = 18
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.USE_SIP
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.USE_SIP
+  id: USE_SIP
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: USE_SIP
+  nameWithType: CM_APIController.AndroidPermission.USE_SIP
+  fullName: MacacaGames.CM_APIController.AndroidPermission.USE_SIP
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: USE_SIP
+    path: ../Plugins/CM_APIController.cs
+    startLine: 130
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: USE_SIP = 19
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.WRITE_CALENDAR
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.WRITE_CALENDAR
+  id: WRITE_CALENDAR
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: WRITE_CALENDAR
+  nameWithType: CM_APIController.AndroidPermission.WRITE_CALENDAR
+  fullName: MacacaGames.CM_APIController.AndroidPermission.WRITE_CALENDAR
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WRITE_CALENDAR
+    path: ../Plugins/CM_APIController.cs
+    startLine: 131
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: WRITE_CALENDAR = 20
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.WRITE_CALL_LOG
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.WRITE_CALL_LOG
+  id: WRITE_CALL_LOG
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: WRITE_CALL_LOG
+  nameWithType: CM_APIController.AndroidPermission.WRITE_CALL_LOG
+  fullName: MacacaGames.CM_APIController.AndroidPermission.WRITE_CALL_LOG
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WRITE_CALL_LOG
+    path: ../Plugins/CM_APIController.cs
+    startLine: 132
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: WRITE_CALL_LOG = 21
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.WRITE_CONTACTS
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.WRITE_CONTACTS
+  id: WRITE_CONTACTS
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: WRITE_CONTACTS
+  nameWithType: CM_APIController.AndroidPermission.WRITE_CONTACTS
+  fullName: MacacaGames.CM_APIController.AndroidPermission.WRITE_CONTACTS
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WRITE_CONTACTS
+    path: ../Plugins/CM_APIController.cs
+    startLine: 133
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: WRITE_CONTACTS = 22
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE
+  commentId: F:MacacaGames.CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE
+  id: WRITE_EXTERNAL_STORAGE
+  parent: MacacaGames.CM_APIController.AndroidPermission
+  langs:
+  - csharp
+  - vb
+  name: WRITE_EXTERNAL_STORAGE
+  nameWithType: CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE
+  fullName: MacacaGames.CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WRITE_EXTERNAL_STORAGE
+    path: ../Plugins/CM_APIController.cs
+    startLine: 134
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: WRITE_EXTERNAL_STORAGE = 23
+    return:
+      type: MacacaGames.CM_APIController.AndroidPermission
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: MacacaGames.CM_APIController.AndroidPermission
+  commentId: T:MacacaGames.CM_APIController.AndroidPermission
+  parent: MacacaGames
+  name: CM_APIController.AndroidPermission
+  nameWithType: CM_APIController.AndroidPermission
+  fullName: MacacaGames.CM_APIController.AndroidPermission

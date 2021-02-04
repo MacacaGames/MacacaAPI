@@ -1,0 +1,744 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistDocument
+  id: PlistDocument
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.Create
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream(System.IO.TextReader)
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.root
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.version
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile(System.String)
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream(System.IO.TextWriter)
+  - UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString
+  langs:
+  - csharp
+  - vb
+  name: PlistDocument
+  nameWithType: PlistDocument
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  type: Class
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: PlistDocument
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 175
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public class PlistDocument
+    content.vb: Public Class PlistDocument
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.root
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PlistDocument.root
+  id: root
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: root
+  nameWithType: PlistDocument.root
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.root
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: root
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 177
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistElementDict root
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+    content.vb: Public root As PlistElementDict
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.version
+  commentId: F:UnityEditor.iOS.Xcode.Custom.PlistDocument.version
+  id: version
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: PlistDocument.version
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.version
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: version
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 178
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string version
+    return:
+      type: System.String
+    content.vb: Public version As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor
+  id: '#ctor'
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: PlistDocument()
+  nameWithType: PlistDocument.PlistDocument()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.PlistDocument()
+  type: Constructor
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: .ctor
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 182
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public PlistDocument()
+    content.vb: Public Sub New
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.Create
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.Create
+  id: Create
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: PlistDocument.Create()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.Create()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Create
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 304
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void Create()
+    content.vb: Public Sub Create
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.Create*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile(System.String)
+  id: ReadFromFile(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: ReadFromFile(String)
+  nameWithType: PlistDocument.ReadFromFile(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromFile
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 315
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub ReadFromFile(path As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream(System.IO.TextReader)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream(System.IO.TextReader)
+  id: ReadFromStream(System.IO.TextReader)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: ReadFromStream(TextReader)
+  nameWithType: PlistDocument.ReadFromStream(TextReader)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream(System.IO.TextReader)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromStream
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 320
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromStream(TextReader tr)
+    parameters:
+    - id: tr
+      type: System.IO.TextReader
+    content.vb: Public Sub ReadFromStream(tr As TextReader)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString(System.String)
+  id: ReadFromString(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: ReadFromString(String)
+  nameWithType: PlistDocument.ReadFromString(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ReadFromString
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 325
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void ReadFromString(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub ReadFromString(text As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile(System.String)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile(System.String)
+  id: WriteToFile(System.String)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: WriteToFile(String)
+  nameWithType: PlistDocument.WriteToFile(String)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile(System.String)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToFile
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 398
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void WriteToFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub WriteToFile(path As String)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream(System.IO.TextWriter)
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream(System.IO.TextWriter)
+  id: WriteToStream(System.IO.TextWriter)
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: WriteToStream(TextWriter)
+  nameWithType: PlistDocument.WriteToStream(TextWriter)
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream(System.IO.TextWriter)
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToStream
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 404
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public void WriteToStream(TextWriter tw)
+    parameters:
+    - id: tw
+      type: System.IO.TextWriter
+    content.vb: Public Sub WriteToStream(tw As TextWriter)
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString
+  commentId: M:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString
+  id: WriteToString
+  parent: UnityEditor.iOS.Xcode.Custom.PlistDocument
+  langs:
+  - csharp
+  - vb
+  name: WriteToString()
+  nameWithType: PlistDocument.WriteToString()
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString()
+  type: Method
+  source:
+    remote:
+      path: Editor/XcodeEditor/PlistParser.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: WriteToString
+    path: ../Editor/XcodeEditor/PlistParser.cs
+    startLine: 409
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: public string WriteToString()
+    return:
+      type: System.String
+    content.vb: Public Function WriteToString As String
+  overload: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PlistElementDict
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PlistElementDict
+  nameWithType: PlistElementDict
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.#ctor
+  name: PlistDocument
+  nameWithType: PlistDocument.PlistDocument
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.PlistDocument
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.Create*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.Create
+  name: Create
+  nameWithType: PlistDocument.Create
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.Create
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile
+  name: ReadFromFile
+  nameWithType: PlistDocument.ReadFromFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromFile
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream
+  name: ReadFromStream
+  nameWithType: PlistDocument.ReadFromStream
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromStream
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString
+  name: ReadFromString
+  nameWithType: PlistDocument.ReadFromString
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.ReadFromString
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile
+  name: WriteToFile
+  nameWithType: PlistDocument.WriteToFile
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToFile
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream
+  name: WriteToStream
+  nameWithType: PlistDocument.WriteToStream
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToStream
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString*
+  commentId: Overload:UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString
+  name: WriteToString
+  nameWithType: PlistDocument.WriteToString
+  fullName: UnityEditor.iOS.Xcode.Custom.PlistDocument.WriteToString

@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.MapsOptions
+  id: MapsOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Airplane
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Bike
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Bus
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Car
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Ferry
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.None
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Other
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Pedestrian
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.RideSharing
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.StreetCar
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Subway
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Taxi
+  - UnityEditor.iOS.Xcode.Custom.MapsOptions.Train
+  langs:
+  - csharp
+  - vb
+  name: MapsOptions
+  nameWithType: MapsOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  type: Enum
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: MapsOptions
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 555
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Flags]
+
+      public enum MapsOptions
+    content.vb: >-
+      <Serializable>
+
+      <Flags>
+
+      Public Enum MapsOptions
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.None
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.None
+  id: None
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MapsOptions.None
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.None
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: None
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 559
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: None = 0
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Airplane
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Airplane
+  id: Airplane
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Airplane
+  nameWithType: MapsOptions.Airplane
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Airplane
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Airplane
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 560
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Airplane = 1
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Bike
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Bike
+  id: Bike
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Bike
+  nameWithType: MapsOptions.Bike
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Bike
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Bike
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 561
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Bike = 2
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Bus
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Bus
+  id: Bus
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: MapsOptions.Bus
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Bus
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Bus
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 562
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Bus = 4
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Car
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Car
+  id: Car
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Car
+  nameWithType: MapsOptions.Car
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Car
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Car
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 563
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Car = 8
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Ferry
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Ferry
+  id: Ferry
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Ferry
+  nameWithType: MapsOptions.Ferry
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Ferry
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Ferry
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 564
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Ferry = 16
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Pedestrian
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Pedestrian
+  id: Pedestrian
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Pedestrian
+  nameWithType: MapsOptions.Pedestrian
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Pedestrian
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Pedestrian
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 565
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Pedestrian = 32
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.RideSharing
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.RideSharing
+  id: RideSharing
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: RideSharing
+  nameWithType: MapsOptions.RideSharing
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.RideSharing
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RideSharing
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 566
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: RideSharing = 64
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.StreetCar
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.StreetCar
+  id: StreetCar
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: StreetCar
+  nameWithType: MapsOptions.StreetCar
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.StreetCar
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: StreetCar
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 567
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: StreetCar = 128
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Subway
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Subway
+  id: Subway
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Subway
+  nameWithType: MapsOptions.Subway
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Subway
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Subway
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 568
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Subway = 256
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Taxi
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Taxi
+  id: Taxi
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Taxi
+  nameWithType: MapsOptions.Taxi
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Taxi
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Taxi
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 569
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Taxi = 512
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Train
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Train
+  id: Train
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Train
+  nameWithType: MapsOptions.Train
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Train
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Train
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 570
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Train = 1024
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions.Other
+  commentId: F:UnityEditor.iOS.Xcode.Custom.MapsOptions.Other
+  id: Other
+  parent: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: MapsOptions.Other
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions.Other
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Other
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 571
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: Other = 2048
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: UnityEditor.iOS.Xcode.Custom.MapsOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.MapsOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: MapsOptions
+  nameWithType: MapsOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions

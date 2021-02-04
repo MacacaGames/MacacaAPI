@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: MacacaGames.CM_APIController.ShareType
+  commentId: T:MacacaGames.CM_APIController.ShareType
+  id: CM_APIController.ShareType
+  parent: MacacaGames
+  children:
+  - MacacaGames.CM_APIController.ShareType.GIF
+  - MacacaGames.CM_APIController.ShareType.Image
+  - MacacaGames.CM_APIController.ShareType.Viedo
+  langs:
+  - csharp
+  - vb
+  name: CM_APIController.ShareType
+  nameWithType: CM_APIController.ShareType
+  fullName: MacacaGames.CM_APIController.ShareType
+  type: Enum
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ShareType
+    path: ../Plugins/CM_APIController.cs
+    startLine: 538
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: public enum ShareType
+    content.vb: Public Enum ShareType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MacacaGames.CM_APIController.ShareType.Image
+  commentId: F:MacacaGames.CM_APIController.ShareType.Image
+  id: Image
+  parent: MacacaGames.CM_APIController.ShareType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: CM_APIController.ShareType.Image
+  fullName: MacacaGames.CM_APIController.ShareType.Image
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Image
+    path: ../Plugins/CM_APIController.cs
+    startLine: 540
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: Image = 0
+    return:
+      type: MacacaGames.CM_APIController.ShareType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.ShareType.GIF
+  commentId: F:MacacaGames.CM_APIController.ShareType.GIF
+  id: GIF
+  parent: MacacaGames.CM_APIController.ShareType
+  langs:
+  - csharp
+  - vb
+  name: GIF
+  nameWithType: CM_APIController.ShareType.GIF
+  fullName: MacacaGames.CM_APIController.ShareType.GIF
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: GIF
+    path: ../Plugins/CM_APIController.cs
+    startLine: 540
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: GIF = 1
+    return:
+      type: MacacaGames.CM_APIController.ShareType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: MacacaGames.CM_APIController.ShareType.Viedo
+  commentId: F:MacacaGames.CM_APIController.ShareType.Viedo
+  id: Viedo
+  parent: MacacaGames.CM_APIController.ShareType
+  langs:
+  - csharp
+  - vb
+  name: Viedo
+  nameWithType: CM_APIController.ShareType.Viedo
+  fullName: MacacaGames.CM_APIController.ShareType.Viedo
+  type: Field
+  source:
+    remote:
+      path: Plugins/CM_APIController.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: Viedo
+    path: ../Plugins/CM_APIController.cs
+    startLine: 540
+  assemblies:
+  - MacacaAPIs
+  namespace: MacacaGames
+  syntax:
+    content: Viedo = 2
+    return:
+      type: MacacaGames.CM_APIController.ShareType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: MacacaGames
+  commentId: N:MacacaGames
+  name: MacacaGames
+  nameWithType: MacacaGames
+  fullName: MacacaGames
+- uid: MacacaGames.CM_APIController.ShareType
+  commentId: T:MacacaGames.CM_APIController.ShareType
+  parent: MacacaGames
+  name: CM_APIController.ShareType
+  nameWithType: CM_APIController.ShareType
+  fullName: MacacaGames.CM_APIController.ShareType

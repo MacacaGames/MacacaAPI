@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  id: BackgroundModesOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  children:
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.AudioAirplayPiP
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.BackgroundFetch
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ExternalAccessoryCommunication
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.LocationUpdates
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.NewsstandDownloads
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.None
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.RemoteNotifications
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.UsesBluetoothLEAccessory
+  - UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.VoiceOverIP
+  langs:
+  - csharp
+  - vb
+  name: BackgroundModesOptions
+  nameWithType: BackgroundModesOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  type: Enum
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BackgroundModesOptions
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 538
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: >-
+      [Flags]
+
+      [Serializable]
+
+      public enum BackgroundModesOptions
+    content.vb: >-
+      <Flags>
+
+      <Serializable>
+
+      Public Enum BackgroundModesOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.None
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.None
+  id: None
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BackgroundModesOptions.None
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.None
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: None
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 542
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: None = 0
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.AudioAirplayPiP
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.AudioAirplayPiP
+  id: AudioAirplayPiP
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioAirplayPiP
+  nameWithType: BackgroundModesOptions.AudioAirplayPiP
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.AudioAirplayPiP
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: AudioAirplayPiP
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 543
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: AudioAirplayPiP = 1
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.LocationUpdates
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.LocationUpdates
+  id: LocationUpdates
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: LocationUpdates
+  nameWithType: BackgroundModesOptions.LocationUpdates
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.LocationUpdates
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: LocationUpdates
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 544
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: LocationUpdates = 2
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.VoiceOverIP
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.VoiceOverIP
+  id: VoiceOverIP
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: VoiceOverIP
+  nameWithType: BackgroundModesOptions.VoiceOverIP
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.VoiceOverIP
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: VoiceOverIP
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 545
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: VoiceOverIP = 4
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.NewsstandDownloads
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.NewsstandDownloads
+  id: NewsstandDownloads
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: NewsstandDownloads
+  nameWithType: BackgroundModesOptions.NewsstandDownloads
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.NewsstandDownloads
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: NewsstandDownloads
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 546
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: NewsstandDownloads = 8
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ExternalAccessoryCommunication
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ExternalAccessoryCommunication
+  id: ExternalAccessoryCommunication
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: ExternalAccessoryCommunication
+  nameWithType: BackgroundModesOptions.ExternalAccessoryCommunication
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ExternalAccessoryCommunication
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ExternalAccessoryCommunication
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 547
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: ExternalAccessoryCommunication = 16
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.UsesBluetoothLEAccessory
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.UsesBluetoothLEAccessory
+  id: UsesBluetoothLEAccessory
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: UsesBluetoothLEAccessory
+  nameWithType: BackgroundModesOptions.UsesBluetoothLEAccessory
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.UsesBluetoothLEAccessory
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: UsesBluetoothLEAccessory
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 548
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: UsesBluetoothLEAccessory = 32
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  id: ActsAsABluetoothLEAccessory
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: ActsAsABluetoothLEAccessory
+  nameWithType: BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: ActsAsABluetoothLEAccessory
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 549
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: ActsAsABluetoothLEAccessory = 64
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.BackgroundFetch
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.BackgroundFetch
+  id: BackgroundFetch
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: BackgroundFetch
+  nameWithType: BackgroundModesOptions.BackgroundFetch
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.BackgroundFetch
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: BackgroundFetch
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 550
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: BackgroundFetch = 128
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.RemoteNotifications
+  commentId: F:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.RemoteNotifications
+  id: RemoteNotifications
+  parent: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: RemoteNotifications
+  nameWithType: BackgroundModesOptions.RemoteNotifications
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions.RemoteNotifications
+  type: Field
+  source:
+    remote:
+      path: Editor/XcodeEditor/ProjectCapabilityManager.cs
+      branch: master
+      repo: https://github.com/MacacaGames/MacacaAPI.git
+    id: RemoteNotifications
+    path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
+    startLine: 551
+  assemblies:
+  - MacacaXCode.Editor
+  namespace: UnityEditor.iOS.Xcode.Custom
+  syntax:
+    content: RemoteNotifications = 256
+    return:
+      type: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnityEditor.iOS.Xcode.Custom
+  commentId: N:UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  nameWithType: UnityEditor.iOS.Xcode.Custom
+  fullName: UnityEditor.iOS.Xcode.Custom
+- uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  commentId: T:UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: BackgroundModesOptions
+  nameWithType: BackgroundModesOptions
+  fullName: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions

@@ -1,0 +1,60 @@
+### YamlMime:TableOfContent
+- uid: MacacaGames
+  name: MacacaGames
+  items:
+  - uid: MacacaGames.CM_APIController
+    name: CM_APIController
+  - uid: MacacaGames.CM_APIController.AndroidPermission
+    name: CM_APIController.AndroidPermission
+  - uid: MacacaGames.CM_APIController.AndroidPermissionState
+    name: CM_APIController.AndroidPermissionState
+  - uid: MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
+    name: CM_APIController.ATTrackingManagerAuthorizationStatus
+  - uid: MacacaGames.CM_APIController.ShareType
+    name: CM_APIController.ShareType
+  - uid: MacacaGames.CM_LocalNotificationController
+    name: CM_LocalNotificationController
+  - uid: MacacaGames.CM_LocalNotificationController.Action
+    name: CM_LocalNotificationController.Action
+  - uid: MacacaGames.CM_LocalNotificationController.Importance
+    name: CM_LocalNotificationController.Importance
+- uid: UnityEditor.iOS.Xcode.Custom
+  name: UnityEditor.iOS.Xcode.Custom
+  items:
+  - uid: UnityEditor.iOS.Xcode.Custom.BackgroundModesOptions
+    name: BackgroundModesOptions
+  - uid: UnityEditor.iOS.Xcode.Custom.MapsOptions
+    name: MapsOptions
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+    name: PBXCapabilityType
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+    name: PBXCapabilityType.TargetCapabilityPair
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXProject
+    name: PBXProject
+  - uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
+    name: PBXSourceTree
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistDocument
+    name: PlistDocument
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElement
+    name: PlistElement
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementArray
+    name: PlistElementArray
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementBoolean
+    name: PlistElementBoolean
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementDate
+    name: PlistElementDate
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementDict
+    name: PlistElementDict
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementInteger
+    name: PlistElementInteger
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementReal
+    name: PlistElementReal
+  - uid: UnityEditor.iOS.Xcode.Custom.PlistElementString
+    name: PlistElementString
+  - uid: UnityEditor.iOS.Xcode.Custom.ProjectCapabilityManager
+    name: ProjectCapabilityManager
+- uid: UnityEditor.iOS.Xcode.Custom.Extensions
+  name: UnityEditor.iOS.Xcode.Custom.Extensions
+  items:
+  - uid: UnityEditor.iOS.Xcode.Custom.Extensions.PBXProjectExtensions
+    name: PBXProjectExtensions
