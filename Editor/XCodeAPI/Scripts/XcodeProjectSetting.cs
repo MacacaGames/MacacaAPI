@@ -159,6 +159,30 @@ public class XcodeProjectSetting : ScriptableObject
             provider= "ironSource",
             value = "SU67R6K2V3.skadnetwork"
         },
+        new SKAdNetworkItems{
+            provider= "Facebook_1",
+            value = "v9wttpbfk9.skadnetwork"
+        },
+        new SKAdNetworkItems{
+            provider= "Facebook_2",
+            value = "n38lu8286q.skadnetwork"
+        },
+        new SKAdNetworkItems{
+            provider= "AdColony",
+            value = "4pfyvq9l8r.skadnetwork"
+        },
+        new SKAdNetworkItems{
+            provider= "Tapjoy",
+            value = "ecpz2srf59.skadnetwork"
+        },
+        new SKAdNetworkItems{
+            provider= "Pangle_NonCN",
+            value = "22mmun2rn5.skadnetwork"
+        },
+        new SKAdNetworkItems{
+            provider= "Pangle_CN",
+            value = "238da6jt44.skadnetwork"
+        },
     };
     #endregion
 
