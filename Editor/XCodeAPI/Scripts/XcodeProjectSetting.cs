@@ -196,5 +196,12 @@ public class XcodeProjectSetting : ScriptableObject
         public string entitlementFileName;
     }
     public List<Capability> AddCapability = new List<Capability>() { };
+    public List<PlistItem> InfoPlist = new List<PlistItem>() { };
+    [System.Serializable]
+    public struct PlistItem
+    {
+        public string key;
+        public string value;
+    }
     #endregion
 }

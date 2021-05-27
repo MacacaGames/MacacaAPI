@@ -30,6 +30,15 @@ public static class InfoPlistProcessor
         }
     }
 
+    private static void SetInfoPlistItem(PlistDocument plist, List<XcodeProjectSetting.PlistItem> items)
+    {
+        PlistElementDict rootDict = plist.root;
+        int count = items.Count;
+        for (int i = 0; i < count; i++)
+        {
+            rootDict.SetString(items[i].key, items[i].value);
+        }
+    }
     private static void SetApplicationQueriesSchemes(PlistDocument plist, List<string> _applicationQueriesSchemes)
     {
         PlistElementArray queriesSchemes;
@@ -106,11 +115,9 @@ public static class InfoPlistProcessor
         SetBackgroundModes(plist, setting.BackgroundModes);
         SetURLSchemes(plist, setting.BundleUrlTypeList);
         SetSKAdNetwork(plist, setting.sKAdNetworkItems);
+        SetInfoPlistItem(plist, setting.InfoPlist);
         plist.WriteToFile(GetInfoPlistPath(buildPath));
     }
-
-
-
 
 
 
