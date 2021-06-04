@@ -13,6 +13,13 @@ Macaca API is a mobile native library for iOS and Android.
 - Vibration
 - Toast
 - Runtime Permission (Android Only)
+
+## System Requirement
+iOS 10 or later
+
+Android 4.4 or later
+
+### This package require [External Dependency Manager](https://github.com/googlesamples/unity-jar-resolver) to make sure native dependency is resolve correctlly.
   
 ## Installation
 ### Option 1: Installation via OpenUPM (Recommend)
