@@ -71,13 +71,8 @@ void doCMShowAlertDialog(char* title,char* msg,char* okText){
     [CloudMacacaAPIController CM_ShowAlertDialogForTitle:nsTitle andForMsg:nsMsg andForOkText:nsOk];
 }
 //Rate us
-void doCMShowRateUsDialog(char* msg,char* canelTest,char* rateText,char*laterText,char* AppleStoreId){
-    NSString* nsMsg =[NSString stringWithUTF8String:msg];
-    NSString* nsCancel =[NSString stringWithUTF8String:canelTest];
-    NSString* nsRate =[NSString stringWithUTF8String:rateText];
-    NSString* nsLater =[NSString stringWithUTF8String:laterText];
-    NSString* nsAppleStoreId =[NSString stringWithUTF8String:AppleStoreId];
-    [CloudMacacaAPIController CM_ShowRateUsDialog:nsMsg andForCancelText:nsCancel  andForRateText:nsRate  andForLaterText:nsLater andForAppleID:nsAppleStoreId];
+void doCMShowRateUsDialog(){
+    [CloudMacacaAPIController CM_ShowRateUsDialog];
 }
 
 
