@@ -65,12 +65,10 @@ namespace MacacaGames
 #endif
 #if UNITY_EDITOR
         private static AndroidJavaObject cmAPIControllerAndroid = null;
-        private static AndroidJavaObject cmGameServiceControllerAndroid = null;
 #endif
 
 #if UNITY_ANDROID && !UNITY_EDITOR
 		private static AndroidJavaObject cmAPIControllerAndroid = new AndroidJavaObject("com.CloudMacaca.AndroidNative.CMAndroidController");
-		private static AndroidJavaObject cmGameServiceControllerAndroid = new AndroidJavaObject("com.CloudMacaca.AndroidNative.CMAndroidPlayServiceController");
 #endif
         #region Permission
         public enum ATTrackingManagerAuthorizationStatus
