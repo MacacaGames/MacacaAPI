@@ -1,18 +1,42 @@
 {
   "homepages": [],
-  "source_base_path": "/Users/miki/Documents/SquidBeat/SB_Unity/Packages/MacacaAPIs/.docfx_project",
+  "source_base_path": "/Users/miki/Documents/CloudMacacaNativeAPI/Unity/Assets/MacacaAPI/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CMDatePickerCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CMDatePickerCallback.html",
+          "hash": "eTu2n2dWI+B0oUuJbDVL+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation~/api/MacacaGames.CMDialogCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MacacaGames.CMDialogCallback.html",
+          "hash": "gfbMuqnwEombL5rXosFq1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "../Documentation~/api/MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.yml",
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus.html",
-          "hash": "qCDkc2oAm+EoXektyHsydg=="
+          "hash": "2okFl9XhqdoL91RkuIPOpA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.CM_APIController.AndroidPermission.html",
-          "hash": "o1sQ9AOoUSmzTbMFy4xXbw=="
+          "hash": "j9oy7w/AYmGoPcYqWQLW2g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.CM_APIController.AndroidPermissionState.html",
-          "hash": "JrgdYxoFKMTEe7NcdUQXew=="
+          "hash": "sE/UPioY4wugdquwKYh36g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.CM_APIController.ShareType.html",
-          "hash": "UwhfabQ73PgZqNGV1oAWYQ=="
+          "hash": "QuCpjxLZx8hKgfR26YYFiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,43 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.CM_APIController.html",
-          "hash": "X+2hlOjGlyEjGWjXutnYsQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.Action.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MacacaGames.CM_LocalNotificationController.Action.html",
-          "hash": "O8RlX6So+MaTtbSJGDpvWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.Importance.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MacacaGames.CM_LocalNotificationController.Importance.html",
-          "hash": "YEtS9uk+6PqSfiv85sKwdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "../Documentation~/api/MacacaGames.CM_LocalNotificationController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MacacaGames.CM_LocalNotificationController.html",
-          "hash": "aVDdp9hsobN+7UpxQmDY7Q=="
+          "hash": "L9txeL/gNLQe5tmk6avGEg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MacacaGames.html",
-          "hash": "R1biYCF2I6L68O9SFGNH9g=="
+          "hash": "/Eav9ro1VVrZr1KlUSDDxQ=="
         }
       },
       "is_incremental": false,
@@ -120,7 +108,7 @@
           "hash": "QJChC5LAXPo7EsCqqlGOJQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +120,7 @@
           "hash": "YVVJI/9rhjUJP3u5hbJZtQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +132,7 @@
           "hash": "k3qt/nceYZsCW9ourr2fmQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +144,7 @@
           "hash": "ObJLAMcQQiZARip6he3AzQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +156,7 @@
           "hash": "+yV2LodKrd+4p0JjWnXUQw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,7 +168,7 @@
           "hash": "FTtiVevho68gYcSiTbM9uQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +180,7 @@
           "hash": "P4Ee/Z7Vez0jwg6y9A3Reg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +192,7 @@
           "hash": "rthxpcZfQTUxiQoLmj4UmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -324,7 +312,7 @@
           "hash": "d5OMoMpeYRYoAjKcvoK8KQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "60ATq7pACrcokL9m3g0lWg=="
+          "hash": "fJy642eSLMByrwb+eKSD9w=="
         }
       },
       "is_incremental": false,
@@ -360,7 +348,7 @@
           "hash": "kIDO+TWX9tK5Ym7OHfLOOw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -380,7 +368,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "N+dojEptJyL/r7HK9MyBSw=="
+          "hash": "OJvdZj5RqlwrKtKX2m3L0Q=="
         }
       },
       "is_incremental": false,
@@ -413,25 +401,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 28,
-          "skipped_file_count": 0
+          "total_file_count": 27,
+          "skipped_file_count": 19
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -451,8 +437,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

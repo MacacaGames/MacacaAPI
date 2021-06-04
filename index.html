@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>&#22914;&#20309;&#20351;&#29992; </title>
+    <title>Welcome to MacacaAPI </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="&#22914;&#20309;&#20351;&#29992; ">
+    <meta name="title" content="Welcome to MacacaAPI ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,19 +60,144 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="如何使用">如何使用</h1>
+<h1 id="welcome-to-macacaapi">Welcome to MacacaAPI</h1>
 
+<p>See <a href="https://macacagames.github.io/MacacaAPI/">Document</a> for more detail.</p>
+<p>Macaca API is a mobile native library for iOS and Android.</p>
+<h2 id="feature">Feature</h2>
+<ul>
+<li>Native share (text, image, video, gif)</li>
+<li>Native Dialog (with callback)</li>
+<li>Native DatePicker</li>
+<li>Rate Us Dialog</li>
+<li>Vibration</li>
+<li>Toast</li>
+<li>Runtime Permission (Android Only)</li>
+</ul>
 <h2 id="installation">Installation</h2>
-<h3 id="option-1-unity-package-manager">Option 1: Unity Package manager</h3>
+<h3 id="option-1-installation-via-openupm-recommend">Option 1: Installation via OpenUPM (Recommend)</h3>
+<pre><code class="lang-sh">openupm add com.macacagames.macacaapi
+</code></pre>
+<h3 id="option-2-unity-package-file">Option 2: Unity Package file</h3>
 <p>Add it to your editor's <code>manifest.json</code> file like this:</p>
 <pre><code class="lang-json">    {
     &quot;dependencies&quot;: {
-        &quot;com.macacagames.macacaapi&quot;: &quot;https://github.com/MacacaGames/MacacaAPI.git#1.0.0&quot;,
+        &quot;com.macacagames.macacaapi&quot;: &quot;https://github.com/MacacaGames/MacacaAPI.git&quot;,
     }
 }
 </code></pre>
-<p>You can remove the #1.0.0 to use the latest version (unstable)</p>
-</article>
+<h2 id="example">Example</h2>
+<ul>
+<li>Import MacacaAPI</li>
+<li>open the sence file in Test folder. (Test.unity)</li>
+<li>Build and Run!</li>
+</ul>
+<h2 id="for-android-user">For Android User</h2>
+<p>Android Native Shard require one more step to complete.</p>
+<p>Modify your AndroidManifest.xml in Plugins/Android folder and add this in <applicatoin> block<p>
+<p>Remember replace the <code>{your authorities}</code> into your Package name. (usually looks like com.xxxx.yyy)</p>
+<pre><code class="lang-xml">  &lt;provider
+    android:name=&quot;com.CloudMacaca.AndroidNative.UnityShareContentProvider&quot;
+    android:authorities=&quot;{your authorities}&quot;
+    android:exported=&quot;false&quot;
+    android:grantUriPermissions=&quot;true&quot; /&gt;
+</code></pre>
+<h2 id="usage">Usage</h2>
+<p>Full example code in <a href="https://github.com/MacacaGames/MacacaAPI/blob/master/Test/CloudMacacaAPITest.cs">CloudMacacaAPITest</a></p>
+<h3 id="show-toast-message">Show Toast Message</h3>
+<pre><code class="lang-csharp">CM_APIController.ShowToastMessage(&quot;Hello World&quot;);
+</code></pre>
+<h3 id="vibration">Vibration</h3>
+<pre><code class="lang-csharp">    // The haptic engine pop vibrate
+    CM_APIController.VibrationAsPop();
+
+    // The haptic engine Peek vibrate
+    CM_APIController.VibrationAsPeek();
+
+    // The haptic engine Nope vibrate
+    CM_APIController.VibrationAsNope();
+
+    // Vibrate device in milesecond (Android only)
+    CM_APIController.Vibration(1000);
+</code></pre>
+<h3 id="dialogs">Dialogs</h3>
+<pre><code class="lang-csharp">    // Show rate us
+    CM_APIController.ShowRateUsDialog();
+
+    // Show a system dialog
+    CM_APIController.ShowAlertDialog(
+        &quot;title&quot;,
+        &quot;msg&quot;,
+        &quot;Ok&quot;,
+        &quot;No&quot;,
+        new CMDialogCallback(
+            () =&gt;
+            {
+                CM_APIController.ShowToastMessage(&quot;Positive&quot;);
+            },
+            () =&gt;
+            {
+                CM_APIController.ShowToastMessage(&quot;Negative&quot;);
+            }
+        )
+    );
+
+    // Show System datetime picker
+    CM_APIController.ShowDatePickerWithCallback(
+            &quot;Ok&quot;,
+            &quot;No&quot;,
+            new CMDatePickerCallback(
+                (date) =&gt;
+                {
+                    CM_APIController.ShowToastMessage(date);
+                }
+            )
+        );
+</code></pre>
+<h3 id="share">Share</h3>
+<p>For share MacacaAPI only helps you to call a native share UI.
+you need to make the screenshot, gif, video yourself in Unity3D and save to a readable path.
+(Usually  Application.persistentDataPath )</p>
+<p>A sample to share a Screenshot</p>
+<pre><code class="lang-csharp">    public string ScreenshotName = &quot;screenshot.png&quot;;
+
+    public void ShareScreenshotWithText(string text)
+    {
+        string screenShotPath = Application.persistentDataPath + &quot;/&quot; + ScreenshotName;
+        if (File.Exists(screenShotPath)) File.Delete(screenShotPath);
+
+        ScreenCapture.CaptureScreenshot(ScreenshotName);
+        StartCoroutine(delayedShare(screenShotPath, text));
+    }
+
+    //CaptureScreenshot runs asynchronously, so you'll need to either capture the screenshot early and wait a fixed time
+    //for it to save, or set a unique image name and check if the file has been created yet before sharing.
+    IEnumerator delayedShare(string screenShotPath, string text)
+    {
+        while (!File.Exists(screenShotPath))
+        {
+            yield return new WaitForSeconds(.05f);
+        }
+        CM_APIController.Share(screenShotPath, text, text, CM_APIController.ShareType.Image);
+
+        //CM_APIController.Share(text, screenShotPath, &quot;&quot;, &quot;&quot;, &quot;image/png&quot;, true, &quot;&quot;);
+    }
+</code></pre>
+<p>To share text message</p>
+<pre><code class="lang-csharp">        CM_APIController.Share(&quot;title&quot;,&quot;content&quot;);
+</code></pre>
+<h3 id="android-runtime-permission">Android Runtime Permission</h3>
+<pre><code class="lang-csharp">    // Request a permission
+    CM_APIController.RequestPermission(CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE);
+
+    // Check a permission state
+    AndroidPermissionState result = CM_APIController. CheckPermissionState(CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE);
+
+    // Check app have a Permission or not
+    bool result = CM_APIController.CheckPermission(CM_APIController.AndroidPermission.WRITE_EXTERNAL_STORAGE);
+</code></pre>
+<p>more in  <a href="https://macacagames.github.io/MacacaAPI/">Document</a></p>
+</applicatoin></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
