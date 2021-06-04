@@ -12,12 +12,10 @@
     name: CM_APIController.ATTrackingManagerAuthorizationStatus
   - uid: MacacaGames.CM_APIController.ShareType
     name: CM_APIController.ShareType
-  - uid: MacacaGames.CM_LocalNotificationController
-    name: CM_LocalNotificationController
-  - uid: MacacaGames.CM_LocalNotificationController.Action
-    name: CM_LocalNotificationController.Action
-  - uid: MacacaGames.CM_LocalNotificationController.Importance
-    name: CM_LocalNotificationController.Importance
+  - uid: MacacaGames.CMDatePickerCallback
+    name: CMDatePickerCallback
+  - uid: MacacaGames.CMDialogCallback
+    name: CMDialogCallback
 - uid: UnityEditor.iOS.Xcode.Custom
   name: UnityEditor.iOS.Xcode.Custom
   items:

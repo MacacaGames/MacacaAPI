@@ -39,7 +39,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ProjectCapabilityManager
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 17
@@ -82,7 +82,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: project
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 25
@@ -113,7 +113,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: .ctor
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 36
@@ -155,7 +155,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToFile
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 53
@@ -187,7 +187,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddSignInWithApple
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 65
@@ -220,7 +220,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddiCloud
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 89
@@ -265,7 +265,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddiCloud
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 104
@@ -316,7 +316,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddPushNotifications
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 156
@@ -352,7 +352,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddGameCenter
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 165
@@ -384,7 +384,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddWallet
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 178
@@ -423,7 +423,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddSiri
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 200
@@ -455,7 +455,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddApplePay
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 211
@@ -494,7 +494,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddInAppPurchase
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 225
@@ -526,7 +526,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddMaps
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 234
@@ -562,7 +562,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddPersonalVPN
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 300
@@ -594,7 +594,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBackgroundModes
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 312
@@ -630,7 +630,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddKeychainSharing
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 356
@@ -669,7 +669,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddInterAppAudio
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 377
@@ -701,7 +701,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddAssociatedDomains
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 387
@@ -740,7 +740,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddAppGroups
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 402
@@ -779,7 +779,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddHomeKit
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 416
@@ -811,7 +811,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddDataProtection
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 425
@@ -843,7 +843,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddHealthKit
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 434
@@ -875,7 +875,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddWirelessAccessoryConfiguration
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 446

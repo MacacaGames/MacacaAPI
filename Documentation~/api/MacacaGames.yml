@@ -9,9 +9,8 @@ items:
   - MacacaGames.CM_APIController.AndroidPermissionState
   - MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus
   - MacacaGames.CM_APIController.ShareType
-  - MacacaGames.CM_LocalNotificationController
-  - MacacaGames.CM_LocalNotificationController.Action
-  - MacacaGames.CM_LocalNotificationController.Importance
+  - MacacaGames.CMDatePickerCallback
+  - MacacaGames.CMDialogCallback
   langs:
   - csharp
   - vb
@@ -22,6 +21,18 @@ items:
   assemblies:
   - MacacaAPIs
 references:
+- uid: MacacaGames.CMDialogCallback
+  commentId: T:MacacaGames.CMDialogCallback
+  parent: MacacaGames
+  name: CMDialogCallback
+  nameWithType: CMDialogCallback
+  fullName: MacacaGames.CMDialogCallback
+- uid: MacacaGames.CMDatePickerCallback
+  commentId: T:MacacaGames.CMDatePickerCallback
+  parent: MacacaGames
+  name: CMDatePickerCallback
+  nameWithType: CMDatePickerCallback
+  fullName: MacacaGames.CMDatePickerCallback
 - uid: MacacaGames.CM_APIController
   commentId: T:MacacaGames.CM_APIController
   name: CM_APIController
@@ -51,22 +62,6 @@ references:
   name: CM_APIController.ShareType
   nameWithType: CM_APIController.ShareType
   fullName: MacacaGames.CM_APIController.ShareType
-- uid: MacacaGames.CM_LocalNotificationController
-  commentId: T:MacacaGames.CM_LocalNotificationController
-  name: CM_LocalNotificationController
-  nameWithType: CM_LocalNotificationController
-  fullName: MacacaGames.CM_LocalNotificationController
-- uid: MacacaGames.CM_LocalNotificationController.Importance
-  commentId: T:MacacaGames.CM_LocalNotificationController.Importance
-  parent: MacacaGames
-  name: CM_LocalNotificationController.Importance
-  nameWithType: CM_LocalNotificationController.Importance
-  fullName: MacacaGames.CM_LocalNotificationController.Importance
-- uid: MacacaGames.CM_LocalNotificationController.Action
-  commentId: T:MacacaGames.CM_LocalNotificationController.Action
-  name: CM_LocalNotificationController.Action
-  nameWithType: CM_LocalNotificationController.Action
-  fullName: MacacaGames.CM_LocalNotificationController.Action
 - uid: MacacaGames
   commentId: N:MacacaGames
   name: MacacaGames

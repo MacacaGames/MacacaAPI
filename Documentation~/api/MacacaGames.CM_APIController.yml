@@ -8,24 +8,16 @@ items:
   - MacacaGames.CM_APIController.CheckPermission(MacacaGames.CM_APIController.AndroidPermission)
   - MacacaGames.CM_APIController.CheckPermissionNeedShowDialog(MacacaGames.CM_APIController.AndroidPermission)
   - MacacaGames.CM_APIController.CheckPermissionState(MacacaGames.CM_APIController.AndroidPermission)
-  - MacacaGames.CM_APIController.GameServiceInit
-  - MacacaGames.CM_APIController.GameServiceShowAchievementView
-  - MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  - MacacaGames.CM_APIController.GameServiceSignIn
-  - MacacaGames.CM_APIController.GameServiceSignOut
-  - MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  - MacacaGames.CM_APIController.GameServiceUploadScore(System.String,System.Int32)
   - MacacaGames.CM_APIController.HasVibrator
   - MacacaGames.CM_APIController.isVibrationEnable
   - MacacaGames.CM_APIController.RequestIDFA(System.Action{MacacaGames.CM_APIController.ATTrackingManagerAuthorizationStatus})
   - MacacaGames.CM_APIController.RequestPermission(MacacaGames.CM_APIController.AndroidPermission)
   - MacacaGames.CM_APIController.Share(System.String,System.String)
   - MacacaGames.CM_APIController.Share(System.String,System.String,System.String,MacacaGames.CM_APIController.ShareType)
-  - MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
-  - MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
-  - MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
-  - MacacaGames.CM_APIController.ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
-  - MacacaGames.CM_APIController.ShowSnackBar(System.String,System.String,System.String)
+  - MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  - MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  - MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
+  - MacacaGames.CM_APIController.ShowRateUsDialog
   - MacacaGames.CM_APIController.ShowToastMessage(System.String)
   - MacacaGames.CM_APIController.Vibration(System.Int32)
   - MacacaGames.CM_APIController.VibrationAsNope
@@ -42,7 +34,7 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CM_APIController
     path: ../Plugins/CM_APIController.cs
     startLine: 9
@@ -53,6 +45,7 @@ items:
     content: 'public class CM_APIController : MonoBehaviour'
     content.vb: >-
       Public Class CM_APIController
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -140,15 +133,19 @@ items:
   - UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
   - UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
   - UnityEngine.Object.FindObjectsOfType(System.Type)
+  - UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
   - UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
   - UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
   - UnityEngine.Object.DestroyObject(UnityEngine.Object)
   - UnityEngine.Object.FindSceneObjectsOfType(System.Type)
   - UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
   - UnityEngine.Object.FindObjectsOfType``1
+  - UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
   - UnityEngine.Object.FindObjectOfType``1
+  - UnityEngine.Object.FindObjectOfType``1(System.Boolean)
   - UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
   - UnityEngine.Object.FindObjectOfType(System.Type)
+  - UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
   - UnityEngine.Object.ToString
   - UnityEngine.Object.name
   - UnityEngine.Object.hideFlags
@@ -177,10 +174,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RequestIDFA
     path: ../Plugins/CM_APIController.cs
-    startLine: 93
+    startLine: 91
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -215,10 +212,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RequestPermission
     path: ../Plugins/CM_APIController.cs
-    startLine: 159
+    startLine: 158
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -252,7 +249,7 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CheckPermissionState
     path: ../Plugins/CM_APIController.cs
     startLine: 177
@@ -295,10 +292,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CheckPermission
     path: ../Plugins/CM_APIController.cs
-    startLine: 197
+    startLine: 198
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -338,10 +335,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CheckPermissionNeedShowDialog
     path: ../Plugins/CM_APIController.cs
-    startLine: 214
+    startLine: 216
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -379,10 +376,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: isVibrationEnable
     path: ../Plugins/CM_APIController.cs
-    startLine: 230
+    startLine: 233
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -412,10 +409,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: VibrationAsPeek
     path: ../Plugins/CM_APIController.cs
-    startLine: 235
+    startLine: 238
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -446,10 +443,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: VibrationAsPop
     path: ../Plugins/CM_APIController.cs
-    startLine: 257
+    startLine: 261
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -480,10 +477,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: VibrationAsNope
     path: ../Plugins/CM_APIController.cs
-    startLine: 279
+    startLine: 284
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -514,10 +511,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Vibration
     path: ../Plugins/CM_APIController.cs
-    startLine: 302
+    startLine: 308
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -552,10 +549,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: HasVibrator
     path: ../Plugins/CM_APIController.cs
-    startLine: 323
+    startLine: 333
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -574,49 +571,33 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: MacacaGames.CM_APIController.ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
-  commentId: M:MacacaGames.CM_APIController.ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
-  id: ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
+- uid: MacacaGames.CM_APIController.ShowRateUsDialog
+  commentId: M:MacacaGames.CM_APIController.ShowRateUsDialog
+  id: ShowRateUsDialog
   parent: MacacaGames.CM_APIController
   langs:
   - csharp
   - vb
-  name: ShowRateUsDialog(String, String, String, String, String)
-  nameWithType: CM_APIController.ShowRateUsDialog(String, String, String, String, String)
-  fullName: MacacaGames.CM_APIController.ShowRateUsDialog(System.String, System.String, System.String, System.String, System.String)
+  name: ShowRateUsDialog()
+  nameWithType: CM_APIController.ShowRateUsDialog()
+  fullName: MacacaGames.CM_APIController.ShowRateUsDialog()
   type: Method
   source:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShowRateUsDialog
     path: ../Plugins/CM_APIController.cs
-    startLine: 351
+    startLine: 353
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
   summary: "\nShow the RateUs Dialog.\n"
   example: []
   syntax:
-    content: public static void ShowRateUsDialog(string msg, string canelTest, string rateText, string laterText, string AppleStoreId)
-    parameters:
-    - id: msg
-      type: System.String
-      description: The message wish to show on the dialog.
-    - id: canelTest
-      type: System.String
-      description: The text on the cancel button.
-    - id: rateText
-      type: System.String
-      description: The text on the rate button.
-    - id: laterText
-      type: System.String
-      description: The text on the later button.
-    - id: AppleStoreId
-      type: System.String
-      description: The AppStore Id of iOS app, only use by the device which iOS version is lower than iOS 9
-    content.vb: Public Shared Sub ShowRateUsDialog(msg As String, canelTest As String, rateText As String, laterText As String, AppleStoreId As String)
+    content: public static void ShowRateUsDialog()
+    content.vb: Public Shared Sub ShowRateUsDialog
   overload: MacacaGames.CM_APIController.ShowRateUsDialog*
   modifiers.csharp:
   - public
@@ -624,25 +605,25 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
-  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
-  id: ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
+- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  id: ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
   parent: MacacaGames.CM_APIController
   langs:
   - csharp
   - vb
   name: ShowAlertDialog(String, String, String, CMDialogCallback)
   nameWithType: CM_APIController.ShowAlertDialog(String, String, String, CMDialogCallback)
-  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, CMDialogCallback)
+  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, MacacaGames.CMDialogCallback)
   type: Method
   source:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShowAlertDialog
     path: ../Plugins/CM_APIController.cs
-    startLine: 372
+    startLine: 374
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -661,7 +642,7 @@ items:
       type: System.String
       description: The text on the button
     - id: callback
-      type: CMDialogCallback
+      type: MacacaGames.CMDialogCallback
       description: Only positive Action work on this API
     content.vb: Public Shared Sub ShowAlertDialog(title As String, msg As String, positiveBtnText As String, callback As CMDialogCallback)
   overload: MacacaGames.CM_APIController.ShowAlertDialog*
@@ -671,25 +652,25 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
-  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
-  id: ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
+- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  id: ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
   parent: MacacaGames.CM_APIController
   langs:
   - csharp
   - vb
   name: ShowAlertDialog(String, String, String, String, CMDialogCallback)
   nameWithType: CM_APIController.ShowAlertDialog(String, String, String, String, CMDialogCallback)
-  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, System.String, CMDialogCallback)
+  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, System.String, MacacaGames.CMDialogCallback)
   type: Method
   source:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShowAlertDialog
     path: ../Plugins/CM_APIController.cs
-    startLine: 405
+    startLine: 407
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -711,7 +692,7 @@ items:
       type: System.String
       description: The text on the negative button
     - id: callback
-      type: CMDialogCallback
+      type: MacacaGames.CMDialogCallback
       description: A callback will fire after the dialog is closed.
     content.vb: Public Shared Sub ShowAlertDialog(title As String, msg As String, positiveBtnText As String, negativeBtnText As String, callback As CMDialogCallback)
   overload: MacacaGames.CM_APIController.ShowAlertDialog*
@@ -721,25 +702,25 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
-  commentId: M:MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
-  id: ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
+- uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
+  commentId: M:MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
+  id: ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
   parent: MacacaGames.CM_APIController
   langs:
   - csharp
   - vb
   name: ShowDatePickerWithCallback(String, String, CMDatePickerCallback)
   nameWithType: CM_APIController.ShowDatePickerWithCallback(String, String, CMDatePickerCallback)
-  fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String, System.String, CMDatePickerCallback)
+  fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String, System.String, MacacaGames.CMDatePickerCallback)
   type: Method
   source:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShowDatePickerWithCallback
     path: ../Plugins/CM_APIController.cs
-    startLine: 443
+    startLine: 446
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -755,7 +736,7 @@ items:
       type: System.String
       description: The text on cancel button (Only work on iOS)
     - id: callback
-      type: CMDatePickerCallback
+      type: MacacaGames.CMDatePickerCallback
       description: The callback if user has set a date and click the ok button
     content.vb: Public Shared Sub ShowDatePickerWithCallback(okText As String, cancelText As String, callback As CMDatePickerCallback)
   overload: MacacaGames.CM_APIController.ShowDatePickerWithCallback*
@@ -780,10 +761,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShowToastMessage
     path: ../Plugins/CM_APIController.cs
-    startLine: 501
+    startLine: 505
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -797,50 +778,6 @@ items:
       description: the message wish to show
     content.vb: Public Shared Sub ShowToastMessage(msg As String)
   overload: MacacaGames.CM_APIController.ShowToastMessage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.ShowSnackBar(System.String,System.String,System.String)
-  commentId: M:MacacaGames.CM_APIController.ShowSnackBar(System.String,System.String,System.String)
-  id: ShowSnackBar(System.String,System.String,System.String)
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: ShowSnackBar(String, String, String)
-  nameWithType: CM_APIController.ShowSnackBar(String, String, String)
-  fullName: MacacaGames.CM_APIController.ShowSnackBar(System.String, System.String, System.String)
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: ShowSnackBar
-    path: ../Plugins/CM_APIController.cs
-    startLine: 521
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  summary: "\nShow a Android Native like SnackBar, note: this snackbar is made by UnityGUI\n"
-  example: []
-  syntax:
-    content: public static void ShowSnackBar(string msg, string btnString, string id)
-    parameters:
-    - id: msg
-      type: System.String
-      description: The message on snackbar
-    - id: btnString
-      type: System.String
-      description: The text on snackbar&apos;s button
-    - id: id
-      type: System.String
-      description: Give the snackbar with an id
-    content.vb: Public Shared Sub ShowSnackBar(msg As String, btnString As String, id As String)
-  overload: MacacaGames.CM_APIController.ShowSnackBar*
   modifiers.csharp:
   - public
   - static
@@ -862,10 +799,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Share
     path: ../Plugins/CM_APIController.cs
-    startLine: 550
+    startLine: 536
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -909,10 +846,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Share
     path: ../Plugins/CM_APIController.cs
-    startLine: 605
+    startLine: 592
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -925,310 +862,6 @@ items:
       type: System.String
     content.vb: Public Shared Sub Share(subject As String, message As String)
   overload: MacacaGames.CM_APIController.Share*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceInit
-  commentId: M:MacacaGames.CM_APIController.GameServiceInit
-  id: GameServiceInit
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceInit()
-  nameWithType: CM_APIController.GameServiceInit()
-  fullName: MacacaGames.CM_APIController.GameServiceInit()
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceInit
-    path: ../Plugins/CM_APIController.cs
-    startLine: 628
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceInit()
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceInit
-  overload: MacacaGames.CM_APIController.GameServiceInit*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceSignIn
-  commentId: M:MacacaGames.CM_APIController.GameServiceSignIn
-  id: GameServiceSignIn
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceSignIn()
-  nameWithType: CM_APIController.GameServiceSignIn()
-  fullName: MacacaGames.CM_APIController.GameServiceSignIn()
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceSignIn
-    path: ../Plugins/CM_APIController.cs
-    startLine: 644
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceSignIn()
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceSignIn
-  overload: MacacaGames.CM_APIController.GameServiceSignIn*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceSignOut
-  commentId: M:MacacaGames.CM_APIController.GameServiceSignOut
-  id: GameServiceSignOut
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceSignOut()
-  nameWithType: CM_APIController.GameServiceSignOut()
-  fullName: MacacaGames.CM_APIController.GameServiceSignOut()
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceSignOut
-    path: ../Plugins/CM_APIController.cs
-    startLine: 661
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: public static void GameServiceSignOut()
-    content.vb: Public Shared Sub GameServiceSignOut
-  overload: MacacaGames.CM_APIController.GameServiceSignOut*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceShowAchievementView
-  commentId: M:MacacaGames.CM_APIController.GameServiceShowAchievementView
-  id: GameServiceShowAchievementView
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceShowAchievementView()
-  nameWithType: CM_APIController.GameServiceShowAchievementView()
-  fullName: MacacaGames.CM_APIController.GameServiceShowAchievementView()
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceShowAchievementView
-    path: ../Plugins/CM_APIController.cs
-    startLine: 675
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceShowAchievementView()
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceShowAchievementView
-  overload: MacacaGames.CM_APIController.GameServiceShowAchievementView*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  commentId: M:MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  id: GameServiceShowLeaderboardView
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceShowLeaderboardView()
-  nameWithType: CM_APIController.GameServiceShowLeaderboardView()
-  fullName: MacacaGames.CM_APIController.GameServiceShowLeaderboardView()
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceShowLeaderboardView
-    path: ../Plugins/CM_APIController.cs
-    startLine: 691
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceShowLeaderboardView()
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceShowLeaderboardView
-  overload: MacacaGames.CM_APIController.GameServiceShowLeaderboardView*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  commentId: M:MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  id: GameServiceUnlockAchievement(System.String)
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceUnlockAchievement(String)
-  nameWithType: CM_APIController.GameServiceUnlockAchievement(String)
-  fullName: MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceUnlockAchievement
-    path: ../Plugins/CM_APIController.cs
-    startLine: 707
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceUnlockAchievement(string achievementId)
-    parameters:
-    - id: achievementId
-      type: System.String
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceUnlockAchievement(achievementId As String)
-  overload: MacacaGames.CM_APIController.GameServiceUnlockAchievement*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: MacacaGames.CM_APIController.GameServiceUploadScore(System.String,System.Int32)
-  commentId: M:MacacaGames.CM_APIController.GameServiceUploadScore(System.String,System.Int32)
-  id: GameServiceUploadScore(System.String,System.Int32)
-  parent: MacacaGames.CM_APIController
-  langs:
-  - csharp
-  - vb
-  name: GameServiceUploadScore(String, Int32)
-  nameWithType: CM_APIController.GameServiceUploadScore(String, Int32)
-  fullName: MacacaGames.CM_APIController.GameServiceUploadScore(System.String, System.Int32)
-  type: Method
-  source:
-    remote:
-      path: Plugins/CM_APIController.cs
-      branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
-    id: GameServiceUploadScore
-    path: ../Plugins/CM_APIController.cs
-    startLine: 723
-  assemblies:
-  - MacacaAPIs
-  namespace: MacacaGames
-  syntax:
-    content: >-
-      [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-      public static void GameServiceUploadScore(string leaderboardId, int score)
-    parameters:
-    - id: leaderboardId
-      type: System.String
-    - id: score
-      type: System.Int32
-    content.vb: >-
-      <Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")>
-
-      Public Shared Sub GameServiceUploadScore(leaderboardId As String, score As Integer)
-  overload: MacacaGames.CM_APIController.GameServiceUploadScore*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)
   modifiers.csharp:
   - public
   - static
@@ -4953,6 +4586,63 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
+  commentId: M:UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
+  parent: UnityEngine.Object
+  isExternal: true
+  name: FindObjectsOfType(Type, Boolean)
+  nameWithType: Object.FindObjectsOfType(Type, Boolean)
+  fullName: UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
+    name: FindObjectsOfType
+    nameWithType: Object.FindObjectsOfType
+    fullName: UnityEngine.Object.FindObjectsOfType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
+    name: FindObjectsOfType
+    nameWithType: Object.FindObjectsOfType
+    fullName: UnityEngine.Object.FindObjectsOfType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
   commentId: M:UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
   parent: UnityEngine.Object
@@ -5208,6 +4898,50 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
+  commentId: M:UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
+  parent: UnityEngine.Object
+  isExternal: true
+  name: FindObjectsOfType<T>(Boolean)
+  nameWithType: Object.FindObjectsOfType<T>(Boolean)
+  fullName: UnityEngine.Object.FindObjectsOfType<T>(System.Boolean)
+  nameWithType.vb: Object.FindObjectsOfType(Of T)(Boolean)
+  fullName.vb: UnityEngine.Object.FindObjectsOfType(Of T)(System.Boolean)
+  name.vb: FindObjectsOfType(Of T)(Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
+    name: FindObjectsOfType<T>
+    nameWithType: Object.FindObjectsOfType<T>
+    fullName: UnityEngine.Object.FindObjectsOfType<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
+    name: FindObjectsOfType(Of T)
+    nameWithType: Object.FindObjectsOfType(Of T)
+    fullName: UnityEngine.Object.FindObjectsOfType(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: UnityEngine.Object.FindObjectOfType``1
   commentId: M:UnityEngine.Object.FindObjectOfType``1
   parent: UnityEngine.Object
@@ -5239,6 +4973,50 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
+  commentId: M:UnityEngine.Object.FindObjectOfType``1(System.Boolean)
+  parent: UnityEngine.Object
+  isExternal: true
+  name: FindObjectOfType<T>(Boolean)
+  nameWithType: Object.FindObjectOfType<T>(Boolean)
+  fullName: UnityEngine.Object.FindObjectOfType<T>(System.Boolean)
+  nameWithType.vb: Object.FindObjectOfType(Of T)(Boolean)
+  fullName.vb: UnityEngine.Object.FindObjectOfType(Of T)(System.Boolean)
+  name.vb: FindObjectOfType(Of T)(Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
+    name: FindObjectOfType<T>
+    nameWithType: Object.FindObjectOfType<T>
+    fullName: UnityEngine.Object.FindObjectOfType<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
+    name: FindObjectOfType(Of T)
+    nameWithType: Object.FindObjectOfType(Of T)
+    fullName: UnityEngine.Object.FindObjectOfType(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -5320,6 +5098,63 @@ references:
     name: Type
     nameWithType: Type
     fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
+  commentId: M:UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
+  parent: UnityEngine.Object
+  isExternal: true
+  name: FindObjectOfType(Type, Boolean)
+  nameWithType: Object.FindObjectOfType(Type, Boolean)
+  fullName: UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
+    name: FindObjectOfType
+    nameWithType: Object.FindObjectOfType
+    fullName: UnityEngine.Object.FindObjectOfType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
+    name: FindObjectOfType
+    nameWithType: Object.FindObjectOfType
+    fullName: UnityEngine.Object.FindObjectOfType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -6357,6 +6192,11 @@ references:
   name: ShowRateUsDialog
   nameWithType: CM_APIController.ShowRateUsDialog
   fullName: MacacaGames.CM_APIController.ShowRateUsDialog
+- uid: MacacaGames.CM_APIController.ShowAlertDialog*
+  commentId: Overload:MacacaGames.CM_APIController.ShowAlertDialog
+  name: ShowAlertDialog
+  nameWithType: CM_APIController.ShowAlertDialog
+  fullName: MacacaGames.CM_APIController.ShowAlertDialog
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -6364,37 +6204,28 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: MacacaGames.CM_APIController.ShowAlertDialog*
-  commentId: Overload:MacacaGames.CM_APIController.ShowAlertDialog
-  name: ShowAlertDialog
-  nameWithType: CM_APIController.ShowAlertDialog
-  fullName: MacacaGames.CM_APIController.ShowAlertDialog
-- uid: CMDialogCallback
-  isExternal: true
+- uid: MacacaGames.CMDialogCallback
+  commentId: T:MacacaGames.CMDialogCallback
+  parent: MacacaGames
   name: CMDialogCallback
   nameWithType: CMDialogCallback
-  fullName: CMDialogCallback
+  fullName: MacacaGames.CMDialogCallback
 - uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback*
   commentId: Overload:MacacaGames.CM_APIController.ShowDatePickerWithCallback
   name: ShowDatePickerWithCallback
   nameWithType: CM_APIController.ShowDatePickerWithCallback
   fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback
-- uid: CMDatePickerCallback
-  commentId: '!:CMDatePickerCallback'
-  isExternal: true
+- uid: MacacaGames.CMDatePickerCallback
+  commentId: T:MacacaGames.CMDatePickerCallback
+  parent: MacacaGames
   name: CMDatePickerCallback
   nameWithType: CMDatePickerCallback
-  fullName: CMDatePickerCallback
+  fullName: MacacaGames.CMDatePickerCallback
 - uid: MacacaGames.CM_APIController.ShowToastMessage*
   commentId: Overload:MacacaGames.CM_APIController.ShowToastMessage
   name: ShowToastMessage
   nameWithType: CM_APIController.ShowToastMessage
   fullName: MacacaGames.CM_APIController.ShowToastMessage
-- uid: MacacaGames.CM_APIController.ShowSnackBar*
-  commentId: Overload:MacacaGames.CM_APIController.ShowSnackBar
-  name: ShowSnackBar
-  nameWithType: CM_APIController.ShowSnackBar
-  fullName: MacacaGames.CM_APIController.ShowSnackBar
 - uid: MacacaGames.CM_APIController.Share*
   commentId: Overload:MacacaGames.CM_APIController.Share
   name: Share
@@ -6406,38 +6237,3 @@ references:
   name: CM_APIController.ShareType
   nameWithType: CM_APIController.ShareType
   fullName: MacacaGames.CM_APIController.ShareType
-- uid: MacacaGames.CM_APIController.GameServiceInit*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceInit
-  name: GameServiceInit
-  nameWithType: CM_APIController.GameServiceInit
-  fullName: MacacaGames.CM_APIController.GameServiceInit
-- uid: MacacaGames.CM_APIController.GameServiceSignIn*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceSignIn
-  name: GameServiceSignIn
-  nameWithType: CM_APIController.GameServiceSignIn
-  fullName: MacacaGames.CM_APIController.GameServiceSignIn
-- uid: MacacaGames.CM_APIController.GameServiceSignOut*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceSignOut
-  name: GameServiceSignOut
-  nameWithType: CM_APIController.GameServiceSignOut
-  fullName: MacacaGames.CM_APIController.GameServiceSignOut
-- uid: MacacaGames.CM_APIController.GameServiceShowAchievementView*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceShowAchievementView
-  name: GameServiceShowAchievementView
-  nameWithType: CM_APIController.GameServiceShowAchievementView
-  fullName: MacacaGames.CM_APIController.GameServiceShowAchievementView
-- uid: MacacaGames.CM_APIController.GameServiceShowLeaderboardView*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  name: GameServiceShowLeaderboardView
-  nameWithType: CM_APIController.GameServiceShowLeaderboardView
-  fullName: MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-- uid: MacacaGames.CM_APIController.GameServiceUnlockAchievement*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceUnlockAchievement
-  name: GameServiceUnlockAchievement
-  nameWithType: CM_APIController.GameServiceUnlockAchievement
-  fullName: MacacaGames.CM_APIController.GameServiceUnlockAchievement
-- uid: MacacaGames.CM_APIController.GameServiceUploadScore*
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceUploadScore
-  name: GameServiceUploadScore
-  nameWithType: CM_APIController.GameServiceUploadScore
-  fullName: MacacaGames.CM_APIController.GameServiceUploadScore

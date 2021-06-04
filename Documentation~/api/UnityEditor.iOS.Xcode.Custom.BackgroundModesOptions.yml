@@ -26,7 +26,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BackgroundModesOptions
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 538
@@ -74,7 +74,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: None
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 542
@@ -106,7 +106,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AudioAirplayPiP
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 543
@@ -138,7 +138,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: LocationUpdates
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 544
@@ -170,7 +170,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: VoiceOverIP
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 545
@@ -202,7 +202,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: NewsstandDownloads
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 546
@@ -234,7 +234,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ExternalAccessoryCommunication
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 547
@@ -266,7 +266,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: UsesBluetoothLEAccessory
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 548
@@ -298,7 +298,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ActsAsABluetoothLEAccessory
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 549
@@ -330,7 +330,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BackgroundFetch
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 550
@@ -362,7 +362,7 @@ items:
     remote:
       path: Editor/XcodeEditor/ProjectCapabilityManager.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoteNotifications
     path: ../Editor/XcodeEditor/ProjectCapabilityManager.cs
     startLine: 551

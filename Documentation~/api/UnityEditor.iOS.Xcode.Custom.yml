@@ -30,17 +30,6 @@ items:
   assemblies:
   - MacacaXCode.Editor
 references:
-- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
-  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
-  parent: UnityEditor.iOS.Xcode.Custom
-  name: PBXCapabilityType
-  nameWithType: PBXCapabilityType
-  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
-- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
-  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
-  name: PBXCapabilityType.TargetCapabilityPair
-  nameWithType: PBXCapabilityType.TargetCapabilityPair
-  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
 - uid: UnityEditor.iOS.Xcode.Custom.PBXSourceTree
   commentId: T:UnityEditor.iOS.Xcode.Custom.PBXSourceTree
   parent: UnityEditor.iOS.Xcode.Custom
@@ -118,6 +107,17 @@ references:
   name: MapsOptions
   nameWithType: MapsOptions
   fullName: UnityEditor.iOS.Xcode.Custom.MapsOptions
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+  parent: UnityEditor.iOS.Xcode.Custom
+  name: PBXCapabilityType
+  nameWithType: PBXCapabilityType
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType
+- uid: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  commentId: T:UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
+  name: PBXCapabilityType.TargetCapabilityPair
+  nameWithType: PBXCapabilityType.TargetCapabilityPair
+  fullName: UnityEditor.iOS.Xcode.Custom.PBXCapabilityType.TargetCapabilityPair
 - uid: UnityEditor.iOS.Xcode.Custom
   commentId: N:UnityEditor.iOS.Xcode.Custom
   name: UnityEditor.iOS.Xcode.Custom

@@ -20,7 +20,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProjectExtensions.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PBXProjectExtensions
     path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
     startLine: 22
@@ -63,7 +63,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProjectExtensions.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddAppExtension
     path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
     startLine: 200
@@ -123,7 +123,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProjectExtensions.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddWatchApp
     path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
     startLine: 238
@@ -183,7 +183,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProjectExtensions.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddWatchExtension
     path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
     startLine: 280
@@ -243,7 +243,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProjectExtensions.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFileToEmbedFrameworks
     path: ../Editor/XcodeEditor/PBXProjectExtensions.cs
     startLine: 402

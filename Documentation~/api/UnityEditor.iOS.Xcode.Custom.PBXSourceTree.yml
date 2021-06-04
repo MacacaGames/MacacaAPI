@@ -22,7 +22,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PBXSourceTree
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 34
@@ -53,7 +53,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Absolute
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 36
@@ -85,7 +85,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Source
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 37
@@ -117,7 +117,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Group
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 38
@@ -149,7 +149,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Build
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 40
@@ -181,7 +181,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Developer
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 41
@@ -213,7 +213,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Sdk
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 42

@@ -256,97 +256,6 @@ references:
   isSpec: "True"
   fullName: MacacaGames.CM_APIController.CheckPermissionState
   nameWithType: CM_APIController.CheckPermissionState
-- uid: MacacaGames.CM_APIController.GameServiceInit
-  name: GameServiceInit()
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceInit
-  commentId: M:MacacaGames.CM_APIController.GameServiceInit
-  fullName: MacacaGames.CM_APIController.GameServiceInit()
-  nameWithType: CM_APIController.GameServiceInit()
-- uid: MacacaGames.CM_APIController.GameServiceInit*
-  name: GameServiceInit
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceInit_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceInit
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceInit
-  nameWithType: CM_APIController.GameServiceInit
-- uid: MacacaGames.CM_APIController.GameServiceShowAchievementView
-  name: GameServiceShowAchievementView()
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceShowAchievementView
-  commentId: M:MacacaGames.CM_APIController.GameServiceShowAchievementView
-  fullName: MacacaGames.CM_APIController.GameServiceShowAchievementView()
-  nameWithType: CM_APIController.GameServiceShowAchievementView()
-- uid: MacacaGames.CM_APIController.GameServiceShowAchievementView*
-  name: GameServiceShowAchievementView
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceShowAchievementView_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceShowAchievementView
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceShowAchievementView
-  nameWithType: CM_APIController.GameServiceShowAchievementView
-- uid: MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  name: GameServiceShowLeaderboardView()
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceShowLeaderboardView
-  commentId: M:MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  fullName: MacacaGames.CM_APIController.GameServiceShowLeaderboardView()
-  nameWithType: CM_APIController.GameServiceShowLeaderboardView()
-- uid: MacacaGames.CM_APIController.GameServiceShowLeaderboardView*
-  name: GameServiceShowLeaderboardView
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceShowLeaderboardView_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceShowLeaderboardView
-  nameWithType: CM_APIController.GameServiceShowLeaderboardView
-- uid: MacacaGames.CM_APIController.GameServiceSignIn
-  name: GameServiceSignIn()
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceSignIn
-  commentId: M:MacacaGames.CM_APIController.GameServiceSignIn
-  fullName: MacacaGames.CM_APIController.GameServiceSignIn()
-  nameWithType: CM_APIController.GameServiceSignIn()
-- uid: MacacaGames.CM_APIController.GameServiceSignIn*
-  name: GameServiceSignIn
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceSignIn_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceSignIn
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceSignIn
-  nameWithType: CM_APIController.GameServiceSignIn
-- uid: MacacaGames.CM_APIController.GameServiceSignOut
-  name: GameServiceSignOut()
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceSignOut
-  commentId: M:MacacaGames.CM_APIController.GameServiceSignOut
-  fullName: MacacaGames.CM_APIController.GameServiceSignOut()
-  nameWithType: CM_APIController.GameServiceSignOut()
-- uid: MacacaGames.CM_APIController.GameServiceSignOut*
-  name: GameServiceSignOut
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceSignOut_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceSignOut
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceSignOut
-  nameWithType: CM_APIController.GameServiceSignOut
-- uid: MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  name: GameServiceUnlockAchievement(String)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceUnlockAchievement_System_String_
-  commentId: M:MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  fullName: MacacaGames.CM_APIController.GameServiceUnlockAchievement(System.String)
-  nameWithType: CM_APIController.GameServiceUnlockAchievement(String)
-- uid: MacacaGames.CM_APIController.GameServiceUnlockAchievement*
-  name: GameServiceUnlockAchievement
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceUnlockAchievement_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceUnlockAchievement
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceUnlockAchievement
-  nameWithType: CM_APIController.GameServiceUnlockAchievement
-- uid: MacacaGames.CM_APIController.GameServiceUploadScore(System.String,System.Int32)
-  name: GameServiceUploadScore(String, Int32)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceUploadScore_System_String_System_Int32_
-  commentId: M:MacacaGames.CM_APIController.GameServiceUploadScore(System.String,System.Int32)
-  fullName: MacacaGames.CM_APIController.GameServiceUploadScore(System.String, System.Int32)
-  nameWithType: CM_APIController.GameServiceUploadScore(String, Int32)
-- uid: MacacaGames.CM_APIController.GameServiceUploadScore*
-  name: GameServiceUploadScore
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_GameServiceUploadScore_
-  commentId: Overload:MacacaGames.CM_APIController.GameServiceUploadScore
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.GameServiceUploadScore
-  nameWithType: CM_APIController.GameServiceUploadScore
 - uid: MacacaGames.CM_APIController.HasVibrator
   name: HasVibrator()
   href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_HasVibrator
@@ -438,17 +347,17 @@ references:
   commentId: F:MacacaGames.CM_APIController.ShareType.Viedo
   fullName: MacacaGames.CM_APIController.ShareType.Viedo
   nameWithType: CM_APIController.ShareType.Viedo
-- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
+- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
   name: ShowAlertDialog(String, String, String, CMDialogCallback)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowAlertDialog_System_String_System_String_System_String_CMDialogCallback_
-  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,CMDialogCallback)
-  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, CMDialogCallback)
+  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowAlertDialog_System_String_System_String_System_String_MacacaGames_CMDialogCallback_
+  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, MacacaGames.CMDialogCallback)
   nameWithType: CM_APIController.ShowAlertDialog(String, String, String, CMDialogCallback)
-- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
+- uid: MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
   name: ShowAlertDialog(String, String, String, String, CMDialogCallback)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowAlertDialog_System_String_System_String_System_String_System_String_CMDialogCallback_
-  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,CMDialogCallback)
-  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, System.String, CMDialogCallback)
+  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowAlertDialog_System_String_System_String_System_String_System_String_MacacaGames_CMDialogCallback_
+  commentId: M:MacacaGames.CM_APIController.ShowAlertDialog(System.String,System.String,System.String,System.String,MacacaGames.CMDialogCallback)
+  fullName: MacacaGames.CM_APIController.ShowAlertDialog(System.String, System.String, System.String, System.String, MacacaGames.CMDialogCallback)
   nameWithType: CM_APIController.ShowAlertDialog(String, String, String, String, CMDialogCallback)
 - uid: MacacaGames.CM_APIController.ShowAlertDialog*
   name: ShowAlertDialog
@@ -457,11 +366,11 @@ references:
   isSpec: "True"
   fullName: MacacaGames.CM_APIController.ShowAlertDialog
   nameWithType: CM_APIController.ShowAlertDialog
-- uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
+- uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
   name: ShowDatePickerWithCallback(String, String, CMDatePickerCallback)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowDatePickerWithCallback_System_String_System_String_CMDatePickerCallback_
-  commentId: M:MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,CMDatePickerCallback)
-  fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String, System.String, CMDatePickerCallback)
+  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowDatePickerWithCallback_System_String_System_String_MacacaGames_CMDatePickerCallback_
+  commentId: M:MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String,System.String,MacacaGames.CMDatePickerCallback)
+  fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback(System.String, System.String, MacacaGames.CMDatePickerCallback)
   nameWithType: CM_APIController.ShowDatePickerWithCallback(String, String, CMDatePickerCallback)
 - uid: MacacaGames.CM_APIController.ShowDatePickerWithCallback*
   name: ShowDatePickerWithCallback
@@ -470,12 +379,12 @@ references:
   isSpec: "True"
   fullName: MacacaGames.CM_APIController.ShowDatePickerWithCallback
   nameWithType: CM_APIController.ShowDatePickerWithCallback
-- uid: MacacaGames.CM_APIController.ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
-  name: ShowRateUsDialog(String, String, String, String, String)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowRateUsDialog_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:MacacaGames.CM_APIController.ShowRateUsDialog(System.String,System.String,System.String,System.String,System.String)
-  fullName: MacacaGames.CM_APIController.ShowRateUsDialog(System.String, System.String, System.String, System.String, System.String)
-  nameWithType: CM_APIController.ShowRateUsDialog(String, String, String, String, String)
+- uid: MacacaGames.CM_APIController.ShowRateUsDialog
+  name: ShowRateUsDialog()
+  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowRateUsDialog
+  commentId: M:MacacaGames.CM_APIController.ShowRateUsDialog
+  fullName: MacacaGames.CM_APIController.ShowRateUsDialog()
+  nameWithType: CM_APIController.ShowRateUsDialog()
 - uid: MacacaGames.CM_APIController.ShowRateUsDialog*
   name: ShowRateUsDialog
   href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowRateUsDialog_
@@ -483,19 +392,6 @@ references:
   isSpec: "True"
   fullName: MacacaGames.CM_APIController.ShowRateUsDialog
   nameWithType: CM_APIController.ShowRateUsDialog
-- uid: MacacaGames.CM_APIController.ShowSnackBar(System.String,System.String,System.String)
-  name: ShowSnackBar(String, String, String)
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowSnackBar_System_String_System_String_System_String_
-  commentId: M:MacacaGames.CM_APIController.ShowSnackBar(System.String,System.String,System.String)
-  fullName: MacacaGames.CM_APIController.ShowSnackBar(System.String, System.String, System.String)
-  nameWithType: CM_APIController.ShowSnackBar(String, String, String)
-- uid: MacacaGames.CM_APIController.ShowSnackBar*
-  name: ShowSnackBar
-  href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowSnackBar_
-  commentId: Overload:MacacaGames.CM_APIController.ShowSnackBar
-  isSpec: "True"
-  fullName: MacacaGames.CM_APIController.ShowSnackBar
-  nameWithType: CM_APIController.ShowSnackBar
 - uid: MacacaGames.CM_APIController.ShowToastMessage(System.String)
   name: ShowToastMessage(String)
   href: api/MacacaGames.CM_APIController.html#MacacaGames_CM_APIController_ShowToastMessage_System_String_
@@ -561,225 +457,92 @@ references:
   isSpec: "True"
   fullName: MacacaGames.CM_APIController.VibrationAsPop
   nameWithType: CM_APIController.VibrationAsPop
-- uid: MacacaGames.CM_LocalNotificationController
-  name: CM_LocalNotificationController
-  href: api/MacacaGames.CM_LocalNotificationController.html
-  commentId: T:MacacaGames.CM_LocalNotificationController
-  fullName: MacacaGames.CM_LocalNotificationController
-  nameWithType: CM_LocalNotificationController
-- uid: MacacaGames.CM_LocalNotificationController.Action
-  name: CM_LocalNotificationController.Action
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html
-  commentId: T:MacacaGames.CM_LocalNotificationController.Action
-  fullName: MacacaGames.CM_LocalNotificationController.Action
-  nameWithType: CM_LocalNotificationController.Action
-- uid: MacacaGames.CM_LocalNotificationController.Action.#ctor(System.String,System.String,UnityEngine.MonoBehaviour)
-  name: Action(String, String, MonoBehaviour)
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action__ctor_System_String_System_String_UnityEngine_MonoBehaviour_
-  commentId: M:MacacaGames.CM_LocalNotificationController.Action.#ctor(System.String,System.String,UnityEngine.MonoBehaviour)
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Action(System.String, System.String, UnityEngine.MonoBehaviour)
-  nameWithType: CM_LocalNotificationController.Action.Action(String, String, MonoBehaviour)
-- uid: MacacaGames.CM_LocalNotificationController.Action.#ctor*
-  name: Action
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action__ctor_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.Action.#ctor
+- uid: MacacaGames.CMDatePickerCallback
+  name: CMDatePickerCallback
+  href: api/MacacaGames.CMDatePickerCallback.html
+  commentId: T:MacacaGames.CMDatePickerCallback
+  fullName: MacacaGames.CMDatePickerCallback
+  nameWithType: CMDatePickerCallback
+- uid: MacacaGames.CMDatePickerCallback.#ctor(System.Action{System.String})
+  name: CMDatePickerCallback(Action<String>)
+  href: api/MacacaGames.CMDatePickerCallback.html#MacacaGames_CMDatePickerCallback__ctor_System_Action_System_String__
+  commentId: M:MacacaGames.CMDatePickerCallback.#ctor(System.Action{System.String})
+  name.vb: CMDatePickerCallback(Action(Of String))
+  fullName: MacacaGames.CMDatePickerCallback.CMDatePickerCallback(System.Action<System.String>)
+  fullName.vb: MacacaGames.CMDatePickerCallback.CMDatePickerCallback(System.Action(Of System.String))
+  nameWithType: CMDatePickerCallback.CMDatePickerCallback(Action<String>)
+  nameWithType.vb: CMDatePickerCallback.CMDatePickerCallback(Action(Of String))
+- uid: MacacaGames.CMDatePickerCallback.#ctor*
+  name: CMDatePickerCallback
+  href: api/MacacaGames.CMDatePickerCallback.html#MacacaGames_CMDatePickerCallback__ctor_
+  commentId: Overload:MacacaGames.CMDatePickerCallback.#ctor
   isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Action
-  nameWithType: CM_LocalNotificationController.Action.Action
-- uid: MacacaGames.CM_LocalNotificationController.Action.Foreground
-  name: Foreground
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_Foreground
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Foreground
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Foreground
-  nameWithType: CM_LocalNotificationController.Action.Foreground
-- uid: MacacaGames.CM_LocalNotificationController.Action.GameObject
-  name: GameObject
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_GameObject
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.GameObject
-  fullName: MacacaGames.CM_LocalNotificationController.Action.GameObject
-  nameWithType: CM_LocalNotificationController.Action.GameObject
-- uid: MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
-  name: HandlerMethod
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_HandlerMethod
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
-  fullName: MacacaGames.CM_LocalNotificationController.Action.HandlerMethod
-  nameWithType: CM_LocalNotificationController.Action.HandlerMethod
-- uid: MacacaGames.CM_LocalNotificationController.Action.Icon
-  name: Icon
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_Icon
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Icon
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Icon
-  nameWithType: CM_LocalNotificationController.Action.Icon
-- uid: MacacaGames.CM_LocalNotificationController.Action.Identifier
-  name: Identifier
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_Identifier
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Identifier
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Identifier
-  nameWithType: CM_LocalNotificationController.Action.Identifier
-- uid: MacacaGames.CM_LocalNotificationController.Action.Title
-  name: Title
-  href: api/MacacaGames.CM_LocalNotificationController.Action.html#MacacaGames_CM_LocalNotificationController_Action_Title
-  commentId: F:MacacaGames.CM_LocalNotificationController.Action.Title
-  fullName: MacacaGames.CM_LocalNotificationController.Action.Title
-  nameWithType: CM_LocalNotificationController.Action.Title
-- uid: MacacaGames.CM_LocalNotificationController.CancelNotification(System.Int32)
-  name: CancelNotification(Int32)
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_CancelNotification_System_Int32_
-  commentId: M:MacacaGames.CM_LocalNotificationController.CancelNotification(System.Int32)
-  fullName: MacacaGames.CM_LocalNotificationController.CancelNotification(System.Int32)
-  nameWithType: CM_LocalNotificationController.CancelNotification(Int32)
-- uid: MacacaGames.CM_LocalNotificationController.CancelNotification*
-  name: CancelNotification
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_CancelNotification_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.CancelNotification
+  fullName: MacacaGames.CMDatePickerCallback.CMDatePickerCallback
+  nameWithType: CMDatePickerCallback.CMDatePickerCallback
+- uid: MacacaGames.CMDatePickerCallback._OnResult
+  name: _OnResult
+  href: api/MacacaGames.CMDatePickerCallback.html#MacacaGames_CMDatePickerCallback__OnResult
+  commentId: F:MacacaGames.CMDatePickerCallback._OnResult
+  fullName: MacacaGames.CMDatePickerCallback._OnResult
+  nameWithType: CMDatePickerCallback._OnResult
+- uid: MacacaGames.CMDatePickerCallback.onResultClick(System.String)
+  name: onResultClick(String)
+  href: api/MacacaGames.CMDatePickerCallback.html#MacacaGames_CMDatePickerCallback_onResultClick_System_String_
+  commentId: M:MacacaGames.CMDatePickerCallback.onResultClick(System.String)
+  fullName: MacacaGames.CMDatePickerCallback.onResultClick(System.String)
+  nameWithType: CMDatePickerCallback.onResultClick(String)
+- uid: MacacaGames.CMDatePickerCallback.onResultClick*
+  name: onResultClick
+  href: api/MacacaGames.CMDatePickerCallback.html#MacacaGames_CMDatePickerCallback_onResultClick_
+  commentId: Overload:MacacaGames.CMDatePickerCallback.onResultClick
   isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.CancelNotification
-  nameWithType: CM_LocalNotificationController.CancelNotification
-- uid: MacacaGames.CM_LocalNotificationController.ClearNotifications
-  name: ClearNotifications()
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_ClearNotifications
-  commentId: M:MacacaGames.CM_LocalNotificationController.ClearNotifications
-  fullName: MacacaGames.CM_LocalNotificationController.ClearNotifications()
-  nameWithType: CM_LocalNotificationController.ClearNotifications()
-- uid: MacacaGames.CM_LocalNotificationController.ClearNotifications*
-  name: ClearNotifications
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_ClearNotifications_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.ClearNotifications
+  fullName: MacacaGames.CMDatePickerCallback.onResultClick
+  nameWithType: CMDatePickerCallback.onResultClick
+- uid: MacacaGames.CMDialogCallback
+  name: CMDialogCallback
+  href: api/MacacaGames.CMDialogCallback.html
+  commentId: T:MacacaGames.CMDialogCallback
+  fullName: MacacaGames.CMDialogCallback
+  nameWithType: CMDialogCallback
+- uid: MacacaGames.CMDialogCallback.#ctor(System.Action,System.Action)
+  name: CMDialogCallback(Action, Action)
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback__ctor_System_Action_System_Action_
+  commentId: M:MacacaGames.CMDialogCallback.#ctor(System.Action,System.Action)
+  fullName: MacacaGames.CMDialogCallback.CMDialogCallback(System.Action, System.Action)
+  nameWithType: CMDialogCallback.CMDialogCallback(Action, Action)
+- uid: MacacaGames.CMDialogCallback.#ctor*
+  name: CMDialogCallback
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback__ctor_
+  commentId: Overload:MacacaGames.CMDialogCallback.#ctor
   isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.ClearNotifications
-  nameWithType: CM_LocalNotificationController.ClearNotifications
-- uid: MacacaGames.CM_LocalNotificationController.CreateChannel(System.String,System.String,System.String,UnityEngine.Color32,System.Boolean,System.String,MacacaGames.CM_LocalNotificationController.Importance,System.Boolean,System.Int64[])
-  name: CreateChannel(String, String, String, Color32, Boolean, String, CM_LocalNotificationController.Importance, Boolean, Int64[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_CreateChannel_System_String_System_String_System_String_UnityEngine_Color32_System_Boolean_System_String_MacacaGames_CM_LocalNotificationController_Importance_System_Boolean_System_Int64___
-  commentId: M:MacacaGames.CM_LocalNotificationController.CreateChannel(System.String,System.String,System.String,UnityEngine.Color32,System.Boolean,System.String,MacacaGames.CM_LocalNotificationController.Importance,System.Boolean,System.Int64[])
-  name.vb: CreateChannel(String, String, String, Color32, Boolean, String, CM_LocalNotificationController.Importance, Boolean, Int64())
-  fullName: MacacaGames.CM_LocalNotificationController.CreateChannel(System.String, System.String, System.String, UnityEngine.Color32, System.Boolean, System.String, MacacaGames.CM_LocalNotificationController.Importance, System.Boolean, System.Int64[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.CreateChannel(System.String, System.String, System.String, UnityEngine.Color32, System.Boolean, System.String, MacacaGames.CM_LocalNotificationController.Importance, System.Boolean, System.Int64())
-  nameWithType: CM_LocalNotificationController.CreateChannel(String, String, String, Color32, Boolean, String, CM_LocalNotificationController.Importance, Boolean, Int64[])
-  nameWithType.vb: CM_LocalNotificationController.CreateChannel(String, String, String, Color32, Boolean, String, CM_LocalNotificationController.Importance, Boolean, Int64())
-- uid: MacacaGames.CM_LocalNotificationController.CreateChannel*
-  name: CreateChannel
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_CreateChannel_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.CreateChannel
+  fullName: MacacaGames.CMDialogCallback.CMDialogCallback
+  nameWithType: CMDialogCallback.CMDialogCallback
+- uid: MacacaGames.CMDialogCallback.onNegativeButtonClick
+  name: onNegativeButtonClick()
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback_onNegativeButtonClick
+  commentId: M:MacacaGames.CMDialogCallback.onNegativeButtonClick
+  fullName: MacacaGames.CMDialogCallback.onNegativeButtonClick()
+  nameWithType: CMDialogCallback.onNegativeButtonClick()
+- uid: MacacaGames.CMDialogCallback.onNegativeButtonClick*
+  name: onNegativeButtonClick
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback_onNegativeButtonClick_
+  commentId: Overload:MacacaGames.CMDialogCallback.onNegativeButtonClick
   isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.CreateChannel
-  nameWithType: CM_LocalNotificationController.CreateChannel
-- uid: MacacaGames.CM_LocalNotificationController.Importance
-  name: CM_LocalNotificationController.Importance
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html
-  commentId: T:MacacaGames.CM_LocalNotificationController.Importance
-  fullName: MacacaGames.CM_LocalNotificationController.Importance
-  nameWithType: CM_LocalNotificationController.Importance
-- uid: MacacaGames.CM_LocalNotificationController.Importance.Default
-  name: Default
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_Default
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Default
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.Default
-  nameWithType: CM_LocalNotificationController.Importance.Default
-- uid: MacacaGames.CM_LocalNotificationController.Importance.High
-  name: High
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_High
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.High
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.High
-  nameWithType: CM_LocalNotificationController.Importance.High
-- uid: MacacaGames.CM_LocalNotificationController.Importance.Low
-  name: Low
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_Low
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Low
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.Low
-  nameWithType: CM_LocalNotificationController.Importance.Low
-- uid: MacacaGames.CM_LocalNotificationController.Importance.Max
-  name: Max
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_Max
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Max
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.Max
-  nameWithType: CM_LocalNotificationController.Importance.Max
-- uid: MacacaGames.CM_LocalNotificationController.Importance.Min
-  name: Min
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_Min
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.Min
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.Min
-  nameWithType: CM_LocalNotificationController.Importance.Min
-- uid: MacacaGames.CM_LocalNotificationController.Importance.None
-  name: None
-  href: api/MacacaGames.CM_LocalNotificationController.Importance.html#MacacaGames_CM_LocalNotificationController_Importance_None
-  commentId: F:MacacaGames.CM_LocalNotificationController.Importance.None
-  fullName: MacacaGames.CM_LocalNotificationController.Importance.None
-  nameWithType: CM_LocalNotificationController.Importance.None
-- uid: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32,System.Int64,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendNotification(Int32, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendNotification_System_Int32_System_Int64_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32,System.Int64,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendNotification(Int32, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32, System.Int64, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32, System.Int64, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendNotification(Int32, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendNotification(Int32, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendNotification(Int32, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendNotification_System_Int32_System_TimeSpan_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendNotification(Int32, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendNotification(System.Int32, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendNotification(Int32, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendNotification(Int32, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendNotification(System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendNotification(TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendNotification_System_TimeSpan_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendNotification(System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendNotification(TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendNotification(System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendNotification(System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendNotification(TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendNotification(TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendNotification*
-  name: SendNotification
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendNotification_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.SendNotification
+  fullName: MacacaGames.CMDialogCallback.onNegativeButtonClick
+  nameWithType: CMDialogCallback.onNegativeButtonClick
+- uid: MacacaGames.CMDialogCallback.onPositiveButtonClick
+  name: onPositiveButtonClick()
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback_onPositiveButtonClick
+  commentId: M:MacacaGames.CMDialogCallback.onPositiveButtonClick
+  fullName: MacacaGames.CMDialogCallback.onPositiveButtonClick()
+  nameWithType: CMDialogCallback.onPositiveButtonClick()
+- uid: MacacaGames.CMDialogCallback.onPositiveButtonClick*
+  name: onPositiveButtonClick
+  href: api/MacacaGames.CMDialogCallback.html#MacacaGames_CMDialogCallback_onPositiveButtonClick_
+  commentId: Overload:MacacaGames.CMDialogCallback.onPositiveButtonClick
   isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.SendNotification
-  nameWithType: CM_LocalNotificationController.SendNotification
-- uid: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32,System.Int64,System.Int64,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendRepeatingNotification(Int32, Int64, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendRepeatingNotification_System_Int32_System_Int64_System_Int64_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32,System.Int64,System.Int64,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendRepeatingNotification(Int32, Int64, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32, System.Int64, System.Int64, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32, System.Int64, System.Int64, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendRepeatingNotification(Int32, Int64, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendRepeatingNotification(Int32, Int64, Int64, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32,System.TimeSpan,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendRepeatingNotification(Int32, TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendRepeatingNotification_System_Int32_System_TimeSpan_System_TimeSpan_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32,System.TimeSpan,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendRepeatingNotification(Int32, TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32, System.TimeSpan, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.Int32, System.TimeSpan, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendRepeatingNotification(Int32, TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendRepeatingNotification(Int32, TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.TimeSpan,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name: SendRepeatingNotification(TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendRepeatingNotification_System_TimeSpan_System_TimeSpan_System_String_System_String_UnityEngine_Color32_System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_MacacaGames_CM_LocalNotificationController_Action___
-  commentId: M:MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.TimeSpan,System.TimeSpan,System.String,System.String,UnityEngine.Color32,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,MacacaGames.CM_LocalNotificationController.Action[])
-  name.vb: SendRepeatingNotification(TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-  fullName: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.TimeSpan, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action[])
-  fullName.vb: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification(System.TimeSpan, System.TimeSpan, System.String, System.String, UnityEngine.Color32, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, System.String, MacacaGames.CM_LocalNotificationController.Action())
-  nameWithType: CM_LocalNotificationController.SendRepeatingNotification(TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action[])
-  nameWithType.vb: CM_LocalNotificationController.SendRepeatingNotification(TimeSpan, TimeSpan, String, String, Color32, Boolean, Boolean, Boolean, String, String, String, CM_LocalNotificationController.Action())
-- uid: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification*
-  name: SendRepeatingNotification
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_SendRepeatingNotification_
-  commentId: Overload:MacacaGames.CM_LocalNotificationController.SendRepeatingNotification
-  isSpec: "True"
-  fullName: MacacaGames.CM_LocalNotificationController.SendRepeatingNotification
-  nameWithType: CM_LocalNotificationController.SendRepeatingNotification
-- uid: MacacaGames.CM_LocalNotificationController.smallIcon
-  name: smallIcon
-  href: api/MacacaGames.CM_LocalNotificationController.html#MacacaGames_CM_LocalNotificationController_smallIcon
-  commentId: F:MacacaGames.CM_LocalNotificationController.smallIcon
-  fullName: MacacaGames.CM_LocalNotificationController.smallIcon
-  nameWithType: CM_LocalNotificationController.smallIcon
+  fullName: MacacaGames.CMDialogCallback.onPositiveButtonClick
+  nameWithType: CMDialogCallback.onPositiveButtonClick
 - uid: UnityEditor.iOS.Xcode.Custom
   name: UnityEditor.iOS.Xcode.Custom
   href: api/UnityEditor.iOS.Xcode.Custom.html

@@ -80,7 +80,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PBXProject
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 45
@@ -126,7 +126,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetPBXProjectPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 91
@@ -167,7 +167,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetUnityTargetName
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 102
@@ -204,7 +204,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetUnityTestTargetName
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 113
@@ -241,7 +241,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ProjectGuid
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 124
@@ -276,7 +276,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: TargetGuidByName
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 136
@@ -315,7 +315,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: IsKnownExtension
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 149
@@ -356,7 +356,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: IsBuildable
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 160
@@ -397,7 +397,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 202
@@ -445,7 +445,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFolderReference
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 219
@@ -493,7 +493,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFileToBuild
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 250
@@ -532,7 +532,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFileToBuildWithFlags
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 265
@@ -574,7 +574,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFileToBuildSection
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 280
@@ -616,7 +616,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetCompileFlagsForFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 295
@@ -658,7 +658,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetCompileFlagsForFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 311
@@ -703,7 +703,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddAssetTagForFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 330
@@ -745,7 +745,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveAssetTagForFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 351
@@ -787,7 +787,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddAssetTagToDefaultInstall
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 372
@@ -826,7 +826,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveAssetTagFromDefaultInstall
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 386
@@ -865,7 +865,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveAssetTag
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 398
@@ -901,7 +901,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ContainsFileByRealPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 413
@@ -940,7 +940,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ContainsFileByRealPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 424
@@ -982,7 +982,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ContainsFileByProjectPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 436
@@ -1021,7 +1021,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ContainsFramework
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 449
@@ -1066,7 +1066,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFrameworkToProject
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 468
@@ -1108,7 +1108,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveFrameworkFromProject
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 480
@@ -1147,7 +1147,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddCapability
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 490
@@ -1188,7 +1188,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetTeamId
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 534
@@ -1223,7 +1223,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: FindFileGuidByRealPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 546
@@ -1265,7 +1265,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: FindFileGuidByRealPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 563
@@ -1304,7 +1304,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: FindFileGuidByProjectPath
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 581
@@ -1343,7 +1343,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveFileFromBuild
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 595
@@ -1382,7 +1382,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 622
@@ -1418,7 +1418,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddTarget
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 798
@@ -1468,7 +1468,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetTargetProductFileRef
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 831
@@ -1507,7 +1507,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BuildConfigByName
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 885
@@ -1549,7 +1549,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BuildConfigNames
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 904
@@ -1584,7 +1584,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBuildConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 923
@@ -1620,7 +1620,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RemoveBuildConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 936
@@ -1656,7 +1656,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetSourcesBuildPhaseByTarget
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 947
@@ -1695,7 +1695,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddSourcesBuildPhase
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 967
@@ -1734,7 +1734,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetResourcesBuildPhaseByTarget
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 984
@@ -1773,7 +1773,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddResourcesBuildPhase
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1004
@@ -1812,7 +1812,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetFrameworksBuildPhaseByTarget
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1021
@@ -1851,7 +1851,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddFrameworksBuildPhase
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1041
@@ -1890,7 +1890,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GetCopyFilesBuildPhaseByTarget
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1066
@@ -1945,7 +1945,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddCopyFilesBuildPhase
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1099
@@ -2000,7 +2000,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1145
@@ -2042,7 +2042,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1159
@@ -2087,7 +2087,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1173
@@ -2129,7 +2129,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AddBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1186
@@ -2174,7 +2174,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1200
@@ -2216,7 +2216,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1214
@@ -2261,7 +2261,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1219
@@ -2298,7 +2298,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SetBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1223
@@ -2338,7 +2338,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: UpdateBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1271
@@ -2381,7 +2381,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: UpdateBuildProperty
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1277
@@ -2423,7 +2423,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: UpdateBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1283
@@ -2465,7 +2465,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: UpdateBuildPropertyForConfig
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1297
@@ -2507,7 +2507,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1334
@@ -2540,7 +2540,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromString
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1339
@@ -2573,7 +2573,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromStream
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1345
@@ -2606,7 +2606,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToFile
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1350
@@ -2639,7 +2639,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToStream
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1355
@@ -2672,7 +2672,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXProject.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToString
     path: ../Editor/XcodeEditor/PBXProject.cs
     startLine: 1360

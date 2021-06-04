@@ -40,7 +40,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PBXCapabilityType
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 9
@@ -85,7 +85,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AppleSignIn
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 11
@@ -120,7 +120,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ApplePay
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 12
@@ -155,7 +155,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AppGroups
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 13
@@ -190,7 +190,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AssociatedDomains
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 14
@@ -225,7 +225,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BackgroundModes
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 15
@@ -260,7 +260,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: DataProtection
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 16
@@ -295,7 +295,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GameCenter
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 17
@@ -330,7 +330,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: HealthKit
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 18
@@ -365,7 +365,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: HomeKit
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 19
@@ -400,7 +400,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: iCloud
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 20
@@ -435,7 +435,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: InAppPurchase
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 21
@@ -470,7 +470,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: InterAppAudio
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 22
@@ -505,7 +505,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: KeychainSharing
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 23
@@ -540,7 +540,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Maps
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 24
@@ -575,7 +575,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PersonalVPN
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 25
@@ -610,7 +610,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PushNotifications
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 26
@@ -645,7 +645,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Siri
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 27
@@ -680,7 +680,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Wallet
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 28
@@ -715,7 +715,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WirelessAccessoryConfiguration
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 29
@@ -750,7 +750,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: optionalFramework
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 36
@@ -785,7 +785,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: framework
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 41
@@ -820,7 +820,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: id
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 46
@@ -855,7 +855,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: requiresEntitlements
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 51
@@ -890,7 +890,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PBXCapabilityType.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: StringToPBXCapabilityType
     path: ../Editor/XcodeEditor/PBXCapabilityType.cs
     startLine: 84

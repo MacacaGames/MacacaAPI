@@ -40,10 +40,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: AndroidPermission
     path: ../Plugins/CM_APIController.cs
-    startLine: 109
+    startLine: 108
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -71,10 +71,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ACCESS_COARSE_LOCATION
     path: ../Plugins/CM_APIController.cs
-    startLine: 111
+    startLine: 110
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -103,10 +103,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ACCESS_FINE_LOCATION
     path: ../Plugins/CM_APIController.cs
-    startLine: 112
+    startLine: 111
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -135,10 +135,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ADD_VOICEMAIL
     path: ../Plugins/CM_APIController.cs
-    startLine: 113
+    startLine: 112
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -167,10 +167,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: BODY_SENSORS
     path: ../Plugins/CM_APIController.cs
-    startLine: 114
+    startLine: 113
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -199,10 +199,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CALL_PHONE
     path: ../Plugins/CM_APIController.cs
-    startLine: 115
+    startLine: 114
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -231,10 +231,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: CAMERA
     path: ../Plugins/CM_APIController.cs
-    startLine: 116
+    startLine: 115
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -263,10 +263,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GET_ACCOUNTS
     path: ../Plugins/CM_APIController.cs
-    startLine: 117
+    startLine: 116
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -295,10 +295,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PROCESS_OUTGOING_CALLS
     path: ../Plugins/CM_APIController.cs
-    startLine: 118
+    startLine: 117
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -327,10 +327,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_CALENDAR
     path: ../Plugins/CM_APIController.cs
-    startLine: 119
+    startLine: 118
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -359,10 +359,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_CALL_LOG
     path: ../Plugins/CM_APIController.cs
-    startLine: 120
+    startLine: 119
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -391,10 +391,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_CONTACTS
     path: ../Plugins/CM_APIController.cs
-    startLine: 121
+    startLine: 120
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -423,10 +423,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_EXTERNAL_STORAGE
     path: ../Plugins/CM_APIController.cs
-    startLine: 122
+    startLine: 121
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -455,10 +455,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_PHONE_STATE
     path: ../Plugins/CM_APIController.cs
-    startLine: 123
+    startLine: 122
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -487,10 +487,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: READ_SMS
     path: ../Plugins/CM_APIController.cs
-    startLine: 124
+    startLine: 123
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -519,10 +519,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RECEIVE_MMS
     path: ../Plugins/CM_APIController.cs
-    startLine: 125
+    startLine: 124
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -551,10 +551,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RECEIVE_SMS
     path: ../Plugins/CM_APIController.cs
-    startLine: 126
+    startLine: 125
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -583,10 +583,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RECEIVE_WAP_PUSH
     path: ../Plugins/CM_APIController.cs
-    startLine: 127
+    startLine: 126
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -615,10 +615,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: RECORD_AUDIO
     path: ../Plugins/CM_APIController.cs
-    startLine: 128
+    startLine: 127
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -647,10 +647,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: SEND_SMS
     path: ../Plugins/CM_APIController.cs
-    startLine: 129
+    startLine: 128
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -679,10 +679,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: USE_SIP
     path: ../Plugins/CM_APIController.cs
-    startLine: 130
+    startLine: 129
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -711,10 +711,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WRITE_CALENDAR
     path: ../Plugins/CM_APIController.cs
-    startLine: 131
+    startLine: 130
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -743,10 +743,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WRITE_CALL_LOG
     path: ../Plugins/CM_APIController.cs
-    startLine: 132
+    startLine: 131
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -775,10 +775,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WRITE_CONTACTS
     path: ../Plugins/CM_APIController.cs
-    startLine: 133
+    startLine: 132
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -807,10 +807,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WRITE_EXTERNAL_STORAGE
     path: ../Plugins/CM_APIController.cs
-    startLine: 134
+    startLine: 133
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames

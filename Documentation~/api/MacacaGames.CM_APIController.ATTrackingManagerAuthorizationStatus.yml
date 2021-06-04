@@ -20,10 +20,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ATTrackingManagerAuthorizationStatus
     path: ../Plugins/CM_APIController.cs
-    startLine: 75
+    startLine: 73
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -51,10 +51,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ATTrackingManagerAuthorizationStatusNotDetermined
     path: ../Plugins/CM_APIController.cs
-    startLine: 77
+    startLine: 75
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -83,10 +83,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ATTrackingManagerAuthorizationStatusRestricted
     path: ../Plugins/CM_APIController.cs
-    startLine: 78
+    startLine: 76
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -115,10 +115,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ATTrackingManagerAuthorizationStatusDenied
     path: ../Plugins/CM_APIController.cs
-    startLine: 79
+    startLine: 77
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -147,10 +147,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ATTrackingManagerAuthorizationStatusAuthorized
     path: ../Plugins/CM_APIController.cs
-    startLine: 80
+    startLine: 78
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames

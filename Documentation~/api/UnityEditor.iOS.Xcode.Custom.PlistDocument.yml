@@ -26,7 +26,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PlistDocument
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 175
@@ -67,7 +67,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: root
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 177
@@ -98,7 +98,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: version
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 178
@@ -129,7 +129,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: .ctor
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 182
@@ -159,7 +159,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Create
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 304
@@ -189,7 +189,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromFile
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 315
@@ -222,7 +222,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromStream
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 320
@@ -255,7 +255,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ReadFromString
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 325
@@ -288,7 +288,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToFile
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 398
@@ -321,7 +321,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToStream
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 404
@@ -354,7 +354,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: WriteToString
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 409

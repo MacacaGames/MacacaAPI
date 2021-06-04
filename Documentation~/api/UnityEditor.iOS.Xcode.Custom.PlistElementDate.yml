@@ -18,7 +18,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: PlistElementDate
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 63
@@ -29,6 +29,7 @@ items:
     content: 'public class PlistElementDate : PlistElement'
     content.vb: >-
       Public Class PlistElementDate
+
           Inherits PlistElement
   inheritance:
   - System.Object
@@ -70,7 +71,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: .ctor
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 65
@@ -103,7 +104,7 @@ items:
     remote:
       path: Editor/XcodeEditor/PlistParser.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: value
     path: ../Editor/XcodeEditor/PlistParser.cs
     startLine: 67

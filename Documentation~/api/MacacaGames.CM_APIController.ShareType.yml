@@ -19,10 +19,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: ShareType
     path: ../Plugins/CM_APIController.cs
-    startLine: 538
+    startLine: 524
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -50,10 +50,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Image
     path: ../Plugins/CM_APIController.cs
-    startLine: 540
+    startLine: 526
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -82,10 +82,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: GIF
     path: ../Plugins/CM_APIController.cs
-    startLine: 540
+    startLine: 526
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
@@ -114,10 +114,10 @@ items:
     remote:
       path: Plugins/CM_APIController.cs
       branch: master
-      repo: https://github.com/MacacaGames/MacacaAPI.git
+      repo: git@github.com:MacacaGames/MacacaAPI.git
     id: Viedo
     path: ../Plugins/CM_APIController.cs
-    startLine: 540
+    startLine: 526
   assemblies:
   - MacacaAPIs
   namespace: MacacaGames
