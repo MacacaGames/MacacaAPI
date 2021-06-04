@@ -27,7 +27,7 @@ namespace MacacaGames
         [DllImport("__Internal")]
         private static extern void doCMShowAlertDialog(string title, string msg, string okText);
         [DllImport("__Internal")]
-        private static extern void doCMShowRateUsDialog(string msg, string canelTest, string rateText, string laterText, string AppleStoreId);
+        private static extern void doCMShowRateUsDialog();
 
         [DllImport("__Internal")]
         private static extern void doCMShowAlertDialogWithCallback(string title, string msg, string positiveBtnText, string negativeBtnText);
@@ -101,9 +101,10 @@ namespace MacacaGames
             requestCallback = OnComplete;
             doSetRequestIDFACallback(CallbackFunction);
             doRequestIDFA();
-#endif
-#if UNITY_ANDROID
-           return;
+#elif UNITY_ANDROID
+            return;
+#else
+            return;
 #endif
         }
 
@@ -164,10 +165,11 @@ namespace MacacaGames
 #endif
 #if UNITY_IOS
             return;
-#endif
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             PERMISSION_REQUEST_TIME++;
             cmAPIControllerAndroid.CallStatic("CM_RequestPermission", "android.permission." + permission.ToString());
+#else
+            return;
 #endif
         }
 
@@ -182,12 +184,13 @@ namespace MacacaGames
 #endif
 #if UNITY_IOS
             return AndroidPermissionState.PERMISSION_GRANTED;
-#endif
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             if (PERMISSION_REQUEST_TIME <= 0)
                 return AndroidPermissionState.PERMISSION_DENIED;
             else
                 return (AndroidPermissionState)cmAPIControllerAndroid.CallStatic<int>("CM_PermissionState", "android.permission." + permission.ToString());
+#else
+            return AndroidPermissionState.PERMISSION_GRANTED;
 #endif
         }
 
@@ -202,9 +205,10 @@ namespace MacacaGames
 #endif
 #if UNITY_IOS
             return true;
-#endif
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             return cmAPIControllerAndroid.CallStatic<bool>("CM_HasPermission", "android.permission." + permission.ToString());
+#else
+            return true;
 #endif
         }
         /// <summary>
@@ -219,9 +223,10 @@ namespace MacacaGames
 #endif
 #if UNITY_IOS
             return true;
-#endif
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
             return cmAPIControllerAndroid.CallStatic<bool>("CM_PermissionNeedShowDialog", "android.permission." + permission.ToString());
+#else
+            return true;
 #endif
         }
 
@@ -245,12 +250,13 @@ namespace MacacaGames
 #if UNITY_ANDROID
             Vibration(20);
             return;
-#endif
-#if UNITY_IOS
+#elif UNITY_IOS
             doCMVibrationAsPeek();
             return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
 #endif
-            throw new System.NotSupportedException("This method only support iOS");
         }
         /// <summary>
         /// Vibrate device, use iOS Pop preset(iOS 9 or above), While Android vibrate 40 mileseconds
@@ -267,12 +273,13 @@ namespace MacacaGames
 #if UNITY_ANDROID
             Vibration(40);
             return;
-#endif
-#if UNITY_IOS
+#elif UNITY_IOS
             doCMVibrationAsPop();
             return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
 #endif
-            throw new System.NotSupportedException("This method only support iOS");
         }
         /// <summary>
         /// Vibrate device, use iOS Nope preset(iOS 9 or above), While Android vibrate 200 mileseconds
@@ -289,12 +296,13 @@ namespace MacacaGames
 #if UNITY_ANDROID
             Vibration(200);
             return;
-#endif
-#if UNITY_IOS
+#elif UNITY_IOS
             doCMVibrationAsNope();
             return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
 #endif
-            throw new System.NotSupportedException("This method only support iOS");
         }
         /// <summary>
         /// Vibrate on Android device with given seconds. Do nothing on iOS.
@@ -309,12 +317,16 @@ namespace MacacaGames
 #if UNITY_EDITOR
             return;
 #endif
-
 #if UNITY_ANDROID
             cmAPIControllerAndroid.CallStatic("CM_Vibration", milleSecond);
             return;
+#elif UNITY_IOS
+            Debug.LogWarning("Unsupport platform");
+            return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
 #endif
-            throw new System.NotSupportedException("This method only support Android");
         }
 
         /// <summary>
@@ -326,40 +338,32 @@ namespace MacacaGames
 #if UNITY_EDITOR
             return false;
 #endif
-
             if (Application.isMobilePlatform == true)
             {
 #if UNITY_IOS
                 return true;
-#endif
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
                 return cmAPIControllerAndroid.CallStatic<bool>("CM_HasVibration");
 #endif
             }
             return false;
-
         }
         #endregion
         #region Dialog
         /// <summary>
         /// Show the RateUs Dialog.
         /// </summary>
-        /// <param name="msg">The message wish to show on the dialog.</param>
-        /// <param name="canelTest">The text on the cancel button.</param>
-        /// <param name="rateText">The text on the rate button.</param>
-        /// <param name="laterText">The text on the later button.</param>
-        /// <param name="AppleStoreId">The AppStore Id of iOS app, only use by the device which iOS version is lower than iOS 9</param>
-        public static void ShowRateUsDialog(string msg, string canelTest, string rateText, string laterText, string AppleStoreId)
+        public static void ShowRateUsDialog()
         {
 #if UNITY_EDITOR
             return;
 #endif
 
 #if UNITY_IOS
-            doCMShowRateUsDialog(msg, canelTest, rateText, laterText, AppleStoreId);
+            doCMShowRateUsDialog();
 #endif
 #if UNITY_ANDROID
-            cmAPIControllerAndroid.CallStatic("CM_ShowRateUsDialog", msg, canelTest, rateText, laterText);
+            cmAPIControllerAndroid.CallStatic("CM_ShowRateUsDialog");
 #endif
         }
 
@@ -393,7 +397,7 @@ namespace MacacaGames
             doCMShowAlertDialog(title, msg, positiveBtnText);
             return;
 #endif
-            throw new System.NotSupportedException("This method only support iOS");
+            Debug.LogWarning("Unsupport platform");
         }
         /// <summary>
         /// Show a Dialog with callback
@@ -433,6 +437,7 @@ namespace MacacaGames
             doCMShowAlertDialogWithCallback(title, msg, positiveBtnText, negativeBtnText);
             return;
 #endif
+            Debug.LogWarning("Unsupport platform");
         }
 
         /// <summary>
@@ -457,6 +462,7 @@ namespace MacacaGames
             doCMShowDatePickerWithCallback(okText, cancelText);
             return;
 #endif
+            Debug.LogWarning("Unsupport platform");
         }
 
 
@@ -511,27 +517,9 @@ namespace MacacaGames
 #if UNITY_ANDROID
             cmAPIControllerAndroid.CallStatic("CM_ShowToastMessage", msg);
 #endif
+            Debug.LogWarning("Unsupport platform");
         }
 
-        /// <summary>
-        /// Show a Android Native like SnackBar, note: this snackbar is made by UnityGUI
-        /// </summary>
-        /// <param name="msg">The message on snackbar</param>
-        /// <param name="btnString">The text on snackbar's button</param>
-        /// <param name="id">Give the snackbar with an id</param>
-        public static void ShowSnackBar(string msg, string btnString, string id)
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_IOS
-            return;
-#endif
-#if UNITY_ANDROID
-            cmAPIControllerAndroid.CallStatic("CM_ShowSnackBar", msg, btnString, id);
-#endif
-        }
         #endregion
 
         #region Share
@@ -601,6 +589,7 @@ namespace MacacaGames
 #if UNITY_IOS
             doCMShowShare(mediaPath, subject, message, (int)shareType);
 #endif
+            Debug.LogWarning("Unsupport platform");
         }
 
         public static void Share(string subject, string message)
@@ -621,127 +610,11 @@ namespace MacacaGames
 #if UNITY_IOS
             doCMShowShare("", subject, message, 0);
 #endif
+            Debug.LogWarning("Unsupport platform");
         }
 
         #endregion
 
-        #region GameService
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-        public static void GameServiceInit()
-        {
-#if UNITY_EDITOR
-
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("Init");
-#elif UNITY_IOS
-            doGameCenterInit();
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-        public static void GameServiceSignIn()
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            //cmGameServiceControllerAndroid.CallStatic("StartSignInIntent");
-            Debug.Log("Android Play service after 11.8 will auto signin while Init()");
-#elif UNITY_IOS
-            Debug.Log("iOS GameCenter will auto signin while Init()");
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-
-        public static void GameServiceSignOut()
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("SignOut");
-#elif UNITY_IOS
-            Debug.Log("iOS GameCenter not support Signout()");
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-        public static void GameServiceShowAchievementView()
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("ShowAchievements");
-#elif UNITY_IOS
-            doShowAchievement();
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-        public static void GameServiceShowLeaderboardView()
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("ShowLeaderboard");
-#elif UNITY_IOS
-            doShowLeaderboard();
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-        public static void GameServiceUnlockAchievement(string achievementId)
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("UnlockAchievement", achievementId);
-#elif UNITY_IOS
-            doUnlockAchievent(achievementId);
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        [Obsolete("GameService Support in CloudMacacaAPI will no longer update ever, please use Unity Social API (For Play Service you need import play-games-plugin-for-unity)")]
-
-        public static void GameServiceUploadScore(string leaderboardId, int score)
-        {
-#if UNITY_EDITOR
-            return;
-#endif
-
-#if UNITY_ANDROID
-            cmGameServiceControllerAndroid.CallStatic("UploadNewScore", leaderboardId, score);
-#elif UNITY_IOS
-            doUploadLeaderboard(leaderboardId, score);
-#else
-            Debug.Log("No Support for this platform");
-#endif
-        }
-        #endregion
-
-        #region Push(Local)
-        //See CM_LocalNotificationController.cs 
-        #endregion
     }
 
 

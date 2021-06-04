@@ -26,7 +26,7 @@ extern "C"{
     void doSetAlertDialogCallback(AlertDialogCallback cb);
     
     //Rate us
-    void doCMShowRateUsDialog(char* msg,char* canelTest,char* rateText,char*laterText,char* AppleStoreId);
+    void doCMShowRateUsDialog();
     
     //Share
     void doCMShowShare(char* filePath,char* subject,char* msg, int typeId);
