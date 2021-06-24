@@ -20,7 +20,7 @@ typedef void (*RequestCallback)(int status);
 +(void)CM_VibrationAsNope;
 
 //CMDialogController 的接口
-+(void)CM_ShowRateUsDialog:(NSString*)msg andForCancelText:(NSString*)cancelText andForRateText:(NSString*)rateText andForLaterText:(NSString*) laterText andForAppleID:(NSString*) appId;
++(void) CM_ShowRateUsDialog;
 +(void) CM_ShowAlertDialogForTitle:(NSString*)title andForMsg:(NSString*)msg andForOkText:(NSString*)okText;
 
 +(void) CM_ShowAlertDialogWithCallbackForTitle:(NSString*)title andForMsg:(NSString*)msg andForPositiveText:(NSString*)positiveText andForNegitiveText: (NSString*)negativeText;
