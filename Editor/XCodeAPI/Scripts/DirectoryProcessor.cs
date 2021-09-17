@@ -1,8 +1,8 @@
 ﻿#if UNITY_IOS
 
-using UnityEditor.iOS.Xcode.Custom;
 using System.IO;
 
+using UnityEditor.iOS.Xcode;
 
 public static class DirectoryProcessor
 {

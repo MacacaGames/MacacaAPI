@@ -1,9 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEditor.iOS.Xcode.Custom;
 
 public class XcodeProjectSetting : ScriptableObject
 {
+    public enum XCodeTarget
+    {
+        UnityTarget,
+        UnityFrameworkTarget
+    }
+
     public const string PROJECT_ROOT = "$(PROJECT_DIR)/";
     public const string IMAGE_XCASSETS_DIRECTORY_NAME = "Unity-iPhone";
     public const string LINKER_FLAG_KEY = "OTHER_LDFLAGS";
@@ -27,6 +32,8 @@ public class XcodeProjectSetting : ScriptableObject
     public bool EnableCppEcceptions = true;
     public bool EnableCppRtti = true;
     public bool EnableObjcExceptions = true;
+    [Header("Empty to use default")]
+    public string CLanguageDialect = "";
     [Header("iCloud Setting")]
     public bool EnableIcloudKeyValue = false;
     public bool EnableIcloudDocument = false;
@@ -55,7 +62,7 @@ public class XcodeProjectSetting : ScriptableObject
     }
     public List<EmbedFramework> EmbedFrameworks = new List<EmbedFramework>();
     //引用的内部.tbd
-    public List<string> TbdList = new List<string>() { };
+    public List<TargetItem> TbdList = new List<TargetItem>() { };
     //設定OtherLinkerFlag
     public string[] LinkerFlagArray = new string[] { "-ObjC" };
     //設定FrameworkSearchPath
@@ -202,6 +209,13 @@ public class XcodeProjectSetting : ScriptableObject
     {
         public string key;
         public string value;
+    }
+
+    [System.Serializable]
+    public struct TargetItem
+    {
+        public XCodeTarget target;
+        public string item;
     }
     #endregion
 }

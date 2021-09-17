@@ -1,8 +1,8 @@
 ﻿#if UNITY_IOS
 
 using System.Collections.Generic;
-using UnityEditor.iOS.Xcode.Custom;
 using System.IO;
+using UnityEditor.iOS.Xcode;
 
 //Info.Plist修改设置
 public static class InfoPlistProcessor
