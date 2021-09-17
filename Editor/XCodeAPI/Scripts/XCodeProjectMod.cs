@@ -34,15 +34,16 @@ public class XCodeProjectMod : MonoBehaviour
         setting = Resources.Load<XcodeProjectSetting>("XcodeProjectSetting");
         pbxProject = new PBXProject();
         pbxProject.ReadFromString(File.ReadAllText(pbxProjPath));
-        unityTargetGuid = pbxProject.TargetGuidByName(pbxProject.GetUnityMainTargetGuid());
-        unityFrameworkTargetGuid = pbxProject.TargetGuidByName(pbxProject.GetUnityFrameworkTargetGuid());
+        unityTargetGuid = pbxProject.GetUnityMainTargetGuid();
+        unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
 
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.DEVELOPMENT_TEAM, setting.DevelopmentTeam);
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_EXCEPTIONS, setting.EnableCppEcceptions ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_RTTI, setting.EnableCppRtti ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_OBJC_EXCEPTIONS, setting.EnableObjcExceptions ? "YES" : "NO");
-        if(!string.IsNullOrEmpty(setting.CLanguageDialect)){
+        if (!string.IsNullOrEmpty(setting.CLanguageDialect))
+        {
             pbxProject.SetBuildProperty(unityTargetGuid, "GCC_C_LANGUAGE_STANDARD", setting.CLanguageDialect);
         }
 
@@ -78,10 +79,12 @@ public class XCodeProjectMod : MonoBehaviour
         //引用.tbd文件
         foreach (var tbd in setting.TbdList)
         {
-            if(tbd.target == XcodeProjectSetting.XCodeTarget.UnityFrameworkTarget){
+            if (tbd.target == XcodeProjectSetting.XCodeTarget.UnityFrameworkTarget)
+            {
                 pbxProject.AddFileToBuild(unityFrameworkTargetGuid, pbxProject.AddFile("usr/lib/" + tbd, "Frameworks/" + tbd, PBXSourceTree.Sdk));
             }
-            else{
+            else
+            {
                 pbxProject.AddFileToBuild(unityTargetGuid, pbxProject.AddFile("usr/lib/" + tbd, "Frameworks/" + tbd, PBXSourceTree.Sdk));
             }
         }
