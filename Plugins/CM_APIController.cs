@@ -506,6 +506,14 @@ namespace MacacaGames
         public static void ShowToastMessage(string msg)
         {
 #if UNITY_EDITOR
+            try
+            {
+                UnityEditor.EditorWindow.focusedWindow.ShowNotification(new GUIContent(msg), 1.5f);
+            }
+            catch
+            {
+
+            }
             return;
 #endif
 
