@@ -12,10 +12,12 @@
 
 extern "C"{
     //Vibration
-    void doCMVibrationAsPop();
-    void doCMVibrationAsPeek();
-    void doCMVibrationAsNope();
-    
+    void doCMVibrationAsLight();
+    void doCMVibrationAsMedium();
+    void doCMVibrationAsHeavy(); 
+    void doCMVibrationAsSoft();
+    void doCMVibrationAsRigid();
+
     //Dialog
     void doCMShowToastMessage(char* msg);
     void doCMShowAlertDialog(char* title,char* msg,char* okText);
@@ -50,14 +52,30 @@ extern "C"{
 }
 
 //Vibration
-void doCMVibrationAsPop(){
-    [CloudMacacaAPIController CM_VibrationAsPop];
+// void doCMVibrationAsPop(){
+//     [CloudMacacaAPIController CM_VibrationAsPop];
+// }
+// void doCMVibrationAsPeek(){
+//     [CloudMacacaAPIController CM_VibrationAsPeek];
+// }
+// void doCMVibrationAsNope(){
+//     [CloudMacacaAPIController CM_VibrationAsNope];
+// }
+
+void doCMVibrationAsLight(){
+    [CloudMacacaAPIController CM_VibrationAsLight];
 }
-void doCMVibrationAsPeek(){
-    [CloudMacacaAPIController CM_VibrationAsPeek];
+void doCMVibrationAsMedium(){
+    [CloudMacacaAPIController CM_VibrationAsMedium];
 }
-void doCMVibrationAsNope(){
-    [CloudMacacaAPIController CM_VibrationAsNope];
+void doCMVibrationAsHeavy(){
+    [CloudMacacaAPIController CM_VibrationAsHeavy];
+}
+void doCMVibrationAsSoft(){
+    [CloudMacacaAPIController CM_VibrationAsSoft];
+}
+void doCMVibrationAsRigid(){
+    [CloudMacacaAPIController CM_VibrationAsRigid];
 }
 
 //Dialog

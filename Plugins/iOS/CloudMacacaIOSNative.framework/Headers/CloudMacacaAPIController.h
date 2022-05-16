@@ -15,9 +15,11 @@ typedef void (*DatePickerDialogCallback)(char* date);
 typedef void (*RequestCallback)(int status);
 
 //CMVibrationController 的接口
-+(void)CM_VibrationAsPeek;
-+(void)CM_VibrationAsPop;
-+(void)CM_VibrationAsNope;
++(void)CM_VibrationAsLight;
++(void)CM_VibrationAsMedium;
++(void)CM_VibrationAsHeavy;
++(void)CM_VibrationAsSoft;
++(void)CM_VibrationAsRigid;
 
 //CMDialogController 的接口
 +(void) CM_ShowRateUsDialog;
