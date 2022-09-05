@@ -14,13 +14,18 @@ namespace MacacaGames
 
 #if UNITY_IOS
         [DllImport("__Internal")]
-        private static extern void doCMVibrationAsPop();
+        private static extern void doCMVibrationAsLight();
 
         [DllImport("__Internal")]
-        private static extern void doCMVibrationAsPeek();
+        private static extern void doCMVibrationAsMedium();
 
         [DllImport("__Internal")]
-        private static extern void doCMVibrationAsNope();
+        private static extern void doCMVibrationAsHeavy();
+        [DllImport("__Internal")]
+        private static extern void doCMVibrationAsSoft();
+
+        [DllImport("__Internal")]
+        private static extern void doCMVibrationAsRigid();
 
         [DllImport("__Internal")]
         private static extern void doCMShowToastMessage(string msg);
@@ -41,7 +46,7 @@ namespace MacacaGames
         private static extern void doSetDatePickerCallback(DatePickerDialogCallback cb);
 
         [DllImport("__Internal")]
-        private static extern void doCMShowShare(string filePath, string subject, string msg, int typeId);    
+        private static extern void doCMShowShare(string filePath, string subject, string msg, int typeId);
 
         [DllImport("__Internal")]
         private static extern void doShowAchievement();
@@ -234,9 +239,9 @@ namespace MacacaGames
         public static bool isVibrationEnable = true;
 
         /// <summary>
-        /// Vibrate device, use iOS Peek preset(iOS 9 or above), While Android vibrate 20 mileseconds 
+        /// Vibrate device, use iOS Light preset(iOS 9 or above), While Android vibrate 20 mileseconds 
         /// </summary>
-        public static void VibrationAsPeek()
+        public static void VibrationAsLight()
         {
             if (isVibrationEnable == false)
             {
@@ -249,17 +254,18 @@ namespace MacacaGames
             Vibration(20);
             return;
 #elif UNITY_IOS
-            doCMVibrationAsPeek();
+            doCMVibrationAsLight();
             return;
 #else
             Debug.LogWarning("Unsupport platform");
             return;
 #endif
         }
+
         /// <summary>
-        /// Vibrate device, use iOS Pop preset(iOS 9 or above), While Android vibrate 40 mileseconds
+        /// Vibrate device, use iOS Medium preset(iOS 9 or above), While Android vibrate 40 mileseconds
         /// </summary>
-        public static void VibrationAsPop()
+        public static void VibrationAsMedium()
         {
             if (isVibrationEnable == false)
             {
@@ -272,7 +278,7 @@ namespace MacacaGames
             Vibration(40);
             return;
 #elif UNITY_IOS
-            doCMVibrationAsPop();
+            doCMVibrationAsMedium();
             return;
 #else
             Debug.LogWarning("Unsupport platform");
@@ -280,9 +286,9 @@ namespace MacacaGames
 #endif
         }
         /// <summary>
-        /// Vibrate device, use iOS Nope preset(iOS 9 or above), While Android vibrate 200 mileseconds
+        /// Vibrate device, use iOS Heavy preset(iOS 9 or above), While Android vibrate 200 mileseconds
         /// </summary>
-        public static void VibrationAsNope()
+        public static void VibrationAsHeavy()
         {
             if (isVibrationEnable == false)
             {
@@ -295,13 +301,61 @@ namespace MacacaGames
             Vibration(200);
             return;
 #elif UNITY_IOS
-            doCMVibrationAsNope();
+            doCMVibrationAsHeavy();
             return;
 #else
             Debug.LogWarning("Unsupport platform");
             return;
 #endif
         }
+
+        /// <summary>
+        /// Vibrate device, use iOS Soft preset(iOS 9 or above), While Android vibrate 200 mileseconds
+        /// </summary>
+        public static void VibrationAsSoft()
+        {
+            if (isVibrationEnable == false)
+            {
+                return;
+            }
+#if UNITY_EDITOR
+            return;
+#endif
+#if UNITY_ANDROID
+            Vibration(200);
+            return;
+#elif UNITY_IOS
+            doCMVibrationAsSoft();
+            return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
+#endif
+        }
+        /// <summary>
+        /// Vibrate device, use iOS Rigid preset(iOS 9 or above), While Android vibrate 200 mileseconds
+        /// </summary>
+        public static void VibrationAsRigid()
+        {
+            if (isVibrationEnable == false)
+            {
+                return;
+            }
+#if UNITY_EDITOR
+            return;
+#endif
+#if UNITY_ANDROID
+            Vibration(200);
+            return;
+#elif UNITY_IOS
+            doCMVibrationAsRigid();
+            return;
+#else
+            Debug.LogWarning("Unsupport platform");
+            return;
+#endif
+        }
+
         /// <summary>
         /// Vibrate on Android device with given seconds. Do nothing on iOS.
         /// </summary>
