@@ -16,18 +16,21 @@
 
 +(void)VibrationAsLight{
     
-    CHHapticEngine *engine= [[CHHapticEngine alloc] init];
-    engine.playsHapticsOnly = YES;
-    engine play
-    if(IS_OS_9_OR_LATER == YES){
-        UIImpactFeedbackGenerator *hap = [[UIImpactFeedbackGenerator alloc] init];
-        [hap prepare];
-        [hap initWithStyle:UIImpactFeedbackStyleLight];
-        [hap impactOccurred];
+    if (@available(iOS 13.0, *)) {
+//        CHHapticEngine *engine= [[CHHapticEngine alloc] ];
+//        engine.playsHapticsOnly = YES;
+    } else {
+        if(IS_OS_9_OR_LATER == YES){
+            UIImpactFeedbackGenerator *hap = [[UIImpactFeedbackGenerator alloc] init];
+            [hap prepare];
+            [hap initWithStyle:UIImpactFeedbackStyleLight];
+            [hap impactOccurred];
+        }
+        else{
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+        }
     }
-    else{
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-    }
+
     
 }
 +(void)VibrationAsMedium{

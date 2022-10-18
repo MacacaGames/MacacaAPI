@@ -6,7 +6,7 @@
 //  Copyright © 2017年 黄建豪. All rights reserved.
 //
 
-#import <CloudMacacaIOSNative/CloudMacacaAPIController.h>
+#import "CloudMacacaAPIController.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <UIKit/UIKit.h>
 
