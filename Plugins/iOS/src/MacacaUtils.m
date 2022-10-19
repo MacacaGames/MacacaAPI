@@ -6,9 +6,9 @@
 //  Copyright © 2017年 黄建豪. All rights reserved.
 //
 
-#import "Utils.h"
+#import "MacacaUtils.h"
 
-@implementation Utils
+@implementation MacacaUtils
 +(UIWindow*) GetKeyWindow{
     return [[[UIApplication sharedApplication] delegate] window];
 }

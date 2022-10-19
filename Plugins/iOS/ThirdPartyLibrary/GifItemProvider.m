@@ -8,7 +8,7 @@
 
 #import "GifItemProvider.h"
 // #import "GiphyViewController.h"
-#import "Utils.h"
+#import "MacacaUtils.h"
 
 @implementation GifItemProvider
 
@@ -79,7 +79,7 @@
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Uploading..."
             message:@"Please wait..."
             preferredStyle:UIAlertControllerStyleActionSheet];
-        [[Utils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
+        [[MacacaUtils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
         
         
         while (uploadFileURL == nil && error == nil) {
@@ -167,7 +167,7 @@
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Uploading..."
             message:@"Please wait..."
             preferredStyle:UIAlertControllerStyleActionSheet];
-        [[Utils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
+        [[MacacaUtils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
         
         
         while (uploadFileURL == nil && error == nil) {

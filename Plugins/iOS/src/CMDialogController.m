@@ -7,7 +7,7 @@
 //
 
 #import "CMDialogController.h"
-#import "Utils.h"
+#import "MacacaUtils.h"
 #import <StoreKit/SKStoreReviewController.h>
 #import <StoreKit/StoreKit.h>
 #import "LSLDatePickerDialog.h"
@@ -37,12 +37,12 @@ DatePickerDialogCallback datePickerDialogCallback;
     // body
     [mailViewController setMessageBody:body isHTML:NO];
     
-    [[Utils GetKeyWindow].rootViewController presentViewController: mailViewController animated:YES completion:NULL];
+    [[MacacaUtils GetKeyWindow].rootViewController presentViewController: mailViewController animated:YES completion:NULL];
 }
 
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
  
-     [[Utils GetKeyWindow].rootViewController dismissViewControllerAnimated:YES completion:NULL];
+     [[MacacaUtils GetKeyWindow].rootViewController dismissViewControllerAnimated:YES completion:NULL];
 }
 
 
@@ -76,7 +76,7 @@ DatePickerDialogCallback datePickerDialogCallback;
     [alert addAction:yesButton];
     //[alert addAction:noButton];
     
-    [[Utils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
+    [[MacacaUtils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
 }
 +(void) ShowToastMessageForMsg:(NSString*)msg{
 
@@ -84,7 +84,7 @@ DatePickerDialogCallback datePickerDialogCallback;
                                                    message:msg
                                                             preferredStyle:UIAlertControllerStyleActionSheet];
 
-    [[Utils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
+    [[MacacaUtils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
 
     int duration = 1; // duration in seconds
 
@@ -146,6 +146,6 @@ DatePickerDialogCallback datePickerDialogCallback;
     [alert addAction:yesButton];
     [alert addAction:noButton];
 
-    [[Utils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
+    [[MacacaUtils GetKeyWindow].rootViewController presentViewController:alert animated:YES completion:nil];
 }
 @end

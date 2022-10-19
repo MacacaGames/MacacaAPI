@@ -7,7 +7,7 @@
 //
 
 #import "CMVibrationController.h"
-#import "Utils.h"
+#import "MacacaUtils.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <CoreHaptics/CoreHaptics.h>
 
@@ -16,14 +16,19 @@
 
 +(void)VibrationAsLight{
     
-    if(IS_OS_9_OR_LATER == YES){
-        UIImpactFeedbackGenerator *hap = [[UIImpactFeedbackGenerator alloc] init];
-        [hap prepare];
-        [hap initWithStyle:UIImpactFeedbackStyleLight];
-        [hap impactOccurred];
-    }
-    else{
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    if (@available(iOS 13.0, *)) {
+//        CHHapticEngine *engine= [[CHHapticEngine alloc] ];
+//        engine.playsHapticsOnly = YES;
+    } else {
+        if(IS_OS_9_OR_LATER == YES){
+            UIImpactFeedbackGenerator *hap = [[UIImpactFeedbackGenerator alloc] init];
+            [hap prepare];
+            [hap initWithStyle:UIImpactFeedbackStyleLight];
+            [hap impactOccurred];
+        }
+        else{
+            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+        }
     }
 
     

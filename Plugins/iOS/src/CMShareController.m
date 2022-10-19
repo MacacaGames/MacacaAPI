@@ -7,7 +7,7 @@
 //
 
 #import "CMShareController.h"
-#import "Utils.h"
+#import "MacacaUtils.h"
 #import <UIKit/UIKit.h>
 #import "GifItemProvider.h"
 @implementation CMShareController
@@ -20,7 +20,7 @@
 
     if(subject != nil && subject.length > 0)[activity setTitle:subject];
     
-    UIViewController *rootViewController = [Utils GetKeyWindow].rootViewController;
+    UIViewController *rootViewController = [MacacaUtils GetKeyWindow].rootViewController;
     //if iPhone
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [rootViewController presentViewController:activity animated:YES completion:nil];
@@ -46,7 +46,7 @@
    
     if(subject != nil && subject.length > 0)[activity setValue:subject forKey:@"subject"];
     
-    UIViewController *rootViewController = [Utils GetKeyWindow].rootViewController;
+    UIViewController *rootViewController = [MacacaUtils GetKeyWindow].rootViewController;
     //if iPhone
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [rootViewController presentViewController:activity animated:YES completion:Nil];
@@ -74,7 +74,7 @@
     if(subject != nil && subject.length > 0)
         [activity setValue:subject forKey:@"subject"];
     
-    UIViewController *rootViewController = [Utils GetKeyWindow].rootViewController;
+    UIViewController *rootViewController = [MacacaUtils GetKeyWindow].rootViewController;
     //if iPhone
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [rootViewController presentViewController:activity animated:YES completion:Nil];
@@ -102,7 +102,7 @@
     if(subject != nil && subject.length > 0)
         [activity setValue:subject forKey:@"subject"];
     
-    UIViewController *rootViewController = [Utils GetKeyWindow].rootViewController;
+    UIViewController *rootViewController = [MacacaUtils GetKeyWindow].rootViewController;
     //if iPhone
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [rootViewController presentViewController:activity animated:YES completion:Nil];

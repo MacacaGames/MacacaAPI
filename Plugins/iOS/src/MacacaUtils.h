@@ -19,6 +19,6 @@
 #define IS_OS_103_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.3)
 #define IS_OS_11_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
 
-@interface Utils : NSObject
+@interface MacacaUtils : NSObject
 +(UIWindow*) GetKeyWindow;
 @end
