@@ -18,6 +18,33 @@ public class XCodeProjectMod : MonoBehaviour
     public static string SETTING_DATA_PATH = "Assets/Resources/XcodeProjectSetting.asset";
 
 #if UNITY_EDITOR
+    static void SetBitCode(BuildTarget buildTarget, string buildPath, bool enable)
+    {
+        string pbxProjPath = PBXProject.GetPBXProjectPath(buildPath);
+        var pbxProject = new PBXProject();
+        pbxProject.ReadFromString(File.ReadAllText(pbxProjPath));
+        var unityTargetGuid = pbxProject.GetUnityMainTargetGuid();
+        var unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
+        var unityTestTargetGuid = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
+        pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        pbxProject.SetBuildProperty(unityTestTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        File.WriteAllText(pbxProjPath, pbxProject.WriteToString());
+
+
+        // From 2021 require to set Project it self
+        var projPath = buildPath + "/Unity-iPhone.xcodeproj/project.pbxproj";
+        Debug.Log("[BuildPostprocess] Build iOS. path: " + projPath);
+
+        var proj = new PBXProject();
+        var file = File.ReadAllText(projPath);
+        proj.ReadFromString(file);
+
+        var target = proj.GetUnityMainTargetGuid();
+        proj.SetBuildProperty(target, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        File.WriteAllText(projPath, proj.WriteToString());
+    }
 
     [PostProcessBuild(200)]
     private static void OnPostprocessBuild(BuildTarget buildTarget, string buildPath)
@@ -39,10 +66,7 @@ public class XCodeProjectMod : MonoBehaviour
         unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
         unityTestTargetGuid = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
 
-        pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
-        pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
-        pbxProject.SetBuildProperty(unityTestTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
-        pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
+        SetBitCode(buildTarget, buildPath, setting.EnableBitCode);
 
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.DEVELOPMENT_TEAM, setting.DevelopmentTeam);
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_EXCEPTIONS, setting.EnableCppEcceptions ? "YES" : "NO");
