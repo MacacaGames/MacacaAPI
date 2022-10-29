@@ -29,6 +29,7 @@ public class XCodeProjectMod : MonoBehaviour
         string pbxProjPath = PBXProject.GetPBXProjectPath(buildPath);
         string unityTargetGuid = null;
         string unityFrameworkTargetGuid = null;
+        string unityTestTargetGuid = null;
         Debug.Log("开始设置.XCodeProj");
 
         setting = Resources.Load<XcodeProjectSetting>("XcodeProjectSetting");
@@ -36,8 +37,13 @@ public class XCodeProjectMod : MonoBehaviour
         pbxProject.ReadFromString(File.ReadAllText(pbxProjPath));
         unityTargetGuid = pbxProject.GetUnityMainTargetGuid();
         unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
+        unityTestTargetGuid = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
 
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
+        pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
+        pbxProject.SetBuildProperty(unityTestTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
+        pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
+
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.DEVELOPMENT_TEAM, setting.DevelopmentTeam);
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_EXCEPTIONS, setting.EnableCppEcceptions ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_RTTI, setting.EnableCppRtti ? "YES" : "NO");
