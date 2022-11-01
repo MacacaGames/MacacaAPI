@@ -114,40 +114,9 @@ public class CMAndroidController {
     static String HasRateKey = "PP_Rate";
     static String LastShowRateDate = "PP_Rate_Date";
     public static void CM_ShowRateUsDialog(){
-//        OldVersionRateUs(mag, CancelText, RateText, LaterText);
-//        LaunchRateUs();
-    }
-//    static ReviewManager reviewManager;
-//    static ReviewInfo  reviewInfo = null;
-//
-//    static void PrepareReview(Context context){
-//        reviewManager = ReviewManagerFactory.create(context);
-//
-//        Task<ReviewInfo> request = reviewManager.requestReviewFlow();
-//
-//        request.addOnCompleteListener(task -> {
-//            if (task.isSuccessful()) {
-//                // We can get the ReviewInfo object
-//                reviewInfo = task.getResult();
-//            } else {
-//                // There was some problem, log or handle the error code.
-//            }
-//        });
-//
-//    }
 
-//    static void LaunchRateUs(){
-//        if(reviewInfo == null){
-//            Log.e("CMAPI","reviewManager is null");
-//            return;
-//        }
-//        Task<Void> flow = reviewManager.launchReviewFlow(m_Activity, reviewInfo);
-//        flow.addOnCompleteListener(task -> {
-//            if(task.isSuccessful()){
-//
-//            }
-//        });
-//    }
+    }
+
 
     static void OldVersionRateUs(String mag,String CancelText,String RateText,String LaterText){
         final String hasRate = Utils.getPString(m_Activity,HasRateKey);
@@ -204,7 +173,8 @@ public class CMAndroidController {
     }
 
     public static void CM_AlertDialog(String title,String msg,String OkBtnText, final CMDialogCallback callback){
-        AlertDialog.Builder dialog =  new AlertDialog.Builder(m_Activity).setTitle(title).setMessage(msg);
+        AlertDialog.Builder dialog =  new AlertDialog.Builder(m_Activity).setTitle(title).setMessage(msg).setCancelable(false);
+
         dialog.setPositiveButton(OkBtnText, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
