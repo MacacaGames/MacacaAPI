@@ -29,7 +29,7 @@ public class XCodeProjectMod : MonoBehaviour
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTestTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
+        // pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
         File.WriteAllText(pbxProjPath, pbxProject.WriteToString());
 
 
