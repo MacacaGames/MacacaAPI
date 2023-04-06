@@ -20,33 +20,27 @@ public class XCodeProjectMod : MonoBehaviour
 #if UNITY_EDITOR
     static void SetBitCode(BuildTarget buildTarget, string buildPath, bool enable)
     {
-        string pbxProjPath = PBXProject.GetPBXProjectPath(buildPath);
-        var pbxProject = new PBXProject();
-        pbxProject.ReadFromString(File.ReadAllText(pbxProjPath));
-        var unityTargetGuid = pbxProject.GetUnityMainTargetGuid();
-        var unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
-        var unityTestTargetGuid = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
-        pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        pbxProject.SetBuildProperty(unityTestTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        // pbxProject.SetBuildProperty(pbxProject.TargetGuidByName("Unity-iPhone"), XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        File.WriteAllText(pbxProjPath, pbxProject.WriteToString());
+        if (buildTarget != BuildTarget.iOS) return;
+        string projectPath = buildPath + "/Unity-iPhone.xcodeproj/project.pbxproj";
+        PBXProject pbxProject = new PBXProject();
+        pbxProject.ReadFromFile(projectPath);
 
+        //Disabling Bitcode on all targets
+        //Main
+        string target = pbxProject.GetUnityMainTargetGuid();
+        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
+        //Unity Tests
+        target = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
+        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
+        //Unity Framework
+        target = pbxProject.GetUnityFrameworkTargetGuid();
+        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
 
-        // From 2021 require to set Project it self
-        var projPath = buildPath + "/Unity-iPhone.xcodeproj/project.pbxproj";
-        Debug.Log("[BuildPostprocess] Build iOS. path: " + projPath);
-
-        var proj = new PBXProject();
-        var file = File.ReadAllText(projPath);
-        proj.ReadFromString(file);
-
-        var target = proj.GetUnityMainTargetGuid();
-        proj.SetBuildProperty(target, XcodeProjectSetting.ENABLE_BITCODE_KEY, enable ? "YES" : "NO");
-        File.WriteAllText(projPath, proj.WriteToString());
+        pbxProject.WriteToFile(projectPath);
     }
 
-    [PostProcessBuild(200)]
+
+    [PostProcessBuild(400)]
     private static void OnPostprocessBuild(BuildTarget buildTarget, string buildPath)
     {
         if (buildTarget != BuildTarget.iOS)
