@@ -64,7 +64,20 @@ public class XcodeProjectSetting : ScriptableObject
     //引用的内部.tbd
     public List<TargetItem> TbdList = new List<TargetItem>() { };
     //設定OtherLinkerFlag
-    public string[] LinkerFlagArray = new string[] { "-ObjC" };
+    public List<OtherLinkerFlagItem> LinkerFlagArray = new List<OtherLinkerFlagItem>() {
+        new OtherLinkerFlagItem{
+            target = XCodeTarget.UnityTarget,
+            items = new string[]{
+                "-ObjC", "-ld64"
+            }
+        },
+        new OtherLinkerFlagItem{
+            target = XCodeTarget.UnityFrameworkTarget,
+            items = new string[]{
+                "-ObjC", "-ld64"
+            }
+        }
+    };
     //設定FrameworkSearchPath
     public string[] FrameworkSearchPathArray = new string[] { "$(inherited)", "$(PROJECT_DIR)/Frameworks" };
     [System.Serializable]
@@ -216,6 +229,13 @@ public class XcodeProjectSetting : ScriptableObject
     {
         public XCodeTarget target;
         public string item;
+    }
+
+    [System.Serializable]
+    public struct OtherLinkerFlagItem
+    {
+        public XCodeTarget target;
+        public string[] items;
     }
     #endregion
 }

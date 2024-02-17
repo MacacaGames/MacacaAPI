@@ -18,29 +18,8 @@ public class XCodeProjectMod : MonoBehaviour
     public static string SETTING_DATA_PATH = "Assets/Resources/XcodeProjectSetting.asset";
 
 #if UNITY_EDITOR
-    static void SetBitCode(BuildTarget buildTarget, string buildPath, bool enable)
-    {
-        if (buildTarget != BuildTarget.iOS) return;
-        string projectPath = buildPath + "/Unity-iPhone.xcodeproj/project.pbxproj";
-        PBXProject pbxProject = new PBXProject();
-        pbxProject.ReadFromFile(projectPath);
 
-        //Disabling Bitcode on all targets
-        //Main
-        string target = pbxProject.GetUnityMainTargetGuid();
-        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
-        //Unity Tests
-        target = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
-        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
-        //Unity Framework
-        target = pbxProject.GetUnityFrameworkTargetGuid();
-        pbxProject.SetBuildProperty(target, "ENABLE_BITCODE", enable ? "YES " : "NO");
-
-        pbxProject.WriteToFile(projectPath);
-    }
-
-
-    [PostProcessBuild(400)]
+    [PostProcessBuild(200)]
     private static void OnPostprocessBuild(BuildTarget buildTarget, string buildPath)
     {
         if (buildTarget != BuildTarget.iOS)
@@ -50,7 +29,6 @@ public class XCodeProjectMod : MonoBehaviour
         string pbxProjPath = PBXProject.GetPBXProjectPath(buildPath);
         string unityTargetGuid = null;
         string unityFrameworkTargetGuid = null;
-        string unityTestTargetGuid = null;
         Debug.Log("开始设置.XCodeProj");
 
         setting = Resources.Load<XcodeProjectSetting>("XcodeProjectSetting");
@@ -58,10 +36,8 @@ public class XCodeProjectMod : MonoBehaviour
         pbxProject.ReadFromString(File.ReadAllText(pbxProjPath));
         unityTargetGuid = pbxProject.GetUnityMainTargetGuid();
         unityFrameworkTargetGuid = pbxProject.GetUnityFrameworkTargetGuid();
-        unityTestTargetGuid = pbxProject.TargetGuidByName(PBXProject.GetUnityTestTargetName());
 
-        SetBitCode(buildTarget, buildPath, setting.EnableBitCode);
-
+        pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.ENABLE_BITCODE_KEY, setting.EnableBitCode ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.DEVELOPMENT_TEAM, setting.DevelopmentTeam);
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_EXCEPTIONS, setting.EnableCppEcceptions ? "YES" : "NO");
         pbxProject.SetBuildProperty(unityTargetGuid, XcodeProjectSetting.GCC_ENABLE_CPP_RTTI, setting.EnableCppRtti ? "YES" : "NO");
@@ -114,7 +90,19 @@ public class XCodeProjectMod : MonoBehaviour
         }
 
         //设置OTHER_LDFLAGS
-        pbxProject.UpdateBuildProperty(unityTargetGuid, XcodeProjectSetting.LINKER_FLAG_KEY, setting.LinkerFlagArray, null);
+        foreach (var item in setting.LinkerFlagArray)
+        {
+            if (item.target == XcodeProjectSetting.XCodeTarget.UnityFrameworkTarget)
+            {
+                pbxProject.UpdateBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.LINKER_FLAG_KEY, item.items, null);
+            }
+            else
+            {
+                pbxProject.UpdateBuildProperty(unityTargetGuid, XcodeProjectSetting.LINKER_FLAG_KEY, item.items, null);
+            }
+        }
+
+
         //设置Framework Search Paths
         pbxProject.UpdateBuildProperty(unityTargetGuid, XcodeProjectSetting.FRAMEWORK_SEARCH_PATHS_KEY, setting.FrameworkSearchPathArray, null);
 
