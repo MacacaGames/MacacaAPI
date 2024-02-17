@@ -1,6 +1,6 @@
 {
     "name": "com.macacagames.macacaapi",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "displayName": "Macaca APIs",
     "description": "A native API wrapper to some iOS/Android feature e.g. AlertDialog, Toast",
     "unity": "2019.4",
