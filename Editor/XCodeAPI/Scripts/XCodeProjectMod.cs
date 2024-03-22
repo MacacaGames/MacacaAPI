@@ -71,9 +71,16 @@ public class XCodeProjectMod : MonoBehaviour
         }
 
         //引用内部框架
-        foreach (var item in setting.FrameworkList)
+        foreach (var item in setting.LinkBinaryWithLibraries)
         {
-            pbxProject.AddFrameworkToProject(unityTargetGuid, item.name, !item.require);
+            if (item.xCodeTarget == XcodeProjectSetting.XCodeTarget.UnityFrameworkTarget)
+            {
+                pbxProject.AddFrameworkToProject(unityFrameworkTargetGuid, item.name, !item.require);
+            }
+            else
+            {
+                pbxProject.AddFrameworkToProject(unityTargetGuid, item.name, !item.require);
+            }
         }
 
         //引用.tbd文件

@@ -53,10 +53,11 @@ public class XcodeProjectSetting : ScriptableObject
     //AppleDevelopment内AppID表示
     public string DevelopmentTeam = "";
     //引用的内部Framework
-    public List<FrameworkItem> FrameworkList = new List<FrameworkItem>() { };
+    public List<FrameworkItem> LinkBinaryWithLibraries = new List<FrameworkItem>() { };
     [System.Serializable]
     public struct FrameworkItem
     {
+        public XCodeTarget xCodeTarget;
         public string name;
         public bool require;
     }
