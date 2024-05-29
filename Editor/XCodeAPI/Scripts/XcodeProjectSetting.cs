@@ -26,6 +26,7 @@ public class XcodeProjectSetting : ScriptableObject
     public const string URL_IDENTIFIER_KEY = "CFBundleURLName";
     public const string URL_SCHEMES_KEY = "CFBundleURLSchemes";
     public const string APPLICATION_QUERIES_SCHEMES_KEY = "LSApplicationQueriesSchemes";
+    public const string ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES_KEY = "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES";
 
     #region XCodeproj
     public bool EnableBitCode = true;
@@ -47,6 +48,7 @@ public class XcodeProjectSetting : ScriptableObject
     public bool AddSignInRequire = false;
     [Header("Other Setting")]
     public string[] AssociatedDomains = null;
+    public bool AlwaysEmbedSwiftStandardLibrary = false;
 
     //複製XCode内的文件的路徑
     public string CopyDirectoryPath = "";

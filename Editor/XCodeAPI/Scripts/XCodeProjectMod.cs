@@ -47,6 +47,9 @@ public class XCodeProjectMod : MonoBehaviour
             pbxProject.SetBuildProperty(unityTargetGuid, "GCC_C_LANGUAGE_STANDARD", setting.CLanguageDialect);
         }
 
+        pbxProject.SetBuildProperty(unityFrameworkTargetGuid, XcodeProjectSetting.ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES_KEY, setting.AlwaysEmbedSwiftStandardLibrary ? "YES" : "NO");
+
+
         if (!string.IsNullOrEmpty(setting.CopyDirectoryPath))
             DirectoryProcessor.CopyAndAddBuildToXcode(pbxProject, unityTargetGuid, setting.CopyDirectoryPath, buildPath, "");
 
