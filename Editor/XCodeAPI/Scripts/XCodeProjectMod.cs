@@ -69,8 +69,20 @@ public class XCodeProjectMod : MonoBehaviour
         //引用 EmbedFrameworks
         foreach (var item in setting.EmbedFrameworks)
         {
-            var fileGuid = pbxProject.AddFile(Application.dataPath + "/" + item.folder + item.files, "Frameworks/" + item.folder + item.files, PBXSourceTree.Sdk);
-            PBXProjectExtensions.AddFileToEmbedFrameworks(pbxProject, unityTargetGuid, fileGuid);
+
+            var path = item.folder + item.files;
+            if (item.pathRelativeToUnityProject == true)
+            {
+                path = Application.dataPath + "/" + path;
+                var fileGuid = pbxProject.AddFile(path, "Frameworks/" + item.folder + item.files, PBXSourceTree.Sdk);
+                PBXProjectExtensions.AddFileToEmbedFrameworks(pbxProject, unityTargetGuid, fileGuid);
+            }
+            else
+            {
+                string xcframeworkPath = path;
+                string fileGuid = pbxProject.AddFile(xcframeworkPath, "Frameworks/" + item.files, PBXSourceTree.Source);
+                PBXProjectExtensions.AddFileToEmbedFrameworks(pbxProject, unityTargetGuid, fileGuid);
+            }
         }
 
         //引用内部框架

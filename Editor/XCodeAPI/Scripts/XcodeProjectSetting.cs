@@ -88,6 +88,7 @@ public class XcodeProjectSetting : ScriptableObject
     {
         public string folder;
         public string files;
+        public bool pathRelativeToUnityProject;
     }
     #region 針對文件標記 Flags
     [System.Serializable]
